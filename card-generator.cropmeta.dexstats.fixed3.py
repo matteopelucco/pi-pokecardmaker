@@ -151,64 +151,63 @@ def _apply_crop_params_to_image(img_dict, params):
     for k, v in params.items():
         img_dict[k] = v
 
-def _sync_crop_sidecar(rendered_json, sidecar_path: Path):
-    """
-    Keep image-related metadata stable across generations.
 
-    Sidecar file (next to the picture) stores:
-    - crop parameters (keys in _CROP_KEYS)
-    - dexStats (photo caption / didascalia)
 
-    Rules:
-    - If sidecar exists, apply its crop params to all images and (if present) force dexStats from sidecar.
-    - If sidecar does not exist, extract crop params from the rendered template and write the sidecar.
-    - dexStats is written to the sidecar only the first time (or if missing), so future generations keep it stable
-      even if you change the YAML metadata.
+def _apply_crop_params_to_images(rendered_json: dict, crop_params: dict) -> None:
+    """Apply crop-related params to every image dict inside rendered_json."""
+    for img_dict in _iter_image_dicts(rendered_json):
+        _apply_crop_params_to_image(img_dict, crop_params)
+def _sync_crop_sidecar(rendered_json: dict, sidecar_path: Path) -> None:
     """
-    image_dicts = list(_iter_image_dicts(rendered_json))
-    if not image_dicts:
+    Keep image crop parameters + dexStats stable across generations.
+
+    - If sidecar exists: use it as the source of truth and apply to rendered_json.
+    - If sidecar does NOT exist: extract crop params from rendered_json (template-derived),
+      store them + dexStats into sidecar.
+    """
+    imgs = list(_iter_image_dicts(rendered_json))
+    if not imgs:
         return
 
-    existing: dict = {}
     if sidecar_path.exists():
         try:
-            existing = json.loads(sidecar_path.read_text(encoding="utf-8")) or {}
-            if not isinstance(existing, dict):
-                existing = {}
+            existing = json.loads(sidecar_path.read_text(encoding="utf-8"))
         except Exception:
-            existing = {}
+            return
 
-        # Apply stored crop params first
+        # Apply stored crop params (if any)
         _apply_crop_params_to_images(rendered_json, existing)
 
-        # Apply stored dexStats (stable caption)
-        if isinstance(existing.get("dexStats"), str) and existing["dexStats"].strip():
+        # Apply stored dexStats (if any)
+        if isinstance(existing, dict) and existing.get("dexStats") is not None:
             rendered_json["dexStats"] = existing["dexStats"]
-
-    # Ensure crop params exist in sidecar (take from the rendered template if missing)
-    crop_params = _extract_crop_params_from_image(rendered_json)
-    if not crop_params:
+        else:
+            # Persist dexStats once if missing in sidecar
+            if rendered_json.get("dexStats") is not None:
+                if not isinstance(existing, dict):
+                    existing = {}
+                existing["dexStats"] = rendered_json["dexStats"]
+                try:
+                    sidecar_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
+                except Exception:
+                    pass
         return
 
-    changed = False
-    for k in _CROP_KEYS:
-        # Some templates may omit certain keys (e.g. "croppedAreaPixels").
-        # Only persist keys that exist in the rendered crop parameters.
-        if k in crop_params:
-            if existing.get(k) != crop_params[k]:
-                existing[k] = crop_params[k]
-                changed = True
+    # Sidecar missing: create it from template-derived values in rendered_json
+    crop_params = _extract_crop_params_from_image(imgs[0])
 
-    # Ensure dexStats exists in sidecar (only set if missing)
-    if "dexStats" not in existing:
-        dex = rendered_json.get("dexStats")
-        if isinstance(dex, str) and dex.strip():
-            existing["dexStats"] = dex
-            changed = True
+    sidecar = {}
+    if crop_params:
+        sidecar.update(crop_params)
 
-    # If sidecar didn't exist, or we enriched it, write it back
-    if (not sidecar_path.exists()) or changed:
-        sidecar_path.write_text(json.dumps(existing, indent=2, ensure_ascii=False), encoding="utf-8")
+    if rendered_json.get("dexStats") is not None:
+        sidecar["dexStats"] = rendered_json["dexStats"]
+
+    sidecar_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        sidecar_path.write_text(json.dumps(sidecar, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f)

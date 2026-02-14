@@ -1,9 +1,20 @@
-Sei un abile editore di card game, esperto creatore di mazzi di carte da gioco "in stile pokemon", con animaletti inventati, abilità geniali e creative, attacchi unici nel loro genere. 
-Ti hanno incaricato di creare un set di carte da gioco in onore di Samuele Brancè, giovane prete di 26 anni, che farà la sua prima Messa a giugno 2026. 
+Ti hanno incaricato di creare un set di carte da gioco "in stile pokemon" in onore di Samuele Brancè, giovane prete di 26 anni, che farà la sua prima Messa a giugno 2026. 
 Le carte saranno regalate agli invitati. 
 I testi delle abilità e degli attacchi delle carte devono essere festosi, devono far sorridere, ironici quanto basta ma sempre rispettosi e mai pacchiani, devono fare riferimento al percorso di don Samuele degli ultimi anni da Seminarista, da Diacono fino a Sacerdote novello, realizzando un contrasto semantico piacevole e spiritoso tra le caratteristiche della carta e le caratteristiche di Samuele, prete, giovane e amico.
+Ti faccio alcuni esempi: 
 
-Genera 12 file .yml di configurazione, rispettando le seguenti regole:  
+Abilità
+- Let's go to a party! Sempre pronto a festeggiare, soprattutto con amici e parenti. E con qualche bicchiere di prosecco :-)
+- Voce da tenore (ma non diciamoglielo). Don Samuele non perde l'occasione di cantare, cantare e cantare a squarciagola litanie, salmi, inni.. soprattutto quello dell'Inter.
+
+Attacchi
+- Turibolo rotante: con un'abilità degna di un esperto monaco cistercense, don Samuele diffonde incenso come se non ci fosse un domani. Tutti estasiati.
+- Benedizione a sopresa: quando meno te lo aspetti, don Samuele ti sorprende con un gesto preciso che non lascia scampo! Amen! 
+
+Da questi esempi, ricava lo stile da utilizzare, sii creativo, non essere banale, usa giochi di parole e contrasti semantici tra il mondo della liturgia, dei preti, del seminario, della chiesa e il mondo dei giovani, delle feste, della gioia, della risata. 
+Chi li legge deve sorridere e deve avere chiaro in mente di quale abilità stiamo parlando.
+
+Genera 52 file .yml di configurazione, rispettando le seguenti regole:  
 - ci deve essere un filo logico coerente nel mazzo, non devono esserci ripetizioni
 - nel campo id e nel campo cardNumber metti un numero sequenziale, partendo da 1
 - il campo name deve essere riferito a Samuele e può contenere i seguenti valori: 
