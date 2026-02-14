@@ -1,0 +1,31 @@
+id: 44
+cardNumber: 44
+dexStats: NO. 0044
+name: Samuchù
+hitpoints: 110
+typeId: 3
+typeImageId: 3
+subtypeId: 3
+ability:
+  name: Rosario da Taschino
+  description: 'Piccolo, pronto, discreto: lo tiri fuori nei momenti giusti. Aumenta la concentrazione
+    e abbassa il rumore.'
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 8
+    c:
+      typeId: 2
+    d:
+      typeId: 7
+attack:
+  name: Sermone “Zero Cringe”
+  description: 'Parla ai giovani senza imitarli: rispetto totale, risata pulita. Danno all’imbarazzo.'
+  damage: 28
+resistanceTypeId: 8
+resistanceModifier: plus
+resistanceAmount: 16
+weaknessTypeId: 8
+weaknessModifier: minus
+weaknessAmount: 16

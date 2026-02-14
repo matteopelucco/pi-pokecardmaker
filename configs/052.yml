@@ -1,0 +1,32 @@
+id: 52
+cardNumber: 52
+dexStats: NO. 0052
+name: Samuele
+hitpoints: 20
+typeId: 4
+typeImageId: 4
+subtypeId: 1
+ability:
+  name: 'Sacerdote Novello: Carisma in Alzata'
+  description: 'La sua gioia non fa scena, fa casa: basta vederlo all’altare per capire che è
+    davvero lui. Ti regala un bonus coraggio, come un ‘cinque’ dato col cuore.'
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 8
+    c:
+      typeId: 7
+    d:
+      typeId: 4
+attack:
+  name: Aspersione “Splash & Smile”
+  description: 'Un colpo d’acqua benedetta che arriva preciso come una pallonata al campetto:
+    ti prende, ridi, e ti senti meglio. Danno e buonumore insieme.'
+  damage: 15
+resistanceTypeId: 1
+resistanceModifier: plus
+resistanceAmount: 39
+weaknessTypeId: 4
+weaknessModifier: times
+weaknessAmount: 12

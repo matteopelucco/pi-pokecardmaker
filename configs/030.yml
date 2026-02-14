@@ -1,0 +1,31 @@
+id: 30
+cardNumber: 30
+dexStats: NO. 0030
+name: Samuele
+hitpoints: 20
+typeId: 4
+typeImageId: 4
+subtypeId: 1
+ability:
+  name: Chitarra Invisibile
+  description: Quando parte un canto, lui sembra avere una band nascosta dietro l’altare. Potenzia
+    l’umore del gruppo.
+  energycost:
+    a:
+      typeId: 3
+    b:
+      typeId: 5
+    c:
+      typeId: 7
+    d:
+      typeId: 10
+attack:
+  name: Stretta di Mano “AmenBro”
+  description: 'Pace in modalità giovane: ‘Amen, fratello!’. L’avversario subisce danno da simpatia.'
+  damage: 19
+resistanceTypeId: 8
+resistanceModifier: minus
+resistanceAmount: 19
+weaknessTypeId: 2
+weaknessModifier: minus
+weaknessAmount: 30

@@ -1,0 +1,32 @@
+id: 50
+cardNumber: 50
+dexStats: NO. 0050
+name: Samucharizard
+hitpoints: 30
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: “Amen” con Accento Giovane
+  description: 'Dice “Amen” e sembra un ‘andiamo!’ da squadra. Unisce sacro e quotidiano in modo
+    naturale: potenziamento morale.'
+  energycost:
+    a:
+      typeId: 9
+    b:
+      typeId: 1
+    c:
+      typeId: 5
+    d:
+      typeId: 3
+attack:
+  name: Turibolo a Vortice Totale
+  description: 'Gira, gira e gira: l’incenso disegna una spirale da videoclip. L’avversario resta
+    stordito dall’atmosfera… e dall’eleganza del gesto.'
+  damage: 20
+resistanceTypeId: 7
+resistanceModifier: minus
+resistanceAmount: 11
+weaknessTypeId: 10
+weaknessModifier: times
+weaknessAmount: 25

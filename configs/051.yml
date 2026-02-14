@@ -1,0 +1,33 @@
+id: 51
+cardNumber: 51
+dexStats: NO. 0051
+name: Samuele
+hitpoints: 40
+typeId: 7
+typeImageId: 7
+subtypeId: 2
+ability:
+  name: Diacono DJ delle Letture
+  description: 'Tra una lettura e l’altra fa scorrere le pagine come fossero una console: entra
+    al momento giusto e non sbaglia mai il ‘cambio traccia’. L’assemblea resta agganciata e tu
+    guadagni fiducia.'
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 3
+    c:
+      typeId: 2
+    d:
+      typeId: 8
+attack:
+  name: Omelia “Mic Drop”
+  description: 'Chiude con una frase che sembra un mic drop, ma in versione parrocchia: tutti
+    zitti e sorridenti. Colpo critico alla distrazione.'
+  damage: 20
+resistanceTypeId: 2
+resistanceModifier: times
+resistanceAmount: 29
+weaknessTypeId: 7
+weaknessModifier: plus
+weaknessAmount: 22

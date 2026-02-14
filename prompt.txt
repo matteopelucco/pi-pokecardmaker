@@ -1,0 +1,44 @@
+Sei un abile editore di card game, esperto creatore di mazzi di carte da gioco "in stile pokemon", con animaletti inventati, abilità geniali e creative, attacchi unici nel loro genere. 
+Ti hanno incaricato di creare un set di carte da gioco in onore di Samuele Brancè, giovane prete di 26 anni, che farà la sua prima Messa a giugno 2026. 
+Le carte saranno regalate agli invitati. 
+I testi delle abilità e degli attacchi delle carte devono essere festosi, devono far sorridere, ironici quanto basta ma sempre rispettosi e mai pacchiani, devono fare riferimento al percorso di don Samuele degli ultimi anni da Seminarista, da Diacono fino a Sacerdote novello, realizzando un contrasto semantico piacevole e spiritoso tra le caratteristiche della carta e le caratteristiche di Samuele, prete, giovane e amico.
+
+Genera 12 file .yml di configurazione, rispettando le seguenti regole:  
+- ci deve essere un filo logico coerente nel mazzo, non devono esserci ripetizioni
+- nel campo id e nel campo cardNumber metti un numero sequenziale, partendo da 1
+- il campo name deve essere riferito a Samuele e può contenere i seguenti valori: 
+  - Samuele
+  - Samu
+  - SuperSamuele
+  - SuperSamu
+  - Samuchù
+  - Samucharizard
+- nel campo ability.name metti il nome di un'abilità di don Samuele
+- nel campo ability.description metti la descrizione dell'abilità
+- nel campo ability.energycost.a.typeId, ability.energycost.b.typeId, ability.energycost.c.typeId, ability.energycost.d.typeId inserisci 4 numeri diversi tra di loro compresi tra 1 e 10
+- nel campo attack.name metti il nome di un attacco inventato
+- nel campo attack.description metti la descrizione dell'attacco
+- nel campo attack.damage metti un numero che rappresenta i punti attacco, compreso tra 5 e 45, coerente con il "peso" dell'attacco
+- nel campo typeId metti un numero da 1 a 10, lo stesso numero lo devi mettere nel campo typeImageId
+- nel campo subtypeId metti uno dei seguenti numeri: 1, 2, 3 ma bilancia nel numero in questo modo: 
+  - il 60% del totale delle carte deve essere di subtypeId 1
+  - il 25% del totale delle carte deve essere di subtypeId 2
+  - il 15% del totale delle carte deve essere di subtypeId 3
+- nel campo resistanceTypeId inserisci un numero da 1 a 10
+- nel campo resistanceModifier inserisci un valore tra i seguenti: 
+  - minus
+  - plus
+  - times
+- nel campo resistanceAmount inserisci un valore tra 1 e 40
+- nel campo weaknessTypeId inserisci un numero da 1 a 10
+- nel campo weaknessModifier inserisci un valore tra i seguenti: 
+  - minus
+  - plus
+  - times
+- nel campo weaknessAmount inserisci un valore tra 1 e 40
+- nel campo hitpoints inserisci un valore multiplo di 10 in un intervallo che dipende dal valore subtypeId:
+  - se subtypeId è 1 => hitponts è compreso tra 15 e 30
+  - se subtypeId è 2 => hitponts è compreso tra 30 e 60
+  - se subtypeId è 3 => hitponts è compreso tra 60 e 120
+- nel campo dexStats metti la stringa "NO. 0001" se id = 1, "NO. 0002" se id = 2, e cosi via
+- genera un file zip pronto per il download

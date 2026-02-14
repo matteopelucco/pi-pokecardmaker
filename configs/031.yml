@@ -1,0 +1,32 @@
+id: 31
+cardNumber: 31
+dexStats: NO. 0031
+name: Samuele
+hitpoints: 30
+typeId: 10
+typeImageId: 10
+subtypeId: 1
+ability:
+  name: Gentilezza da Seminarista
+  description: 'Piccole attenzioni che fanno grande differenza: un saluto, un gesto, una battuta
+    leggera. Ripristina “punti serenità”.'
+  energycost:
+    a:
+      typeId: 5
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 2
+attack:
+  name: Sacrestia Shuffle
+  description: Danza tra paramenti e imprevisti come un DJ tra i dischi. Danno e confusione nel
+    campo avversario.
+  damage: 15
+resistanceTypeId: 1
+resistanceModifier: plus
+resistanceAmount: 15
+weaknessTypeId: 8
+weaknessModifier: times
+weaknessAmount: 34

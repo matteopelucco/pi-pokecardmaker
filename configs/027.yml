@@ -1,0 +1,32 @@
+id: 27
+cardNumber: 27
+dexStats: NO. 0027
+name: Samuchù
+hitpoints: 30
+typeId: 7
+typeImageId: 7
+subtypeId: 1
+ability:
+  name: Diacono “Pronto Servizio”
+  description: 'Se manca qualcosa, lui l’ha già trovato: tovaglie, fogli, candele, microfono.
+    Una volta per turno puoi ignorare una penalità logistica.'
+  energycost:
+    a:
+      typeId: 4
+    b:
+      typeId: 8
+    c:
+      typeId: 5
+    d:
+      typeId: 6
+attack:
+  name: Mitria Immaginaria
+  description: Non c’è, ma lui la porta con l’atteggiamento da ‘boss’ buono. Danno di autorità
+    gentile.
+  damage: 14
+resistanceTypeId: 8
+resistanceModifier: times
+resistanceAmount: 29
+weaknessTypeId: 5
+weaknessModifier: minus
+weaknessAmount: 36

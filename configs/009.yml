@@ -1,0 +1,32 @@
+id: 9
+cardNumber: 9
+dexStats: NO. 0009
+name: Samu
+hitpoints: 20
+typeId: 1
+typeImageId: 1
+subtypeId: 1
+ability:
+  name: Omelia in 3 Minuti (miracolo)
+  description: 'Sintetizza senza banalizzare: colpo di grazia contro le distrazioni. L’avversario…
+    cioè, l’assemblea, torna a seguire.'
+  energycost:
+    a:
+      typeId: 9
+    b:
+      typeId: 6
+    c:
+      typeId: 4
+    d:
+      typeId: 3
+attack:
+  name: Confessione Critica
+  description: 'Ti guarda, capisce tutto, e con una frase ti smonta la superbia. Colpo preciso:
+    fa male solo all’orgoglio.'
+  damage: 21
+resistanceTypeId: 1
+resistanceModifier: times
+resistanceAmount: 7
+weaknessTypeId: 10
+weaknessModifier: minus
+weaknessAmount: 24

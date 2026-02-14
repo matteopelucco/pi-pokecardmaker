@@ -1,0 +1,31 @@
+id: 47
+cardNumber: 47
+dexStats: NO. 0047
+name: Samuele
+hitpoints: 30
+typeId: 1
+typeImageId: 1
+subtypeId: 2
+ability:
+  name: Abbraccio da Fratello Maggiore
+  description: 'Non è solo prete: è amico. Un abbraccio e ti rimetti in pista. Ripristina fiducia
+    e coraggio.'
+  energycost:
+    a:
+      typeId: 8
+    b:
+      typeId: 2
+    c:
+      typeId: 3
+    d:
+      typeId: 10
+attack:
+  name: Pace “Firmata Samu”
+  description: 'Una pace che riconosci subito: semplice, vera, contagiosa. Danno al rancore.'
+  damage: 33
+resistanceTypeId: 9
+resistanceModifier: plus
+resistanceAmount: 8
+weaknessTypeId: 6
+weaknessModifier: minus
+weaknessAmount: 11

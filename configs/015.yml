@@ -1,0 +1,32 @@
+id: 15
+cardNumber: 15
+dexStats: NO. 0015
+name: Samuele
+hitpoints: 60
+typeId: 8
+typeImageId: 8
+subtypeId: 2
+ability:
+  name: Camminata con Rosario (e Sneakers)
+  description: 'Unisce rosario e passo svelto: spiritualità e cardio insieme. Quando attivi l’abilità,
+    nessuno riesce a starti dietro… ma tutti vogliono provarci.'
+  energycost:
+    a:
+      typeId: 10
+    b:
+      typeId: 6
+    c:
+      typeId: 7
+    d:
+      typeId: 9
+attack:
+  name: Acqua Benedetta Splash
+  description: Una goccia sembra niente… finché non arriva la cascata. L’avversario prende danno
+    e perde ogni voglia di fare il duro.
+  damage: 43
+resistanceTypeId: 9
+resistanceModifier: minus
+resistanceAmount: 34
+weaknessTypeId: 1
+weaknessModifier: minus
+weaknessAmount: 13

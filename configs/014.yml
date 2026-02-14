@@ -1,0 +1,32 @@
+id: 14
+cardNumber: 14
+dexStats: NO. 0014
+name: Samucharizard
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: Sguardo da Confessionale
+  description: Ti legge dentro senza giudicarti e ti rimette in piedi con due parole. Una volta
+    per partita puoi trasformare un malus in un piccolo bonus.
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 10
+    c:
+      typeId: 4
+    d:
+      typeId: 2
+attack:
+  name: Salmo in Falsetto
+  description: Una nota troppo alta, un sorriso, e l’assemblea scoppia a ridere. Danno e confusione,
+    ma in modo affettuoso.
+  damage: 32
+resistanceTypeId: 1
+resistanceModifier: minus
+resistanceAmount: 19
+weaknessTypeId: 8
+weaknessModifier: minus
+weaknessAmount: 32

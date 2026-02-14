@@ -1,0 +1,32 @@
+id: 46
+cardNumber: 46
+dexStats: NO. 0046
+name: Samuele
+hitpoints: 30
+typeId: 2
+typeImageId: 2
+subtypeId: 1
+ability:
+  name: 'Sacerdote Novello: Prima Messa Hype'
+  description: 'L’energia della prima volta: emozione vera, zero posa. Tutti percepiscono che
+    sta iniziando qualcosa di grande.'
+  energycost:
+    a:
+      typeId: 1
+    b:
+      typeId: 7
+    c:
+      typeId: 2
+    d:
+      typeId: 5
+attack:
+  name: Ostensorio “Shine”
+  description: 'Luce che abbaglia (nel senso buono): l’avversario resta senza parole. Danno da
+    meraviglia.'
+  damage: 9
+resistanceTypeId: 3
+resistanceModifier: times
+resistanceAmount: 21
+weaknessTypeId: 6
+weaknessModifier: times
+weaknessAmount: 28

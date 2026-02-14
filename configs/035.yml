@@ -1,0 +1,32 @@
+id: 35
+cardNumber: 35
+dexStats: NO. 0035
+name: Samucharizard
+hitpoints: 20
+typeId: 1
+typeImageId: 1
+subtypeId: 1
+ability:
+  name: Il Segno della Croce da Campione
+  description: 'Rapido, preciso, memorabile: sembra una mossa speciale. Aumenta la tua efficacia
+    nelle azioni successive.'
+  energycost:
+    a:
+      typeId: 2
+    b:
+      typeId: 10
+    c:
+      typeId: 3
+    d:
+      typeId: 6
+attack:
+  name: Sincero “Ci Sto”
+  description: Quando ti senti giù, lui dice ‘ci sto’ e ti rialza. L’avversario prende danno perché
+    perde la presa.
+  damage: 9
+resistanceTypeId: 5
+resistanceModifier: times
+resistanceAmount: 32
+weaknessTypeId: 5
+weaknessModifier: minus
+weaknessAmount: 2

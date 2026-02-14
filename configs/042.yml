@@ -1,0 +1,32 @@
+id: 42
+cardNumber: 42
+dexStats: NO. 0042
+name: Samuchù
+hitpoints: 50
+typeId: 9
+typeImageId: 9
+subtypeId: 2
+ability:
+  name: Diacono della Porta Aperta
+  description: Accoglie tutti, soprattutto chi pensa di non essere “a posto”. Rimuove un malus
+    legato a timidezza o distanza.
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 8
+    c:
+      typeId: 4
+    d:
+      typeId: 1
+attack:
+  name: Campane in Modalità Festa
+  description: 'Rintocchi che sembrano un invito: ‘si celebra!’. Danno al grigiore e boost al
+    coraggio.'
+  damage: 26
+resistanceTypeId: 4
+resistanceModifier: minus
+resistanceAmount: 32
+weaknessTypeId: 6
+weaknessModifier: minus
+weaknessAmount: 15

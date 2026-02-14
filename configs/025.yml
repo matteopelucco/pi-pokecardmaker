@@ -1,0 +1,32 @@
+id: 25
+cardNumber: 25
+dexStats: NO. 0025
+name: Samucharizard
+hitpoints: 30
+typeId: 10
+typeImageId: 10
+subtypeId: 1
+ability:
+  name: Dialogo da Sagrato
+  description: Due minuti fuori dalla chiesa e ti senti già ascoltato. Ti permette di “recuperare”
+    una carta scartata (simbolicamente).
+  energycost:
+    a:
+      typeId: 5
+    b:
+      typeId: 2
+    c:
+      typeId: 4
+    d:
+      typeId: 8
+attack:
+  name: Piviale Parkour
+  description: 'Con il piviale addosso evita ostacoli come un freerunner: eleganza assurda. Danno
+    stiloso.'
+  damage: 18
+resistanceTypeId: 2
+resistanceModifier: times
+resistanceAmount: 38
+weaknessTypeId: 5
+weaknessModifier: plus
+weaknessAmount: 38

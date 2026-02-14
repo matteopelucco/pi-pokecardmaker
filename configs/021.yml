@@ -1,0 +1,32 @@
+id: 21
+cardNumber: 21
+dexStats: NO. 0021
+name: SuperSamu
+hitpoints: 30
+typeId: 4
+typeImageId: 4
+subtypeId: 1
+ability:
+  name: Catechismo Pop
+  description: 'Spiega cose profonde con esempi da vita vera: meme, calcio, famiglia e un po’
+    di sana ironia. Chi ascolta capisce e sorride.'
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 5
+attack:
+  name: Aperitivo d’Incenso
+  description: 'Sembra impossibile: incenso e festa insieme. L’avversario è confuso e tu guadagni
+    carisma.'
+  damage: 44
+resistanceTypeId: 5
+resistanceModifier: minus
+resistanceAmount: 13
+weaknessTypeId: 8
+weaknessModifier: minus
+weaknessAmount: 10

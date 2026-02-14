@@ -1,0 +1,32 @@
+id: 1
+cardNumber: 1
+dexStats: NO. 0001
+name: Samucharizard
+hitpoints: 20
+typeId: 8
+typeImageId: 8
+subtypeId: 1
+ability:
+  name: Let's go to a party!
+  description: 'Sempre pronto a festeggiare con amici e parenti: Samu accende l’allegria senza
+    mai perdere il tono giusto. Se in tavola compare il prosecco, il bonus sorriso è garantito.'
+  energycost:
+    a:
+      typeId: 9
+    b:
+      typeId: 2
+    c:
+      typeId: 7
+    d:
+      typeId: 5
+attack:
+  name: Turibolo Rotante
+  description: Con un’abilità degna di un monaco esperto, don Samuele diffonde incenso come se
+    non ci fosse un domani. Tutti estasiati (e qualcuno starnutisce felice).
+  damage: 37
+resistanceTypeId: 6
+resistanceModifier: times
+resistanceAmount: 12
+weaknessTypeId: 7
+weaknessModifier: plus
+weaknessAmount: 38

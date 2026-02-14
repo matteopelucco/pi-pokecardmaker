@@ -1,0 +1,32 @@
+id: 36
+cardNumber: 36
+dexStats: NO. 0036
+name: SuperSamu
+hitpoints: 30
+typeId: 1
+typeImageId: 1
+subtypeId: 1
+ability:
+  name: Campanello della Sacrestia
+  description: 'Un tintinnio e tutti si muovono: sembra telepatia. Puoi “richiamare” risorse quando
+    serve.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 6
+    c:
+      typeId: 9
+    d:
+      typeId: 1
+attack:
+  name: Sguardo “Te la Cavi”
+  description: 'Ti guarda e sembra dire: ‘dai, ce la fai’. L’avversario subisce danno perché la
+    tua fiducia sale.'
+  damage: 14
+resistanceTypeId: 7
+resistanceModifier: minus
+resistanceAmount: 33
+weaknessTypeId: 5
+weaknessModifier: times
+weaknessAmount: 28

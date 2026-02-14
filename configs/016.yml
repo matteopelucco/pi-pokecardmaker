@@ -1,0 +1,32 @@
+id: 16
+cardNumber: 16
+dexStats: NO. 0016
+name: Samuele
+hitpoints: 50
+typeId: 7
+typeImageId: 7
+subtypeId: 2
+ability:
+  name: Dono della Sedia in Più
+  description: 'Arriva sempre con una soluzione pratica: «Tranquilli, ci sta anche uno in più».
+    Eviti lo scontro e salvi la convivialità.'
+  energycost:
+    a:
+      typeId: 10
+    b:
+      typeId: 7
+    c:
+      typeId: 1
+    d:
+      typeId: 4
+attack:
+  name: Sagrato Showdown
+  description: Fuori dalla chiesa si discute? Lui mette pace con un colpo di ironia. Danno al
+    litigio, KO al muso lungo.
+  damage: 39
+resistanceTypeId: 10
+resistanceModifier: minus
+resistanceAmount: 25
+weaknessTypeId: 4
+weaknessModifier: times
+weaknessAmount: 39

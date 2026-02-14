@@ -1,0 +1,32 @@
+id: 20
+cardNumber: 20
+dexStats: NO. 0020
+name: Samu
+hitpoints: 50
+typeId: 10
+typeImageId: 10
+subtypeId: 2
+ability:
+  name: Benedizione con Tempismo Perfetto
+  description: 'Ti sorprende con un gesto semplice che rimette tutto al suo posto. Non è magia:
+    è don Samu che ci pensa.'
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 7
+    c:
+      typeId: 1
+    d:
+      typeId: 9
+attack:
+  name: Coro da Stadio (versione sacra)
+  description: 'Trasforma il canto in una curva ordinata: energia altissima, rispetto massimo.
+    Danno e boost di morale.'
+  damage: 34
+resistanceTypeId: 2
+resistanceModifier: times
+resistanceAmount: 2
+weaknessTypeId: 10
+weaknessModifier: times
+weaknessAmount: 3

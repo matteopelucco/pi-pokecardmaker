@@ -1,0 +1,32 @@
+id: 2
+cardNumber: 2
+dexStats: NO. 0002
+name: Samuchù
+hitpoints: 50
+typeId: 7
+typeImageId: 7
+subtypeId: 2
+ability:
+  name: Voce da tenore (ma non diciamoglielo)
+  description: Non perde occasione di cantare litanie, salmi e inni a squarciagola… soprattutto
+    quello dell’Inter. Aumenta il “volume” dell’assemblea e la tua voglia di ridere.
+  energycost:
+    a:
+      typeId: 1
+    b:
+      typeId: 5
+    c:
+      typeId: 6
+    d:
+      typeId: 7
+attack:
+  name: Benedizione a Sorpresa
+  description: 'Quando meno te lo aspetti, ti sorprende con un gesto preciso che non lascia scampo:
+    Amen! E ti senti improvvisamente più leggero.'
+  damage: 14
+resistanceTypeId: 9
+resistanceModifier: minus
+resistanceAmount: 39
+weaknessTypeId: 6
+weaknessModifier: plus
+weaknessAmount: 27

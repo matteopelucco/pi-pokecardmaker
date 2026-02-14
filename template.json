@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "baseSetId": "{{baseSetId}}",
+  "supertypeId": "{{supertypeId}}",
+  "typeId": "{{typeId}}",
+  "subtypeId": "{{subtypeId}}",
+  "moves": [
+    {
+      "isAbility": true,
+      "name": "{{ability.name}}",
+      "description": "{{ability.description}}",
+      "order": 0,
+      "id": "{{ability.id}}"
+    },
+    {
+      "isAbility": false,
+      "name": "{{attack.name}}",
+      "description": "{{attack.description}}",
+      "damageAmount": "{{attack.damage}}",
+      "energyCost": [
+        {
+          "id": "JgYuXJyKQKYJTGXDiQOJo",
+          "amount": 1,
+          "typeId": "{{ability.energycost.a.typeId}}"
+        },
+        {
+          "id": "i6zGK1FTkINm7BCiQ5MkL",
+          "amount": 1,
+          "typeId": "{{ability.energycost.b.typeId}}"
+        },
+        {
+          "id": "A56KmnsAEh6bWBwT-9Vnb",
+          "amount": 1,
+          "typeId": "{{ability.energycost.c.typeId}}"
+        },
+        {
+          "id": "TekGUO7yF2wBxEbufsc2o",
+          "amount": 1,
+          "typeId": "{{ability.energycost.d.typeId}}"
+        }
+      ],
+      "order": 1,
+      "id": "{{attack.id}}"
+    }
+  ],
+  "images": [
+    {
+      "id": "{{image.id}}",
+      "file": {
+        "name": "{{image.file.name}}",
+        "type": "{{image.file.type}}"
+      },
+      "src": "", 
+      "isBehindTemplate": true,
+      "isInFrontOfText": false,
+      "opacity": 1,
+      "rotation": 0,
+      "isMirrored": false,
+      "isGolden": false,
+      "croppedArea": {
+        "x": 0,
+        "y": -2.3489932885906053,
+        "width": 100,
+        "height": 209.39597315436242
+      },
+      "order": 0
+    }
+  ],
+  "prevolveImage": {
+    "id": "{{prevolveimage.id}}",
+    "file": {
+      "name": "{{prevolveimage.file.name}}",
+      "type": "{{prevolveimage.file.type}}"
+    },
+    "src": "{{prevolveimage.src}}"
+  },
+  "name": "{{name}}",
+  "backgroundColor": "{{backgroundColor}}",
+  "weaknessTypeId": "{{weaknessTypeId}}",
+  "weaknessAmount": "{{weaknessAmount}}",
+  "weaknessModifier": "{{weaknessModifier}}",
+  "resistanceModifier": "{{resistanceModifier}}",
+  "resistanceAmount": "{{resistanceAmount}}",
+  "retreatCost": 3,
+  "regulationMarkId": "{{regulationMarkId}}",
+  "regulationMarkText": "{{regulationMarkText}}",
+  "setIconId": "{{setIconId}}",
+  "customSetIconText": "{{customSetIconText}}",
+  "rarityIconId": "{{rarityIconId}}",
+  "typeImageId": "{{typeImageId}}",
+  "typeImageAmount": 1,
+  "cardNumber": "{{cardNumber}}",
+  "totalInSet": "{{totalInSet}}",
+  "flavorText": "{{flavorText}}",
+  "illustrator": "{{illustrator}}",
+  "subname": "{{subname}}",
+  "surname": "{{surname}}",
+  "dexStats": "{{dexStats}}",
+  "hitpoints": "{{hitpoints}}",
+  "resistanceTypeId": "{{resistanceTypeId}}",
+  "hpText": "{{hpText}}",
+  "prevolveName": "{{prevolveName}}",
+  "prevolveText": "{{prevolveText}}"
+}

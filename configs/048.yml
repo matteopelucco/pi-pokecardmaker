@@ -1,0 +1,32 @@
+id: 48
+cardNumber: 48
+dexStats: NO. 0048
+name: SuperSamuele
+hitpoints: 20
+typeId: 3
+typeImageId: 3
+subtypeId: 1
+ability:
+  name: Gesto Preciso da Liturgia
+  description: 'Un movimento al millimetro: aspersorio, turibolo, messale… tutto al posto giusto.
+    Aumenta la precisione delle tue scelte.'
+  energycost:
+    a:
+      typeId: 10
+    b:
+      typeId: 8
+    c:
+      typeId: 3
+    d:
+      typeId: 1
+attack:
+  name: Coro Finale da Prima Messa
+  description: 'Esplode la gioia: ultima nota, ultimo sorriso, e tutti applaudono dentro. Danno
+    alto e chiusura epica.'
+  damage: 33
+resistanceTypeId: 7
+resistanceModifier: minus
+resistanceAmount: 3
+weaknessTypeId: 4
+weaknessModifier: times
+weaknessAmount: 5

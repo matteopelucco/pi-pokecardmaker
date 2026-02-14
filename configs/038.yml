@@ -1,0 +1,32 @@
+id: 38
+cardNumber: 38
+dexStats: NO. 0038
+name: Samu
+hitpoints: 30
+typeId: 8
+typeImageId: 8
+subtypeId: 2
+ability:
+  name: Pace e Bene, ma con Sprint
+  description: 'Un saluto francescano e poi via a fare. Combina serenità e velocità: ottieni un
+    extra passo.'
+  energycost:
+    a:
+      typeId: 4
+    b:
+      typeId: 8
+    c:
+      typeId: 3
+    d:
+      typeId: 7
+attack:
+  name: Tovaglia Anti-Disastro
+  description: Sta per rovesciarsi tutto? Lui salva la situazione con un gesto fulmineo. Danno
+    all’imprevisto, zero macchie.
+  damage: 8
+resistanceTypeId: 9
+resistanceModifier: minus
+resistanceAmount: 36
+weaknessTypeId: 4
+weaknessModifier: times
+weaknessAmount: 4

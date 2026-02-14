@@ -1,0 +1,32 @@
+id: 6
+cardNumber: 6
+dexStats: NO. 0006
+name: SuperSamu
+hitpoints: 20
+typeId: 2
+typeImageId: 2
+subtypeId: 1
+ability:
+  name: Aperitivo Pastorale
+  description: Trasforma una chiacchierata normale in un incontro che ti fa stare meglio. Se c’è
+    un tagliere, la pace è più facile da raggiungere.
+  energycost:
+    a:
+      typeId: 4
+    b:
+      typeId: 7
+    c:
+      typeId: 2
+    d:
+      typeId: 5
+attack:
+  name: Stola Frustata (ma gentile)
+  description: 'Un colpo di stola a mezz’aria per dire: «Ehi, torna con i piedi per terra». Non
+    fa male… ma rimette in riga.'
+  damage: 20
+resistanceTypeId: 6
+resistanceModifier: times
+resistanceAmount: 20
+weaknessTypeId: 9
+weaknessModifier: minus
+weaknessAmount: 39

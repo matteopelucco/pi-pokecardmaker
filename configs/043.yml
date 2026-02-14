@@ -1,0 +1,31 @@
+id: 43
+cardNumber: 43
+dexStats: NO. 0043
+name: Samu
+hitpoints: 20
+typeId: 4
+typeImageId: 4
+subtypeId: 1
+ability:
+  name: 'Seminario: Esame Superato (quasi)'
+  description: Anche quando è andata così-così, lui la racconta ridendo e imparando. Recuperi
+    risorse dopo un errore.
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 6
+    d:
+      typeId: 10
+attack:
+  name: Diacono “Gira la Pagina”
+  description: 'Ti aiuta a voltare pagina davvero: letteralmente e dentro. Colpo che spinge avanti.'
+  damage: 23
+resistanceTypeId: 6
+resistanceModifier: times
+resistanceAmount: 19
+weaknessTypeId: 6
+weaknessModifier: times
+weaknessAmount: 38

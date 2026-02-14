@@ -1,0 +1,32 @@
+id: 12
+cardNumber: 12
+dexStats: NO. 0012
+name: Samu
+hitpoints: 20
+typeId: 3
+typeImageId: 3
+subtypeId: 1
+ability:
+  name: Caffè del Seminario
+  description: 'Una tazzina e riparte la concentrazione: studiare, pregare, servire… e rifarlo.
+    Recuperi energia come dopo una nottata in biblioteca.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 8
+    c:
+      typeId: 6
+    d:
+      typeId: 2
+attack:
+  name: Latino a Tradimento
+  description: 'Spara un ‘Dominus vobiscum’ perfetto quando nessuno se lo aspetta. L’effetto sorpresa
+    è totale: colpo critico di cultura.'
+  damage: 6
+resistanceTypeId: 6
+resistanceModifier: plus
+resistanceAmount: 21
+weaknessTypeId: 9
+weaknessModifier: minus
+weaknessAmount: 27

@@ -1,0 +1,31 @@
+id: 29
+cardNumber: 29
+dexStats: NO. 0029
+name: SuperSamuele
+hitpoints: 30
+typeId: 4
+typeImageId: 4
+subtypeId: 1
+ability:
+  name: Intercessione Express
+  description: 'Una preghiera breve e concreta: non fa rumore, ma fa effetto. Aumenta la tua resilienza.'
+  energycost:
+    a:
+      typeId: 2
+    b:
+      typeId: 7
+    c:
+      typeId: 6
+    d:
+      typeId: 8
+attack:
+  name: Sermone Taglia-Tempo
+  description: 'Dice tutto quello che serve e poi chiude: nessuno si perde. Danno alle distrazioni,
+    critico ai perditempo.'
+  damage: 22
+resistanceTypeId: 3
+resistanceModifier: plus
+resistanceAmount: 7
+weaknessTypeId: 9
+weaknessModifier: plus
+weaknessAmount: 12

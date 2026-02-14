@@ -1,0 +1,32 @@
+id: 39
+cardNumber: 39
+dexStats: NO. 0039
+name: Samuele
+hitpoints: 60
+typeId: 7
+typeImageId: 7
+subtypeId: 2
+ability:
+  name: Bicchiere di Prosecco Responsabile
+  description: 'Festeggia con leggerezza e misura: il segreto è la compagnia. Ti dà un bonus simpatia
+    senza perdere lucidità.'
+  energycost:
+    a:
+      typeId: 5
+    b:
+      typeId: 3
+    c:
+      typeId: 9
+    d:
+      typeId: 1
+attack:
+  name: Santo Selfie
+  description: 'Foto di gruppo con luce perfetta e sorriso vero: colpo social che mette allegria.
+    L’avversario perde serietà.'
+  damage: 43
+resistanceTypeId: 9
+resistanceModifier: plus
+resistanceAmount: 17
+weaknessTypeId: 8
+weaknessModifier: plus
+weaknessAmount: 37

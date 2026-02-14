@@ -1,0 +1,32 @@
+id: 33
+cardNumber: 33
+dexStats: NO. 0033
+name: Samuele
+hitpoints: 30
+typeId: 4
+typeImageId: 4
+subtypeId: 1
+ability:
+  name: Tirocinio in Parrocchia
+  description: 'Ha visto tutto: feste patronali, piogge improvvise, microfoni che non vanno. Niente
+    lo spaventa: annulli un effetto “imprevisto”.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 9
+    c:
+      typeId: 4
+    d:
+      typeId: 2
+attack:
+  name: Fumata d’Incenso
+  description: 'Una nuvola perfetta: estetica, intensità, poesia. L’avversario resta stordito
+    dalla bellezza.'
+  damage: 33
+resistanceTypeId: 1
+resistanceModifier: plus
+resistanceAmount: 3
+weaknessTypeId: 3
+weaknessModifier: minus
+weaknessAmount: 10

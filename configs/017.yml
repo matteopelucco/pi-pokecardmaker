@@ -1,0 +1,32 @@
+id: 17
+cardNumber: 17
+dexStats: NO. 0017
+name: Samuele
+hitpoints: 20
+typeId: 8
+typeImageId: 8
+subtypeId: 1
+ability:
+  name: Il Diacono che Porta i Pesi
+  description: 'Se c’è da trasportare, lui è già lì: casse, sedie, libri, e pure qualche preoccupazione.
+    Assorbe un danno al posto tuo (con stile).'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 1
+    c:
+      typeId: 2
+    d:
+      typeId: 10
+attack:
+  name: Vangelo “A Testa Alta”
+  description: 'Proclamazione potente: ogni parola sembra una freccia gentile. L’avversario viene
+    colpito dalla chiarezza.'
+  damage: 29
+resistanceTypeId: 1
+resistanceModifier: plus
+resistanceAmount: 23
+weaknessTypeId: 5
+weaknessModifier: times
+weaknessAmount: 4

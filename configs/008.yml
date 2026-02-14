@@ -1,0 +1,32 @@
+id: 8
+cardNumber: 8
+dexStats: NO. 0008
+name: SuperSamuele
+hitpoints: 30
+typeId: 4
+typeImageId: 4
+subtypeId: 1
+ability:
+  name: Bussola della Vocazione
+  description: Quando l’ansia fa rumore, lui trova il nord con calma disarmante. Una volta per
+    turno puoi annullare un effetto “panico da esame/da omelia”.
+  energycost:
+    a:
+      typeId: 10
+    b:
+      typeId: 6
+    c:
+      typeId: 7
+    d:
+      typeId: 4
+attack:
+  name: Processione a Passo di Marcia
+  description: 'Avanza con ritmo da banda e cuore da festa patronale: chi gli sta dietro non molla.
+    Danno e trascinamento garantiti.'
+  damage: 39
+resistanceTypeId: 7
+resistanceModifier: minus
+resistanceAmount: 13
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 21

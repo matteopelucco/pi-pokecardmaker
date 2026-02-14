@@ -1,0 +1,32 @@
+id: 24
+cardNumber: 24
+dexStats: NO. 0024
+name: Samuele
+hitpoints: 20
+typeId: 2
+typeImageId: 2
+subtypeId: 1
+ability:
+  name: Tocco da Chierichetto Pro
+  description: 'Anni di altare: movimenti precisi, niente inciampi, niente figuracce. Aumenta
+    l’eleganza delle tue azioni.'
+  energycost:
+    a:
+      typeId: 4
+    b:
+      typeId: 5
+    c:
+      typeId: 9
+    d:
+      typeId: 3
+attack:
+  name: Scatto da Oratorio
+  description: 'Scivola tra sedie e bambini come fosse un torneo di calcetto. Colpo rapido: non
+    lo vedi arrivare.'
+  damage: 11
+resistanceTypeId: 6
+resistanceModifier: times
+resistanceAmount: 12
+weaknessTypeId: 4
+weaknessModifier: plus
+weaknessAmount: 15

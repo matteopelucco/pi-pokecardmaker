@@ -1,0 +1,32 @@
+id: 18
+cardNumber: 18
+dexStats: NO. 0018
+name: Samuchù
+hitpoints: 30
+typeId: 10
+typeImageId: 10
+subtypeId: 1
+ability:
+  name: Playlist del Seminario
+  description: 'Da Gregoriano a ‘anni 2000’ in un solo swipe: unisce generazioni senza conflitti.
+    Sblocca una risata corale.'
+  energycost:
+    a:
+      typeId: 8
+    b:
+      typeId: 1
+    c:
+      typeId: 9
+    d:
+      typeId: 5
+attack:
+  name: Hostia-Combo (solo metafora!)
+  description: 'Combo di gesti liturgici impeccabili: non è magia, è allenamento. Colpo tecnico
+    che lascia tutti a bocca aperta.'
+  damage: 38
+resistanceTypeId: 6
+resistanceModifier: minus
+resistanceAmount: 1
+weaknessTypeId: 4
+weaknessModifier: plus
+weaknessAmount: 17

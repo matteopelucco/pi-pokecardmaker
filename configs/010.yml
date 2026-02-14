@@ -1,0 +1,32 @@
+id: 10
+cardNumber: 10
+dexStats: NO. 0010
+name: SuperSamu
+hitpoints: 70
+typeId: 1
+typeImageId: 1
+subtypeId: 3
+ability:
+  name: Stola Antistress
+  description: Arrotola la stola come fosse un mantello da supereroe e si rilassa chiunque gli
+    stia vicino. Riduce la tensione e aumenta la fiducia.
+  energycost:
+    a:
+      typeId: 3
+    b:
+      typeId: 4
+    c:
+      typeId: 7
+    d:
+      typeId: 9
+attack:
+  name: Pace Scambiata
+  description: 'Ti stringe la mano con un sorriso e… boom: il conflitto si scioglie. Danno alle
+    tensioni e cura all’umore.'
+  damage: 34
+resistanceTypeId: 7
+resistanceModifier: times
+resistanceAmount: 20
+weaknessTypeId: 3
+weaknessModifier: times
+weaknessAmount: 33

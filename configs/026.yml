@@ -1,0 +1,32 @@
+id: 26
+cardNumber: 26
+dexStats: NO. 0026
+name: Samucharizard
+hitpoints: 30
+typeId: 1
+typeImageId: 1
+subtypeId: 1
+ability:
+  name: Seminarista da Lavagna
+  description: Appunti chiari, schemi puliti, battuta al momento giusto. Trasforma una situazione
+    confusa in una mappa leggibile.
+  energycost:
+    a:
+      typeId: 1
+    b:
+      typeId: 8
+    c:
+      typeId: 4
+    d:
+      typeId: 9
+attack:
+  name: Biblioteca Slam
+  description: 'Lancia una citazione perfetta dal nulla: l’avversario viene colpito dalla cultura…
+    e dalla comicità della situazione.'
+  damage: 39
+resistanceTypeId: 3
+resistanceModifier: plus
+resistanceAmount: 8
+weaknessTypeId: 8
+weaknessModifier: plus
+weaknessAmount: 9

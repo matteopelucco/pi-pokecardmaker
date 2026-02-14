@@ -1,0 +1,32 @@
+id: 40
+cardNumber: 40
+dexStats: NO. 0040
+name: Samu
+hitpoints: 40
+typeId: 8
+typeImageId: 8
+subtypeId: 2
+ability:
+  name: Karaoke Liturgico
+  description: 'Sì, esiste: cantare bene non è obbligatorio, divertirsi sì. Trasforma una stonatura
+    in un momento memorabile.'
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 9
+    c:
+      typeId: 7
+    d:
+      typeId: 5
+attack:
+  name: Pastorale “On Fire”
+  description: 'Parte calmo e poi è ovunque: in oratorio, in chiesa, in strada. Danno da presenza
+    totale.'
+  damage: 33
+resistanceTypeId: 9
+resistanceModifier: times
+resistanceAmount: 1
+weaknessTypeId: 6
+weaknessModifier: plus
+weaknessAmount: 3

@@ -1,0 +1,32 @@
+id: 32
+cardNumber: 32
+dexStats: NO. 0032
+name: Samuchù
+hitpoints: 20
+typeId: 7
+typeImageId: 7
+subtypeId: 1
+ability:
+  name: Litania Anti-Sbadiglio
+  description: 'Ritmo, voce e presenza: addio sonnolenza. Un avversario (qualsiasi distrazione)
+    perde efficacia.'
+  energycost:
+    a:
+      typeId: 10
+    b:
+      typeId: 1
+    c:
+      typeId: 3
+    d:
+      typeId: 2
+attack:
+  name: Microfono che Funziona (miracolo 2)
+  description: 'Lui lo tocca e funziona: c’è del soprannaturale? No, solo competenza. Danno da
+    affidabilità.'
+  damage: 39
+resistanceTypeId: 6
+resistanceModifier: minus
+resistanceAmount: 37
+weaknessTypeId: 6
+weaknessModifier: minus
+weaknessAmount: 40

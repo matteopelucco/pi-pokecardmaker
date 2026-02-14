@@ -1,0 +1,33 @@
+id: 3
+cardNumber: 3
+dexStats: NO. 0003
+name: SuperSamuele
+hitpoints: 100
+typeId: 10
+typeImageId: 10
+subtypeId: 3
+ability:
+  name: Super Servizio
+  description: 'Quando c’è da servire, parte in modalità turbo: sistema sedie, microfoni e cuori
+    in un colpo solo. Una volta per turno, puoi “rimettere in ordine” una situazione che sembrava
+    persa.'
+  energycost:
+    a:
+      typeId: 3
+    b:
+      typeId: 10
+    c:
+      typeId: 1
+    d:
+      typeId: 7
+attack:
+  name: Aspersorio Freestyle
+  description: 'Spruzza acqua benedetta con la precisione di un DJ che droppa il beat: il colpo
+    arriva, implacabile. Wet effect!'
+  damage: 41
+resistanceTypeId: 5
+resistanceModifier: times
+resistanceAmount: 25
+weaknessTypeId: 5
+weaknessModifier: minus
+weaknessAmount: 9

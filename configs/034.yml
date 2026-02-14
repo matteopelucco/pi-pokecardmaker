@@ -1,0 +1,32 @@
+id: 34
+cardNumber: 34
+dexStats: NO. 0034
+name: Samucharizard
+hitpoints: 30
+typeId: 7
+typeImageId: 7
+subtypeId: 1
+ability:
+  name: Diritto Canonico (ma simpatico)
+  description: 'Spiega le regole senza diventare pesante: un superpotere raro. Ti consente di
+    rimettere ordine “legalmente” senza litigare.'
+  energycost:
+    a:
+      typeId: 5
+    b:
+      typeId: 7
+    c:
+      typeId: 8
+    d:
+      typeId: 1
+attack:
+  name: Banchetto Parrocchiale
+  description: 'Tavola lunga, risate, e qualcuno che chiede il bis: colpo di convivialità. Danno
+    alle tristezze.'
+  damage: 27
+resistanceTypeId: 2
+resistanceModifier: minus
+resistanceAmount: 38
+weaknessTypeId: 6
+weaknessModifier: plus
+weaknessAmount: 19

@@ -1,0 +1,32 @@
+id: 23
+cardNumber: 23
+dexStats: NO. 0023
+name: Samuchù
+hitpoints: 20
+typeId: 5
+typeImageId: 5
+subtypeId: 1
+ability:
+  name: Fermata “Oratorio”
+  description: Ovunque sia, trova un modo per coinvolgere i giovani senza forzare nulla. Attivi
+    un’alleanza inattesa.
+  energycost:
+    a:
+      typeId: 5
+    b:
+      typeId: 3
+    c:
+      typeId: 4
+    d:
+      typeId: 1
+attack:
+  name: Canto Gregoriano Remix
+  description: 'Parte solenne, poi ti sembra quasi un remix: il cervello dell’avversario va in
+    buffering. Danno e disorientamento.'
+  damage: 7
+resistanceTypeId: 3
+resistanceModifier: plus
+resistanceAmount: 1
+weaknessTypeId: 9
+weaknessModifier: times
+weaknessAmount: 14

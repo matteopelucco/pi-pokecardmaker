@@ -1,0 +1,32 @@
+id: 7
+cardNumber: 7
+dexStats: NO. 0007
+name: SuperSamuele
+hitpoints: 30
+typeId: 5
+typeImageId: 5
+subtypeId: 2
+ability:
+  name: Regista del Coro Improvvisato
+  description: 'Con un gesto ti mette tutti “a tempo”: anche chi canta solo sotto la doccia. Se
+    qualcuno stona, Samu sorride e la stonatura diventa simpatica.'
+  energycost:
+    a:
+      typeId: 9
+    b:
+      typeId: 2
+    c:
+      typeId: 6
+    d:
+      typeId: 7
+attack:
+  name: Campanello del Risveglio
+  description: 'Dlin-dlon: anche il più distratto si rianima. L’avversario subisce danno e perde
+    un turno di “sonnolenza”.'
+  damage: 14
+resistanceTypeId: 3
+resistanceModifier: times
+resistanceAmount: 14
+weaknessTypeId: 9
+weaknessModifier: minus
+weaknessAmount: 28

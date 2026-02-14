@@ -1,0 +1,32 @@
+id: 5
+cardNumber: 5
+dexStats: NO. 0005
+name: SuperSamuele
+hitpoints: 30
+typeId: 10
+typeImageId: 10
+subtypeId: 2
+ability:
+  name: Latin Lover (ma in versione liturgica)
+  description: 'Pronuncia il latino con una sicurezza che sembra da film, poi ammette: «Ok, lo
+    ripetiamo insieme». Riduce l’imbarazzo e aumenta la complicità del gruppo.'
+  energycost:
+    a:
+      typeId: 6
+    b:
+      typeId: 10
+    c:
+      typeId: 3
+    d:
+      typeId: 1
+attack:
+  name: Inno Nerazzurro (in Sacrestia)
+  description: 'Parte piano, poi esplode: «Pazza Inter…» e l’assemblea trattiene la risata. Colpisce
+    l’avversario con un’ondata di tifo controllato.'
+  damage: 32
+resistanceTypeId: 2
+resistanceModifier: minus
+resistanceAmount: 16
+weaknessTypeId: 9
+weaknessModifier: times
+weaknessAmount: 38
