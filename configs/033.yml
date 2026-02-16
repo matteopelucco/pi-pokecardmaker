@@ -1,32 +1,31 @@
 id: 33
 cardNumber: 33
-dexStats: NO. 0033
-name: Samuele
+dexStats: "NO. 0033"
+name: 'Samuele'
 hitpoints: 30
-typeId: 4
-typeImageId: 4
+typeId: 8
+typeImageId: 8
 subtypeId: 1
 ability:
-  name: Tirocinio in Parrocchia
-  description: 'Ha visto tutto: feste patronali, piogge improvvise, microfoni che non vanno. Niente
-    lo spaventa: annulli un effetto “imprevisto”.'
+  name: 'Accoglienza a 360°'
+  description: 'Attiva questa abilità e succede il bello: trova parcheggio anche nelle feste patronali: è
+    quasi un segno dei tempi. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 7
+      typeId: 5
     b:
       typeId: 9
     c:
-      typeId: 4
-    d:
       typeId: 2
+    d:
+      typeId: 1
 attack:
-  name: Fumata d’Incenso
-  description: 'Una nuvola perfetta: estetica, intensità, poesia. L’avversario resta stordito
-    dalla bellezza.'
-  damage: 33
-resistanceTypeId: 1
-resistanceModifier: plus
-resistanceAmount: 3
-weaknessTypeId: 3
-weaknessModifier: minus
-weaknessAmount: 10
+  name: 'Turibolo a 360°'
+  description: 'l''''Oratorio Power‑Up: ti rimette in gioco anche se eri in panchina: sembra una cosa da
+    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 40
+resistanceTypeId: 9
+resistanceAmount: 10
+weaknessTypeId: 6
+weaknessModifier: times
+weaknessAmount: 2

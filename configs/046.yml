@@ -1,32 +1,31 @@
 id: 46
 cardNumber: 46
-dexStats: NO. 0046
-name: Samuele
-hitpoints: 30
-typeId: 2
-typeImageId: 2
-subtypeId: 1
+dexStats: "NO. 0046"
+name: 'Super Samuele'
+hitpoints: 160
+typeId: 9
+typeImageId: 9
+subtypeId: 3
 ability:
-  name: 'Sacerdote Novello: Prima Messa Hype'
-  description: 'L’energia della prima volta: emozione vera, zero posa. Tutti percepiscono che
-    sta iniziando qualcosa di grande.'
+  name: 'Amicizia Benedetta'
+  description: 'Attiva questa abilità e succede il bello: si muove tra altare e vita quotidiana con
+    naturalezza da fuoriclasse. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 1
-    b:
-      typeId: 7
-    c:
-      typeId: 2
-    d:
       typeId: 5
+    b:
+      typeId: 8
+    c:
+      typeId: 6
+    d:
+      typeId: 3
 attack:
-  name: Ostensorio “Shine”
-  description: 'Luce che abbaglia (nel senso buono): l’avversario resta senza parole. Danno da
-    meraviglia.'
-  damage: 9
-resistanceTypeId: 3
-resistanceModifier: times
-resistanceAmount: 21
-weaknessTypeId: 6
+  name: 'Baciamano… Scherzone'
+  description: 'Con un Amen Mic Drop: chiusura netta, applauso interiore assicurato, don Samuele spiazza
+    tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  damage: 40
+resistanceTypeId: 6
+resistanceAmount: 30
+weaknessTypeId: 4
 weaknessModifier: times
-weaknessAmount: 28
+weaknessAmount: 2

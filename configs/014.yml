@@ -1,32 +1,31 @@
 id: 14
 cardNumber: 14
-dexStats: NO. 0014
-name: Samucharizard
-hitpoints: 20
-typeId: 9
-typeImageId: 9
+dexStats: "NO. 0014"
+name: 'Samuele'
+hitpoints: 50
+typeId: 1
+typeImageId: 1
 subtypeId: 1
 ability:
-  name: Sguardo da Confessionale
-  description: Ti legge dentro senza giudicarti e ti rimette in piedi con due parole. Una volta
-    per partita puoi trasformare un malus in un piccolo bonus.
+  name: 'Parabola da Bar'
+  description: 'È la sua mossa segreta: fa ''calma olimpica'': anche se succede di tutto, lui resta centrato.
+    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 7
+      typeId: 6
     b:
-      typeId: 10
-    c:
       typeId: 4
+    c:
+      typeId: 3
     d:
-      typeId: 2
+      typeId: 5
 attack:
-  name: Salmo in Falsetto
-  description: Una nota troppo alta, un sorriso, e l’assemblea scoppia a ridere. Danno e confusione,
-    ma in modo affettuoso.
-  damage: 32
-resistanceTypeId: 1
-resistanceModifier: minus
-resistanceAmount: 19
-weaknessTypeId: 8
-weaknessModifier: minus
-weaknessAmount: 32
+  name: 'Campanello Triplo'
+  description: 'Quando parte la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'', non
+    c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  damage: 10
+resistanceTypeId: 6
+resistanceAmount: 30
+weaknessTypeId: 3
+weaknessModifier: times
+weaknessAmount: 2

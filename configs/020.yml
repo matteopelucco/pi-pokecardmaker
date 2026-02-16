@@ -1,32 +1,31 @@
 id: 20
 cardNumber: 20
-dexStats: NO. 0020
-name: Samu
+dexStats: "NO. 0020"
+name: 'Mega Samu'
 hitpoints: 50
-typeId: 10
-typeImageId: 10
-subtypeId: 2
+typeId: 2
+typeImageId: 2
+subtypeId: 1
 ability:
-  name: Benedizione con Tempismo Perfetto
-  description: 'Ti sorprende con un gesto semplice che rimette tutto al suo posto. Non è magia:
-    è don Samu che ci pensa.'
+  name: 'Agenda da Prete Giovane'
+  description: 'Attiva questa abilità e succede il bello: accende l''''allegria anche con una benedizione in
+    tasca, pronta all''''uso. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 6
+      typeId: 8
     b:
-      typeId: 7
+      typeId: 6
     c:
       typeId: 1
     d:
       typeId: 9
 attack:
-  name: Coro da Stadio (versione sacra)
-  description: 'Trasforma il canto in una curva ordinata: energia altissima, rispetto massimo.
-    Danno e boost di morale.'
-  damage: 34
+  name: 'Acqua Santa Critical Hit'
+  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
+    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 20
 resistanceTypeId: 2
-resistanceModifier: times
-resistanceAmount: 2
+resistanceAmount: 20
 weaknessTypeId: 10
-weaknessModifier: times
-weaknessAmount: 3
+weaknessModifier: plus
+weaknessAmount: 10

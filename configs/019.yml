@@ -1,32 +1,31 @@
 id: 19
 cardNumber: 19
-dexStats: NO. 0019
-name: SuperSamuele
-hitpoints: 70
-typeId: 10
-typeImageId: 10
-subtypeId: 3
+dexStats: "NO. 0019"
+name: 'Mega Samu'
+hitpoints: 40
+typeId: 8
+typeImageId: 8
+subtypeId: 1
 ability:
-  name: Sorriso “Amen”
-  description: Dici “Amen” e sembra che il mondo sia un po’ più leggero. Una volta per turno puoi
-    neutralizzare un effetto “muso lungo”.
+  name: 'Abbraccio Pastorale'
+  description: 'don Samuele ha il talento raro di mescola Bibbia e playlist: la Parola resta… e anche il
+    ritornello. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 1
+      typeId: 7
     b:
-      typeId: 9
-    c:
       typeId: 5
-    d:
+    c:
       typeId: 3
+    d:
+      typeId: 10
 attack:
-  name: Diaconia Schiacciata
-  description: 'Servizio totale: arriva, sistema, risolve, e ti guarda come per dire «tranquillo».
-    L’avversario subisce danno da efficienza.'
-  damage: 34
-resistanceTypeId: 10
-resistanceModifier: times
-resistanceAmount: 15
-weaknessTypeId: 8
+  name: 'Confessionale KO (di tenerezza)'
+  description: 'Con la Stretta di Mano Apostolica: ti tira su senza fare rumore, don Samuele spiazza tutti.
+    L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  damage: 40
+resistanceTypeId: 6
+resistanceAmount: 30
+weaknessTypeId: 5
 weaknessModifier: plus
-weaknessAmount: 32
+weaknessAmount: 20

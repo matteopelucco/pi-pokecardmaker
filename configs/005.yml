@@ -1,32 +1,31 @@
 id: 5
 cardNumber: 5
-dexStats: NO. 0005
-name: SuperSamuele
-hitpoints: 30
-typeId: 10
-typeImageId: 10
-subtypeId: 2
+dexStats: "NO. 0005"
+name: 'Super Samu'
+hitpoints: 140
+typeId: 5
+typeImageId: 5
+subtypeId: 3
 ability:
-  name: Latin Lover (ma in versione liturgica)
-  description: 'Pronuncia il latino con una sicurezza che sembra da film, poi ammette: «Ok, lo
-    ripetiamo insieme». Riduce l’imbarazzo e aumenta la complicità del gruppo.'
+  name: 'Omèlia Sprint'
+  description: 'don Samuele ha il talento raro di serve caffè in sacrestia come se fosse un rito: e funziona
+    davvero. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 6
+      typeId: 7
     b:
-      typeId: 10
-    c:
-      typeId: 3
-    d:
       typeId: 1
+    c:
+      typeId: 9
+    d:
+      typeId: 5
 attack:
-  name: Inno Nerazzurro (in Sacrestia)
-  description: 'Parte piano, poi esplode: «Pazza Inter…» e l’assemblea trattiene la risata. Colpisce
-    l’avversario con un’ondata di tifo controllato.'
-  damage: 32
-resistanceTypeId: 2
-resistanceModifier: minus
-resistanceAmount: 16
-weaknessTypeId: 9
-weaknessModifier: times
-weaknessAmount: 38
+  name: 'Aspersione Splash'
+  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
+    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 30
+resistanceTypeId: 5
+resistanceAmount: 20
+weaknessTypeId: 10
+weaknessModifier: plus
+weaknessAmount: 20

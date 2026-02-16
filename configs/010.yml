@@ -1,32 +1,31 @@
 id: 10
 cardNumber: 10
-dexStats: NO. 0010
-name: SuperSamu
-hitpoints: 70
-typeId: 1
-typeImageId: 1
-subtypeId: 3
+dexStats: "NO. 0010"
+name: 'Super Samu'
+hitpoints: 90
+typeId: 5
+typeImageId: 5
+subtypeId: 2
 ability:
-  name: Stola Antistress
-  description: Arrotola la stola come fosse un mantello da supereroe e si rilassa chiunque gli
-    stia vicino. Riduce la tensione e aumenta la fiducia.
+  name: 'Altare On Fire'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: fa il rosario remix: ritmo semplice,
+    intenzioni vere, niente pesantezza E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 3
+      typeId: 8
     b:
       typeId: 4
     c:
-      typeId: 7
+      typeId: 3
     d:
-      typeId: 9
+      typeId: 1
 attack:
-  name: Pace Scambiata
-  description: 'Ti stringe la mano con un sorriso e… boom: il conflitto si scioglie. Danno alle
-    tensioni e cura all’umore.'
-  damage: 34
-resistanceTypeId: 7
-resistanceModifier: times
-resistanceAmount: 20
-weaknessTypeId: 3
+  name: 'Alleluia a Volume 3x'
+  description: 'Con il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, don Samuele
+    spiazza tutti. L''effetto è immediato: risate, pace e un leggero profumo d''incenso.'
+  damage: 40
+resistanceTypeId: 4
+resistanceAmount: 30
+weaknessTypeId: 8
 weaknessModifier: times
-weaknessAmount: 33
+weaknessAmount: 2

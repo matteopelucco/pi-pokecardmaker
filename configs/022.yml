@@ -1,32 +1,31 @@
 id: 22
 cardNumber: 22
-dexStats: NO. 0022
-name: Samu
-hitpoints: 60
-typeId: 3
-typeImageId: 3
-subtypeId: 2
+dexStats: "NO. 0022"
+name: 'Samuele'
+hitpoints: 30
+typeId: 7
+typeImageId: 7
+subtypeId: 1
 ability:
-  name: Zero Panico, Solo Pace
-  description: Quando tutti agitati, lui alza una mano e la stanza cambia aria. Riduce drasticamente
-    il caos.
+  name: 'Niente Panico, è Provvidenza'
+  description: 'Attiva questa abilità e succede il bello: ha lo ''stola style'': elegante, semplice, sempre a
+    suo agio. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 10
+      typeId: 2
     b:
-      typeId: 4
+      typeId: 6
     c:
-      typeId: 8
+      typeId: 9
     d:
-      typeId: 7
+      typeId: 5
 attack:
-  name: Benedizione “Multitarget”
-  description: 'Una benedizione per te, una per lui, una per chi guarda: nessuno si salva dall’Amen.
-    Danno distribuito e sorriso garantito.'
-  damage: 31
-resistanceTypeId: 3
-resistanceModifier: times
-resistanceAmount: 28
-weaknessTypeId: 2
-weaknessModifier: times
-weaknessAmount: 21
+  name: 'Oratorio Power-Up'
+  description: 'don Samuele esegue il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque:
+    colpo preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 30
+resistanceTypeId: 7
+resistanceAmount: 20
+weaknessTypeId: 10
+weaknessModifier: plus
+weaknessAmount: 10

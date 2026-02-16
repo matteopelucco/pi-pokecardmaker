@@ -1,32 +1,31 @@
 id: 4
 cardNumber: 4
-dexStats: NO. 0004
-name: SuperSamuele
-hitpoints: 20
-typeId: 6
-typeImageId: 6
+dexStats: "NO. 0004"
+name: 'Mega Samuele'
+hitpoints: 30
+typeId: 3
+typeImageId: 3
 subtypeId: 1
 ability:
-  name: Manuale del Seminario in Tasca
-  description: Tra libri e appunti, Samu trova sempre la pagina giusta al momento giusto. Ti permette
-    di pescare la frase perfetta senza fare figure in latino (quasi sempre).
+  name: 'Prosecco Benedetto'
+  description: 'Attiva questa abilità e succede il bello: tira fuori la chitarra liturgica e mette tutti in
+    modalità Alleluia. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 6
+      typeId: 5
     b:
-      typeId: 10
-    c:
-      typeId: 1
-    d:
       typeId: 7
+    c:
+      typeId: 4
+    d:
+      typeId: 6
 attack:
-  name: Omelia-Lampo
-  description: 'Tre frasi, un esempio da vita vera e un finale che spacca: danno emotivo alle
-    distrazioni e bonus attenzione a tutti.'
-  damage: 22
-resistanceTypeId: 8
-resistanceModifier: minus
-resistanceAmount: 10
-weaknessTypeId: 10
-weaknessModifier: times
-weaknessAmount: 32
+  name: 'Amen a Colpo Secco'
+  description: 'Quando parte il Campanello Triplo che sveglia anche i distratti (con dolcezza), non c''''è
+    difesa: ti ritrovi benedetto e con la faccia che ride.'
+  damage: 30
+resistanceTypeId: 4
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: plus
+weaknessAmount: 20

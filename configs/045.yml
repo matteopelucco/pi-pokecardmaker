@@ -1,31 +1,31 @@
 id: 45
 cardNumber: 45
-dexStats: NO. 0045
-name: Samucharizard
-hitpoints: 110
-typeId: 1
-typeImageId: 1
-subtypeId: 3
+dexStats: "NO. 0045"
+name: 'Super Samu'
+hitpoints: 20
+typeId: 7
+typeImageId: 7
+subtypeId: 1
 ability:
-  name: Sermone Anti-Drama
-  description: Taglia il drama con una frase gentile e una risata. Neutralizza un conflitto nascente.
+  name: 'Fazzoletti Sempre Pronti'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: canta litanie e inni come un tenore…
+    soprattutto quando parte quello dell''''Inter E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 4
+      typeId: 8
     b:
-      typeId: 2
-    c:
-      typeId: 5
-    d:
       typeId: 6
+    c:
+      typeId: 10
+    d:
+      typeId: 4
 attack:
-  name: Benedizione “A Area”
-  description: 'Come un portiere che copre tutta la porta: benedice e protegge tutti. Danno e
-    protezione.'
-  damage: 25
-resistanceTypeId: 1
-resistanceModifier: minus
-resistanceAmount: 18
-weaknessTypeId: 4
+  name: 'Liturgia Speedrun'
+  description: 'Quando parte il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, non
+    c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  damage: 10
+resistanceTypeId: 7
+resistanceAmount: 20
+weaknessTypeId: 5
 weaknessModifier: times
-weaknessAmount: 18
+weaknessAmount: 2

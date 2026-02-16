@@ -23,7 +23,7 @@ resistanceAmount: "30"
 weaknessTypeId: "3"
 weaknessAmount: "5"
 weaknessModifier: "times"
-hpText: "PS"
+hpText: "PP"
 prevolveName: "Piccolo Samu"
 prevolveText: "Evolve da Piccolo Samu"
 ability:

@@ -1,32 +1,31 @@
 id: 24
 cardNumber: 24
-dexStats: NO. 0024
-name: Samuele
-hitpoints: 20
-typeId: 2
-typeImageId: 2
+dexStats: "NO. 0024"
+name: 'Super Samu'
+hitpoints: 40
+typeId: 5
+typeImageId: 5
 subtypeId: 1
 ability:
-  name: Tocco da Chierichetto Pro
-  description: 'Anni di altare: movimenti precisi, niente inciampi, niente figuracce. Aumenta
-    l’eleganza delle tue azioni.'
+  name: 'Samu Social (con misura)'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: ha lo ''stola style'': elegante,
+    semplice, sempre a suo agio E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 4
+      typeId: 6
     b:
-      typeId: 5
+      typeId: 2
     c:
       typeId: 9
     d:
-      typeId: 3
+      typeId: 7
 attack:
-  name: Scatto da Oratorio
-  description: 'Scivola tra sedie e bambini come fosse un torneo di calcetto. Colpo rapido: non
-    lo vedi arrivare.'
-  damage: 11
-resistanceTypeId: 6
-resistanceModifier: times
-resistanceAmount: 12
-weaknessTypeId: 4
+  name: 'Ritmo di Processione'
+  description: 'don Samuele esegue un Amen Mic Drop: chiusura netta, applauso interiore assicurato: colpo
+    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 20
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 8
 weaknessModifier: plus
-weaknessAmount: 15
+weaknessAmount: 30

@@ -1,32 +1,31 @@
 id: 49
 cardNumber: 49
-dexStats: NO. 0049
-name: SuperSamu
-hitpoints: 20
-typeId: 3
-typeImageId: 3
-subtypeId: 1
+dexStats: "NO. 0049"
+name: 'Super Samuele'
+hitpoints: 70
+typeId: 8
+typeImageId: 8
+subtypeId: 2
 ability:
-  name: Sorriso da Foto di Gruppo
-  description: La foto viene sempre bene perché lui riesce a far ridere proprio tutti. Bonus carisma
-    per un turno.
+  name: 'Spirito di Squadra'
+  description: 'don Samuele ha il talento raro di fa ''calma olimpica'': anche se succede di tutto, lui resta
+    centrato. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 9
+      typeId: 5
     b:
-      typeId: 1
-    c:
-      typeId: 4
-    d:
       typeId: 6
+    c:
+      typeId: 1
+    d:
+      typeId: 10
 attack:
-  name: 'Amen: Colpo di Grazia'
-  description: Non nel senso ‘fine del mondo’, ma ‘fine del problema’. Con un Amen, la questione
-    si risolve. Danno decisivo.
-  damage: 44
-resistanceTypeId: 8
-resistanceModifier: minus
-resistanceAmount: 13
-weaknessTypeId: 2
-weaknessModifier: plus
-weaknessAmount: 24
+  name: 'Alleluia Clap'
+  description: 'don Samuele esegue le Campane in Dubstep: vibrazione pura, nessuno resta fermo: colpo
+    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 30
+resistanceTypeId: 7
+resistanceAmount: 10
+weaknessTypeId: 10
+weaknessModifier: times
+weaknessAmount: 2

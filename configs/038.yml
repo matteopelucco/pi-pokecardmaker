@@ -1,32 +1,31 @@
 id: 38
 cardNumber: 38
-dexStats: NO. 0038
-name: Samu
-hitpoints: 30
-typeId: 8
-typeImageId: 8
-subtypeId: 2
+dexStats: "NO. 0038"
+name: 'Super Samuele'
+hitpoints: 50
+typeId: 9
+typeImageId: 9
+subtypeId: 1
 ability:
-  name: Pace e Bene, ma con Sprint
-  description: 'Un saluto francescano e poi via a fare. Combina serenità e velocità: ottieni un
-    extra passo.'
+  name: 'Caffè in Sacrestia'
+  description: 'don Samuele ha il talento raro di accende la festa senza perdere il tono giusto, anche se
+    spunta un prosecco. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 4
-    b:
       typeId: 8
+    b:
+      typeId: 9
     c:
-      typeId: 3
+      typeId: 6
     d:
       typeId: 7
 attack:
-  name: Tovaglia Anti-Disastro
-  description: Sta per rovesciarsi tutto? Lui salva la situazione con un gesto fulmineo. Danno
-    all’imprevisto, zero macchie.
-  damage: 8
+  name: 'Ordinazione Flashback'
+  description: 'un ''Alleluia'' a volume 11: non è rumore, è gioia che trabocca: sembra una cosa da manuale,
+    ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 40
 resistanceTypeId: 9
-resistanceModifier: minus
-resistanceAmount: 36
-weaknessTypeId: 4
+resistanceAmount: 20
+weaknessTypeId: 1
 weaknessModifier: times
-weaknessAmount: 4
+weaknessAmount: 2

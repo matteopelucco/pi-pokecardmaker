@@ -1,32 +1,31 @@
 id: 9
 cardNumber: 9
-dexStats: NO. 0009
-name: Samu
-hitpoints: 20
-typeId: 1
-typeImageId: 1
+dexStats: "NO. 0009"
+name: 'Mega Samuele'
+hitpoints: 30
+typeId: 5
+typeImageId: 5
 subtypeId: 1
 ability:
-  name: Omelia in 3 Minuti (miracolo)
-  description: 'Sintetizza senza banalizzare: colpo di grazia contro le distrazioni. L’avversario…
-    cioè, l’assemblea, torna a seguire.'
+  name: 'Stola Style'
+  description: 'Attiva questa abilità e succede il bello: ascolta davvero, senza fretta: sembra poco, ma è
+    un superpotere rarissimo. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 9
-    b:
-      typeId: 6
-    c:
-      typeId: 4
-    d:
       typeId: 3
+    b:
+      typeId: 8
+    c:
+      typeId: 1
+    d:
+      typeId: 5
 attack:
-  name: Confessione Critica
-  description: 'Ti guarda, capisce tutto, e con una frase ti smonta la superbia. Colpo preciso:
-    fa male solo all’orgoglio.'
-  damage: 21
-resistanceTypeId: 1
-resistanceModifier: times
-resistanceAmount: 7
-weaknessTypeId: 10
-weaknessModifier: minus
-weaknessAmount: 24
+  name: 'Processione geometrica!'
+  description: 'don Samuele esegue la Processione Parkour: ordinata ma energica, come una sfilata di gioia:
+    colpo preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 10
+resistanceTypeId: 9
+resistanceAmount: 30
+weaknessTypeId: 4
+weaknessModifier: times
+weaknessAmount: 2

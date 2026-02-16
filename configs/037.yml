@@ -1,32 +1,31 @@
 id: 37
 cardNumber: 37
-dexStats: NO. 0037
-name: Samucharizard
-hitpoints: 20
-typeId: 6
-typeImageId: 6
+dexStats: "NO. 0037"
+name: 'Mega Samu'
+hitpoints: 50
+typeId: 8
+typeImageId: 8
 subtypeId: 1
 ability:
-  name: Sguardo da “Ci Penso Io”
-  description: 'Non promette a vuoto: guarda, valuta, risolve. Riduce un danno futuro perché ha
-    già previsto la traiettoria.'
+  name: 'Stile da Festa Patronale'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: accende la festa senza perdere il
+    tono giusto, anche se spunta un prosecco E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 5
+      typeId: 2
     b:
-      typeId: 10
+      typeId: 4
     c:
-      typeId: 6
+      typeId: 1
     d:
-      typeId: 7
+      typeId: 10
 attack:
-  name: Eucaristia di Energia
-  description: Non è un power-up da videogame, eppure ti senti rinato. Colpo che fa bene e fa
-    male (alle paure).
-  damage: 26
-resistanceTypeId: 1
-resistanceModifier: plus
-resistanceAmount: 16
-weaknessTypeId: 9
-weaknessModifier: times
-weaknessAmount: 39
+  name: 'Proclama & Boom'
+  description: 'un Amen Mic Drop: chiusura netta, applauso interiore assicurato: sembra una cosa da manuale,
+    ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 30
+resistanceTypeId: 10
+resistanceAmount: 20
+weaknessTypeId: 4
+weaknessModifier: plus
+weaknessAmount: 20

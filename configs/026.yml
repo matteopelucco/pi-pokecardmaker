@@ -1,32 +1,31 @@
 id: 26
 cardNumber: 26
-dexStats: NO. 0026
-name: Samucharizard
-hitpoints: 30
-typeId: 1
-typeImageId: 1
-subtypeId: 1
+dexStats: "NO. 0026"
+name: 'Mega Samuele'
+hitpoints: 80
+typeId: 2
+typeImageId: 2
+subtypeId: 2
 ability:
-  name: Seminarista da Lavagna
-  description: Appunti chiari, schemi puliti, battuta al momento giusto. Trasforma una situazione
-    confusa in una mappa leggibile.
+  name: 'Sermone in 60 secondi'
+  description: 'don Samuele ha il talento raro di firma con sorriso ogni incontro: la gente se ne va più
+    leggera. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 1
+      typeId: 2
     b:
-      typeId: 8
+      typeId: 1
     c:
-      typeId: 4
+      typeId: 5
     d:
-      typeId: 9
+      typeId: 10
 attack:
-  name: Biblioteca Slam
-  description: 'Lancia una citazione perfetta dal nulla: l’avversario viene colpito dalla cultura…
-    e dalla comicità della situazione.'
-  damage: 39
-resistanceTypeId: 3
-resistanceModifier: plus
-resistanceAmount: 8
-weaknessTypeId: 8
+  name: 'Grazia che Spiazza'
+  description: 'un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate: sembra una cosa
+    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 10
+weaknessTypeId: 10
 weaknessModifier: plus
-weaknessAmount: 9
+weaknessAmount: 10

@@ -1,31 +1,31 @@
 id: 30
 cardNumber: 30
-dexStats: NO. 0030
-name: Samuele
-hitpoints: 20
-typeId: 4
-typeImageId: 4
+dexStats: "NO. 0030"
+name: 'Samuele'
+hitpoints: 50
+typeId: 3
+typeImageId: 3
 subtypeId: 1
 ability:
-  name: Chitarra Invisibile
-  description: Quando parte un canto, lui sembra avere una band nascosta dietro l’altare. Potenzia
-    l’umore del gruppo.
+  name: 'Luce da Presbiterio'
+  description: 'don Samuele ha il talento raro di tira fuori la chitarra liturgica e mette tutti in modalità
+    Alleluia. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 3
+      typeId: 8
     b:
-      typeId: 5
+      typeId: 6
     c:
-      typeId: 7
+      typeId: 4
     d:
-      typeId: 10
+      typeId: 9
 attack:
-  name: Stretta di Mano “AmenBro”
-  description: 'Pace in modalità giovane: ‘Amen, fratello!’. L’avversario subisce danno da simpatia.'
-  damage: 19
-resistanceTypeId: 8
-resistanceModifier: minus
-resistanceAmount: 19
+  name: 'Sermone Laser'
+  description: 'Con il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, don Samuele
+    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  damage: 30
+resistanceTypeId: 4
+resistanceAmount: 30
 weaknessTypeId: 2
-weaknessModifier: minus
-weaknessAmount: 30
+weaknessModifier: times
+weaknessAmount: 2

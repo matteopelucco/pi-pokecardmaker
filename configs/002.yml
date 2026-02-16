@@ -1,32 +1,31 @@
 id: 2
 cardNumber: 2
-dexStats: NO. 0002
-name: Samuchù
-hitpoints: 50
-typeId: 7
-typeImageId: 7
+dexStats: "NO. 0002"
+name: 'Samu'
+hitpoints: 80
+typeId: 8
+typeImageId: 8
 subtypeId: 2
 ability:
-  name: Voce da tenore (ma non diciamoglielo)
-  description: Non perde occasione di cantare litanie, salmi e inni a squarciagola… soprattutto
-    quello dell’Inter. Aumenta il “volume” dell’assemblea e la tua voglia di ridere.
+  name: 'Voce da tenore (shhh)'
+  description: 'Quando don Samuele entra in scena, l''atmosfera cambia: tira fuori la chitarra liturgica, 
+    mette tutti in modalità Alleluia e sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 1
+      typeId: 2
     b:
-      typeId: 5
+      typeId: 10
     c:
-      typeId: 6
+      typeId: 1
     d:
-      typeId: 7
+      typeId: 9
 attack:
-  name: Benedizione a Sorpresa
-  description: 'Quando meno te lo aspetti, ti sorprende con un gesto preciso che non lascia scampo:
-    Amen! E ti senti improvvisamente più leggero.'
-  damage: 14
-resistanceTypeId: 9
-resistanceModifier: minus
-resistanceAmount: 39
-weaknessTypeId: 6
+  name: 'Benedizione a Sorpresa'
+  description: 'Con il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, don Samuele
+    spiazza tutti. L''effetto è immediato: risate, pace e un leggero profumo d''incenso.'
+  damage: 40
+resistanceTypeId: 4
+resistanceAmount: 10
+weaknessTypeId: 8
 weaknessModifier: plus
-weaknessAmount: 27
+weaknessAmount: 30

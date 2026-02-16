@@ -1,32 +1,31 @@
 id: 48
 cardNumber: 48
-dexStats: NO. 0048
-name: SuperSamuele
-hitpoints: 20
-typeId: 3
-typeImageId: 3
+dexStats: "NO. 0048"
+name: 'Samuele'
+hitpoints: 40
+typeId: 7
+typeImageId: 7
 subtypeId: 1
 ability:
-  name: Gesto Preciso da Liturgia
-  description: 'Un movimento al millimetro: aspersorio, turibolo, messale… tutto al posto giusto.
-    Aumenta la precisione delle tue scelte.'
+  name: 'Regola del ''Mai Solo'''
+  description: 'È la sua mossa segreta: distribuisce ''pace'' a catena: in tre minuti si sciolgono anche i
+    musi lunghi. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 10
+      typeId: 4
     b:
-      typeId: 8
+      typeId: 5
     c:
-      typeId: 3
+      typeId: 10
     d:
-      typeId: 1
+      typeId: 8
 attack:
-  name: Coro Finale da Prima Messa
-  description: 'Esplode la gioia: ultima nota, ultimo sorriso, e tutti applaudono dentro. Danno
-    alto e chiusura epica.'
-  damage: 33
-resistanceTypeId: 7
-resistanceModifier: minus
-resistanceAmount: 3
-weaknessTypeId: 4
-weaknessModifier: times
-weaknessAmount: 5
+  name: 'Omnia Vincit Sorriso'
+  description: 'Con la Grazia che Spiazza: ti sorprende proprio quando pensavi di non farcela, don Samuele
+    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  damage: 10
+resistanceTypeId: 3
+resistanceAmount: 20
+weaknessTypeId: 7
+weaknessModifier: plus
+weaknessAmount: 10

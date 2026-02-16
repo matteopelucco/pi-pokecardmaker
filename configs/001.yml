@@ -1,32 +1,31 @@
 id: 1
 cardNumber: 1
-dexStats: NO. 0001
-name: Samucharizard
-hitpoints: 20
-typeId: 8
-typeImageId: 8
-subtypeId: 1
+dexStats: "NO. 0001"
+name: 'Samuele'
+hitpoints: 110
+typeId: 9
+typeImageId: 9
+subtypeId: 2
 ability:
-  name: Let's go to a party!
-  description: 'Sempre pronto a festeggiare con amici e parenti: Samu accende l’allegria senza
-    mai perdere il tono giusto. Se in tavola compare il prosecco, il bonus sorriso è garantito.'
+  name: 'Let’s go to a party!'
+  description: 'Don Samuele ha il talento raro di accendere l''allegria con una benedizione in tasca,
+    pronta all''uso. Risultato: anche la sacrestia ogni tanto sembra una pista da ballo.'
   energycost:
     a:
-      typeId: 9
+      typeId: 3
     b:
-      typeId: 2
-    c:
       typeId: 7
+    c:
+      typeId: 4
     d:
-      typeId: 5
+      typeId: 10
 attack:
-  name: Turibolo Rotante
-  description: Con un’abilità degna di un monaco esperto, don Samuele diffonde incenso come se
-    non ci fosse un domani. Tutti estasiati (e qualcuno starnutisce felice).
-  damage: 37
-resistanceTypeId: 6
-resistanceModifier: times
-resistanceAmount: 12
-weaknessTypeId: 7
+  name: 'Turibolo Rotante'
+  description: 'Un Incenso a Nebbia: atmosfera mistica, ma con vibe da festa patronale: sembra una cosa da
+    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 10
+resistanceTypeId: 2
+resistanceAmount: 30
+weaknessTypeId: 3
 weaknessModifier: plus
-weaknessAmount: 38
+weaknessAmount: 10

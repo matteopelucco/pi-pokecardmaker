@@ -1,32 +1,31 @@
 id: 50
 cardNumber: 50
-dexStats: NO. 0050
-name: Samucharizard
-hitpoints: 30
+dexStats: "NO. 0050"
+name: 'Mega Samu'
+hitpoints: 20
 typeId: 9
 typeImageId: 9
 subtypeId: 1
 ability:
-  name: “Amen” con Accento Giovane
-  description: 'Dice “Amen” e sembra un ‘andiamo!’ da squadra. Unisce sacro e quotidiano in modo
-    naturale: potenziamento morale.'
+  name: 'Tono Giusto'
+  description: 'Attiva questa abilità e succede il bello: firma con sorriso ogni incontro: la gente se ne va
+    più leggera. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 9
+      typeId: 8
     b:
-      typeId: 1
+      typeId: 2
     c:
-      typeId: 5
+      typeId: 9
     d:
-      typeId: 3
+      typeId: 7
 attack:
-  name: Turibolo a Vortice Totale
-  description: 'Gira, gira e gira: l’incenso disegna una spirale da videoclip. L’avversario resta
-    stordito dall’atmosfera… e dall’eleganza del gesto.'
-  damage: 20
+  name: 'Amen Mic Drop'
+  description: 'Con la Processione Parkour: ordinata ma energica, come una sfilata di gioia, don Samuele
+    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  damage: 50
 resistanceTypeId: 7
-resistanceModifier: minus
-resistanceAmount: 11
+resistanceAmount: 10
 weaknessTypeId: 10
 weaknessModifier: times
-weaknessAmount: 25
+weaknessAmount: 2

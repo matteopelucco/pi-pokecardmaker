@@ -1,32 +1,31 @@
 id: 28
 cardNumber: 28
-dexStats: NO. 0028
-name: Samucharizard
+dexStats: "NO. 0028"
+name: 'Mega Samuele'
 hitpoints: 70
-typeId: 6
-typeImageId: 6
-subtypeId: 3
+typeId: 9
+typeImageId: 9
+subtypeId: 2
 ability:
-  name: 'Sacerdote Novello: Modalità Festa'
-  description: Prima Messa? Sì, ma con gioia contagiosa. Tutti percepiscono che è un giorno speciale
-    e ti scappa un sorriso.
+  name: 'Benedizione in Tasca'
+  description: 'È la sua mossa segreta: ascolta davvero, senza fretta: sembra poco, ma è un superpotere
+    rarissimo. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 2
+      typeId: 7
     b:
-      typeId: 1
+      typeId: 6
     c:
-      typeId: 5
+      typeId: 3
     d:
-      typeId: 4
+      typeId: 8
 attack:
-  name: Rosario a Catena
-  description: 'Un’Ave Maria tira l’altra: l’effetto è continuo e inarrestabile. Danno progressivo
-    alla negatività.'
-  damage: 7
-resistanceTypeId: 4
-resistanceModifier: times
-resistanceAmount: 12
-weaknessTypeId: 9
-weaknessModifier: minus
-weaknessAmount: 37
+  name: 'Silenzio Sacro (poi risata)'
+  description: 'don Samuele esegue un Incenso a Nebbia: atmosfera mistica, ma con vibe da festa patronale:
+    colpo preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 10
+resistanceTypeId: 2
+resistanceAmount: 30
+weaknessTypeId: 7
+weaknessModifier: plus
+weaknessAmount: 10

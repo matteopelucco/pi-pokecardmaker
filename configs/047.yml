@@ -1,31 +1,31 @@
 id: 47
 cardNumber: 47
-dexStats: NO. 0047
-name: Samuele
-hitpoints: 30
-typeId: 1
-typeImageId: 1
+dexStats: "NO. 0047"
+name: 'Mega Samu'
+hitpoints: 90
+typeId: 9
+typeImageId: 9
 subtypeId: 2
 ability:
-  name: Abbraccio da Fratello Maggiore
-  description: 'Non è solo prete: è amico. Un abbraccio e ti rimetti in pista. Ripristina fiducia
-    e coraggio.'
+  name: 'Ricarica Spirituale'
+  description: 'È la sua mossa segreta: accende la festa senza perdere il tono giusto, anche se spunta un
+    prosecco. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 8
+      typeId: 7
     b:
-      typeId: 2
-    c:
-      typeId: 3
-    d:
       typeId: 10
+    c:
+      typeId: 8
+    d:
+      typeId: 3
 attack:
-  name: Pace “Firmata Samu”
-  description: 'Una pace che riconosci subito: semplice, vera, contagiosa. Danno al rancore.'
-  damage: 33
-resistanceTypeId: 9
-resistanceModifier: plus
-resistanceAmount: 8
-weaknessTypeId: 6
-weaknessModifier: minus
-weaknessAmount: 11
+  name: 'Sacro & Spritz'
+  description: 'il Rosario a Tempo: un passo, un''Ave, e via con il cuore leggero: sembra una cosa da
+    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 30
+resistanceTypeId: 2
+resistanceAmount: 30
+weaknessTypeId: 8
+weaknessModifier: plus
+weaknessAmount: 30

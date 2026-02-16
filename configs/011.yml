@@ -1,32 +1,31 @@
 id: 11
 cardNumber: 11
-dexStats: NO. 0011
-name: Samu
-hitpoints: 70
-typeId: 3
-typeImageId: 3
-subtypeId: 3
+dexStats: "NO. 0011"
+name: 'Super Samu'
+hitpoints: 60
+typeId: 1
+typeImageId: 1
+subtypeId: 1
 ability:
-  name: WhatsApp del Buon Pastore
-  description: 'Risponde con un audio breve ma efficacissimo: «Ci sono». Ti salva la serata e
-    spesso anche la settimana.'
+  name: 'Coro da Curva'
+  description: 'Attiva questa abilità e succede il bello: canta litanie e inni come un tenore… soprattutto
+    quando parte quello dell''''Inter. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 6
+      typeId: 8
     b:
-      typeId: 1
+      typeId: 2
     c:
-      typeId: 4
+      typeId: 3
     d:
-      typeId: 5
+      typeId: 7
 attack:
-  name: Cero “Accendi-Allegria”
-  description: 'Accende il cero e, insieme, accende la stanza: sembra una luce da festa. L’avversario
-    resta abbagliato dalla gioia.'
-  damage: 45
-resistanceTypeId: 8
-resistanceModifier: minus
-resistanceAmount: 4
-weaknessTypeId: 1
-weaknessModifier: minus
-weaknessAmount: 24
+  name: 'Genuflessione Ninja'
+  description: 'Quando parte le Campane in Dubstep: vibrazione pura, nessuno resta fermo, non c''''è difesa:
+    ti ritrovi benedetto e con la faccia che ride.'
+  damage: 20
+resistanceTypeId: 2
+resistanceAmount: 30
+weaknessTypeId: 5
+weaknessModifier: plus
+weaknessAmount: 30

@@ -1,31 +1,31 @@
 id: 44
 cardNumber: 44
-dexStats: NO. 0044
-name: Samuchù
-hitpoints: 110
-typeId: 3
-typeImageId: 3
-subtypeId: 3
+dexStats: "NO. 0044"
+name: 'Samu'
+hitpoints: 60
+typeId: 10
+typeImageId: 10
+subtypeId: 1
 ability:
-  name: Rosario da Taschino
-  description: 'Piccolo, pronto, discreto: lo tiri fuori nei momenti giusti. Aumenta la concentrazione
-    e abbassa il rumore.'
+  name: 'Sguardo che Rassicura'
+  description: 'È la sua mossa segreta: usa l''''ironia con delicatezza: fa ridere senza ferire, mai. Chi lo
+    incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 6
+      typeId: 10
     b:
-      typeId: 8
-    c:
-      typeId: 2
-    d:
       typeId: 7
+    c:
+      typeId: 3
+    d:
+      typeId: 8
 attack:
-  name: Sermone “Zero Cringe”
-  description: 'Parla ai giovani senza imitarli: rispetto totale, risata pulita. Danno all’imbarazzo.'
-  damage: 28
-resistanceTypeId: 8
-resistanceModifier: plus
-resistanceAmount: 16
-weaknessTypeId: 8
-weaknessModifier: minus
-weaknessAmount: 16
+  name: 'Pace, Bro!'
+  description: 'le Campane in Dubstep: vibrazione pura, nessuno resta fermo: sembra una cosa da manuale, ma
+    don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 40
+resistanceTypeId: 3
+resistanceAmount: 30
+weaknessTypeId: 6
+weaknessModifier: plus
+weaknessAmount: 20

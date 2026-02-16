@@ -1,32 +1,31 @@
 id: 23
 cardNumber: 23
-dexStats: NO. 0023
-name: Samuchù
-hitpoints: 20
-typeId: 5
-typeImageId: 5
+dexStats: "NO. 0023"
+name: 'Super Samuele'
+hitpoints: 40
+typeId: 9
+typeImageId: 9
 subtypeId: 1
 ability:
-  name: Fermata “Oratorio”
-  description: Ovunque sia, trova un modo per coinvolgere i giovani senza forzare nulla. Attivi
-    un’alleanza inattesa.
+  name: 'Bontà a Doppio Turno'
+  description: 'È la sua mossa segreta: tira fuori la chitarra liturgica e mette tutti in modalità Alleluia.
+    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 5
+      typeId: 6
     b:
-      typeId: 3
+      typeId: 5
     c:
-      typeId: 4
+      typeId: 8
     d:
-      typeId: 1
+      typeId: 3
 attack:
-  name: Canto Gregoriano Remix
-  description: 'Parte solenne, poi ti sembra quasi un remix: il cervello dell’avversario va in
-    buffering. Danno e disorientamento.'
-  damage: 7
-resistanceTypeId: 3
-resistanceModifier: plus
-resistanceAmount: 1
-weaknessTypeId: 9
+  name: 'Miracolo del ''Tutto a Posto'''
+  description: 'il Campanello Triplo che sveglia anche i distratti (con dolcezza): sembra una cosa da
+    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 10
+resistanceTypeId: 5
+resistanceAmount: 20
+weaknessTypeId: 2
 weaknessModifier: times
-weaknessAmount: 14
+weaknessAmount: 2

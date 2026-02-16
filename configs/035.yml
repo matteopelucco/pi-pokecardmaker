@@ -1,32 +1,31 @@
 id: 35
 cardNumber: 35
-dexStats: NO. 0035
-name: Samucharizard
-hitpoints: 20
-typeId: 1
-typeImageId: 1
-subtypeId: 1
+dexStats: "NO. 0035"
+name: 'Super Samuele'
+hitpoints: 100
+typeId: 5
+typeImageId: 5
+subtypeId: 2
 ability:
-  name: Il Segno della Croce da Campione
-  description: 'Rapido, preciso, memorabile: sembra una mossa speciale. Aumenta la tua efficacia
-    nelle azioni successive.'
+  name: 'Cuore Grande (taglia XXL)'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: mescola Bibbia e playlist: la Parola
+    resta… e anche il ritornello E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 2
-    b:
-      typeId: 10
-    c:
-      typeId: 3
-    d:
       typeId: 6
+    b:
+      typeId: 7
+    c:
+      typeId: 5
+    d:
+      typeId: 10
 attack:
-  name: Sincero “Ci Sto”
-  description: Quando ti senti giù, lui dice ‘ci sto’ e ti rialza. L’avversario prende danno perché
-    perde la presa.
-  damage: 9
-resistanceTypeId: 5
-resistanceModifier: times
-resistanceAmount: 32
-weaknessTypeId: 5
-weaknessModifier: minus
-weaknessAmount: 2
+  name: 'Cero Fiammeggiante'
+  description: 'Quando parte un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate, non
+    c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  damage: 20
+resistanceTypeId: 4
+resistanceAmount: 20
+weaknessTypeId: 8
+weaknessModifier: plus
+weaknessAmount: 30

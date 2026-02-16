@@ -1,32 +1,31 @@
 id: 18
 cardNumber: 18
-dexStats: NO. 0018
-name: Samuchù
-hitpoints: 30
-typeId: 10
-typeImageId: 10
-subtypeId: 1
+dexStats: "NO. 0018"
+name: 'Mega Samu'
+hitpoints: 170
+typeId: 8
+typeImageId: 8
+subtypeId: 3
 ability:
-  name: Playlist del Seminario
-  description: 'Da Gregoriano a ‘anni 2000’ in un solo swipe: unisce generazioni senza conflitti.
-    Sblocca una risata corale.'
+  name: 'Acqua Santa Splash'
+  description: 'È la sua mossa segreta: serve caffè in sacrestia come se fosse un rito: e funziona davvero.
+    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
       typeId: 8
     b:
-      typeId: 1
+      typeId: 5
     c:
       typeId: 9
     d:
-      typeId: 5
+      typeId: 6
 attack:
-  name: Hostia-Combo (solo metafora!)
-  description: 'Combo di gesti liturgici impeccabili: non è magia, è allenamento. Colpo tecnico
-    che lascia tutti a bocca aperta.'
-  damage: 38
-resistanceTypeId: 6
-resistanceModifier: minus
-resistanceAmount: 1
-weaknessTypeId: 4
-weaknessModifier: plus
-weaknessAmount: 17
+  name: 'Sguardo Pastorale Critico'
+  description: 'Quando parte la Stretta di Mano Apostolica: ti tira su senza fare rumore, non c''''è difesa:
+    ti ritrovi benedetto e con la faccia che ride.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 20
+weaknessTypeId: 7
+weaknessModifier: times
+weaknessAmount: 2

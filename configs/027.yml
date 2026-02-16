@@ -1,32 +1,31 @@
 id: 27
 cardNumber: 27
-dexStats: NO. 0027
-name: Samuchù
-hitpoints: 30
-typeId: 7
-typeImageId: 7
+dexStats: "NO. 0027"
+name: 'Mega Samuele'
+hitpoints: 40
+typeId: 4
+typeImageId: 4
 subtypeId: 1
 ability:
-  name: Diacono “Pronto Servizio”
-  description: 'Se manca qualcosa, lui l’ha già trovato: tovaglie, fogli, candele, microfono.
-    Una volta per turno puoi ignorare una penalità logistica.'
+  name: 'Biscotto Oratoriano'
+  description: 'don Samuele ha il talento raro di mescola Bibbia e playlist: la Parola resta… e anche il
+    ritornello. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 4
-    b:
       typeId: 8
+    b:
+      typeId: 9
     c:
-      typeId: 5
+      typeId: 4
     d:
-      typeId: 6
+      typeId: 2
 attack:
-  name: Mitria Immaginaria
-  description: Non c’è, ma lui la porta con l’atteggiamento da ‘boss’ buono. Danno di autorità
-    gentile.
-  damage: 14
-resistanceTypeId: 8
-resistanceModifier: times
-resistanceAmount: 29
-weaknessTypeId: 5
-weaknessModifier: minus
-weaknessAmount: 36
+  name: 'Stretta di Mano Apostolica'
+  description: 'la Stretta di Mano Apostolica: ti tira su senza fare rumore: sembra una cosa da manuale, ma
+    don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 10
+resistanceTypeId: 10
+resistanceAmount: 10
+weaknessTypeId: 3
+weaknessModifier: times
+weaknessAmount: 2

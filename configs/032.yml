@@ -1,32 +1,31 @@
 id: 32
 cardNumber: 32
-dexStats: NO. 0032
-name: Samuchù
-hitpoints: 20
-typeId: 7
-typeImageId: 7
-subtypeId: 1
+dexStats: "NO. 0032"
+name: 'Samu'
+hitpoints: 110
+typeId: 5
+typeImageId: 5
+subtypeId: 2
 ability:
-  name: Litania Anti-Sbadiglio
-  description: 'Ritmo, voce e presenza: addio sonnolenza. Un avversario (qualsiasi distrazione)
-    perde efficacia.'
+  name: 'Puntualità Miracolosa'
+  description: 'don Samuele ha il talento raro di fa il rosario remix: ritmo semplice, intenzioni vere,
+    niente pesantezza. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 10
+      typeId: 9
     b:
-      typeId: 1
+      typeId: 7
     c:
-      typeId: 3
+      typeId: 4
     d:
-      typeId: 2
+      typeId: 3
 attack:
-  name: Microfono che Funziona (miracolo 2)
-  description: 'Lui lo tocca e funziona: c’è del soprannaturale? No, solo competenza. Danno da
-    affidabilità.'
-  damage: 39
-resistanceTypeId: 6
-resistanceModifier: minus
-resistanceAmount: 37
-weaknessTypeId: 6
-weaknessModifier: minus
-weaknessAmount: 40
+  name: 'Benedizione ''No Look'''
+  description: 'il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque: sembra una cosa da
+    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 50
+resistanceTypeId: 10
+resistanceAmount: 30
+weaknessTypeId: 2
+weaknessModifier: plus
+weaknessAmount: 20

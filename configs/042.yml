@@ -1,32 +1,31 @@
 id: 42
 cardNumber: 42
-dexStats: NO. 0042
-name: Samuchù
-hitpoints: 50
-typeId: 9
-typeImageId: 9
-subtypeId: 2
+dexStats: "NO. 0042"
+name: 'Super Samuele'
+hitpoints: 40
+typeId: 10
+typeImageId: 10
+subtypeId: 1
 ability:
-  name: Diacono della Porta Aperta
-  description: Accoglie tutti, soprattutto chi pensa di non essere “a posto”. Rimuove un malus
-    legato a timidezza o distanza.
+  name: 'Catechesi Pop'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: tiene il gruppo unito: nessuno resta
+    indietro, nessuno resta solo E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 6
+      typeId: 9
     b:
       typeId: 8
     c:
       typeId: 4
     d:
-      typeId: 1
+      typeId: 2
 attack:
-  name: Campane in Modalità Festa
-  description: 'Rintocchi che sembrano un invito: ‘si celebra!’. Danno al grigiore e boost al
-    coraggio.'
-  damage: 26
-resistanceTypeId: 4
-resistanceModifier: minus
-resistanceAmount: 32
-weaknessTypeId: 6
-weaknessModifier: minus
-weaknessAmount: 15
+  name: 'Incenso a Spray'
+  description: 'Quando parte una Predica Beat: due concetti chiari e un ritmo che resta in testa, non c''''è
+    difesa: ti ritrovi benedetto e con la faccia che ride.'
+  damage: 30
+resistanceTypeId: 5
+resistanceAmount: 20
+weaknessTypeId: 1
+weaknessModifier: plus
+weaknessAmount: 20

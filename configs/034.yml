@@ -1,32 +1,31 @@
 id: 34
 cardNumber: 34
-dexStats: NO. 0034
-name: Samucharizard
-hitpoints: 30
-typeId: 7
-typeImageId: 7
+dexStats: "NO. 0034"
+name: 'Super Samu'
+hitpoints: 60
+typeId: 9
+typeImageId: 9
 subtypeId: 1
 ability:
-  name: Diritto Canonico (ma simpatico)
-  description: 'Spiega le regole senza diventare pesante: un superpotere raro. Ti consente di
-    rimettere ordine “legalmente” senza litigare.'
+  name: 'Risata Contagiosa'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: rassicura con uno sguardo:
+    ''tranquillo, ci pensiamo insieme'' E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 5
+      typeId: 2
     b:
-      typeId: 7
-    c:
       typeId: 8
+    c:
+      typeId: 5
     d:
-      typeId: 1
+      typeId: 10
 attack:
-  name: Banchetto Parrocchiale
-  description: 'Tavola lunga, risate, e qualcuno che chiede il bis: colpo di convivialità. Danno
-    alle tristezze.'
-  damage: 27
-resistanceTypeId: 2
-resistanceModifier: minus
-resistanceAmount: 38
-weaknessTypeId: 6
-weaknessModifier: plus
-weaknessAmount: 19
+  name: 'Pater Noster Turbo'
+  description: 'don Samuele esegue il Silenzio Sacro… poi risata: tensione giù, fraternità su: colpo
+    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 20
+resistanceTypeId: 9
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

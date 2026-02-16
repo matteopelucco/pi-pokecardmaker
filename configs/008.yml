@@ -1,32 +1,32 @@
 id: 8
 cardNumber: 8
-dexStats: NO. 0008
-name: SuperSamuele
-hitpoints: 30
-typeId: 4
-typeImageId: 4
-subtypeId: 1
+dexStats: "NO. 0008"
+name: 'Super Samuele'
+hitpoints: 120
+typeId: 7
+typeImageId: 7
+subtypeId: 2
 ability:
-  name: Bussola della Vocazione
-  description: Quando l’ansia fa rumore, lui trova il nord con calma disarmante. Una volta per
-    turno puoi annullare un effetto “panico da esame/da omelia”.
+  name: 'Pace & Love (e Amen)'
+  description: 'don Samuele ha il talento raro di canta litanie e inni come un tenore… soprattutto quando
+    parte quello dell''''Inter. Risultato: anche la sacrestia sembra una pista da ballo (con
+    rispetto).'
   energycost:
     a:
-      typeId: 10
+      typeId: 8
     b:
-      typeId: 6
+      typeId: 2
     c:
-      typeId: 7
+      typeId: 6
     d:
-      typeId: 4
+      typeId: 7
 attack:
-  name: Processione a Passo di Marcia
-  description: 'Avanza con ritmo da banda e cuore da festa patronale: chi gli sta dietro non molla.
-    Danno e trascinamento garantiti.'
-  damage: 39
-resistanceTypeId: 7
-resistanceModifier: minus
-resistanceAmount: 13
-weaknessTypeId: 1
-weaknessModifier: times
-weaknessAmount: 21
+  name: 'Coro a Squarciagola'
+  description: 'le Campane in Dubstep: vibrazione pura, nessuno resta fermo: sembra una cosa da manuale, ma
+    don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 20
+resistanceTypeId: 5
+resistanceAmount: 20
+weaknessTypeId: 10
+weaknessModifier: plus
+weaknessAmount: 30

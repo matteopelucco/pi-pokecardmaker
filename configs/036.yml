@@ -1,32 +1,31 @@
 id: 36
 cardNumber: 36
-dexStats: NO. 0036
-name: SuperSamu
-hitpoints: 30
-typeId: 1
-typeImageId: 1
+dexStats: "NO. 0036"
+name: 'Mega Samu'
+hitpoints: 40
+typeId: 10
+typeImageId: 10
 subtypeId: 1
 ability:
-  name: Campanello della Sacrestia
-  description: 'Un tintinnio e tutti si muovono: sembra telepatia. Puoi “richiamare” risorse quando
-    serve.'
+  name: 'Bibbia & Playlist'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: porta una luce serena che fa
+    sembrare tutto più possibile E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
       typeId: 7
     b:
-      typeId: 6
+      typeId: 4
     c:
-      typeId: 9
+      typeId: 2
     d:
-      typeId: 1
+      typeId: 5
 attack:
-  name: Sguardo “Te la Cavi”
-  description: 'Ti guarda e sembra dire: ‘dai, ce la fai’. L’avversario subisce danno perché la
-    tua fiducia sale.'
-  damage: 14
+  name: 'Colletta Improvvisata'
+  description: 'Con la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'', don Samuele
+    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  damage: 50
 resistanceTypeId: 7
-resistanceModifier: minus
-resistanceAmount: 33
-weaknessTypeId: 5
+resistanceAmount: 20
+weaknessTypeId: 4
 weaknessModifier: times
-weaknessAmount: 28
+weaknessAmount: 2

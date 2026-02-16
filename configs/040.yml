@@ -1,15 +1,15 @@
 id: 40
 cardNumber: 40
-dexStats: NO. 0040
-name: Samu
-hitpoints: 40
-typeId: 8
-typeImageId: 8
+dexStats: "NO. 0040"
+name: 'Mega Samu'
+hitpoints: 60
+typeId: 3
+typeImageId: 3
 subtypeId: 2
 ability:
-  name: Karaoke Liturgico
-  description: 'Sì, esiste: cantare bene non è obbligatorio, divertirsi sì. Trasforma una stonatura
-    in un momento memorabile.'
+  name: 'Calma Olimpica'
+  description: 'don Samuele ha il talento raro di fa catechesi pop: esempi quotidiani, cuore grande e zero
+    predicozzi. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
       typeId: 6
@@ -18,15 +18,14 @@ ability:
     c:
       typeId: 7
     d:
-      typeId: 5
+      typeId: 2
 attack:
-  name: Pastorale “On Fire”
-  description: 'Parte calmo e poi è ovunque: in oratorio, in chiesa, in strada. Danno da presenza
-    totale.'
-  damage: 33
-resistanceTypeId: 9
-resistanceModifier: times
-resistanceAmount: 1
-weaknessTypeId: 6
-weaknessModifier: plus
-weaknessAmount: 3
+  name: 'Rosario a Tempo'
+  description: 'un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate: sembra una cosa
+    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 10
+resistanceTypeId: 4
+resistanceAmount: 20
+weaknessTypeId: 8
+weaknessModifier: times
+weaknessAmount: 2

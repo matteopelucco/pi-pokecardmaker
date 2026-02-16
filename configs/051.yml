@@ -1,33 +1,31 @@
 id: 51
 cardNumber: 51
-dexStats: NO. 0051
-name: Samuele
-hitpoints: 40
-typeId: 7
-typeImageId: 7
+dexStats: "NO. 0051"
+name: 'Mega Samu'
+hitpoints: 120
+typeId: 2
+typeImageId: 2
 subtypeId: 2
 ability:
-  name: Diacono DJ delle Letture
-  description: 'Tra una lettura e l’altra fa scorrere le pagine come fossero una console: entra
-    al momento giusto e non sbaglia mai il ‘cambio traccia’. L’assemblea resta agganciata e tu
-    guadagni fiducia.'
+  name: 'Samu in Modalità Festa'
+  description: 'È la sua mossa segreta: tiene il gruppo unito: nessuno resta indietro, nessuno resta solo.
+    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 6
+      typeId: 10
     b:
-      typeId: 3
+      typeId: 7
     c:
-      typeId: 2
+      typeId: 4
     d:
-      typeId: 8
+      typeId: 6
 attack:
-  name: Omelia “Mic Drop”
-  description: 'Chiude con una frase che sembra un mic drop, ma in versione parrocchia: tutti
-    zitti e sorridenti. Colpo critico alla distrazione.'
-  damage: 20
-resistanceTypeId: 2
-resistanceModifier: times
-resistanceAmount: 29
-weaknessTypeId: 7
-weaknessModifier: plus
-weaknessAmount: 22
+  name: 'Processione Parkour'
+  description: 'don Samuele esegue la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto
+    ''Amen!'': colpo preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 40
+resistanceTypeId: 3
+resistanceAmount: 30
+weaknessTypeId: 8
+weaknessModifier: times
+weaknessAmount: 2

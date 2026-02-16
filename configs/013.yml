@@ -1,32 +1,32 @@
 id: 13
 cardNumber: 13
-dexStats: NO. 0013
-name: SuperSamu
-hitpoints: 110
-typeId: 10
-typeImageId: 10
-subtypeId: 3
+dexStats: "NO. 0013"
+name: 'Super Samu'
+hitpoints: 60
+typeId: 1
+typeImageId: 1
+subtypeId: 1
 ability:
-  name: Lettore da Palco
-  description: 'Proclama con chiarezza e un pizzico di teatro: anche chi era in fondo capisce
-    tutto. Aumenta la “precisione” delle tue mosse.'
+  name: 'Chitarra Liturgica'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: firma con sorriso ogni incontro: la
+    gente se ne va più leggera E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 3
+      typeId: 8
     b:
       typeId: 9
     c:
-      typeId: 5
-    d:
       typeId: 6
+    d:
+      typeId: 5
 attack:
-  name: Chierichetto Turbo
-  description: 'Movimenti rapidi: messale, ampolline, campanello… tutto in sequenza. L’avversario
-    non capisce più da dove arriva il danno.'
-  damage: 37
+  name: 'OmèlIa Drop'
+  description: 'la Genuflessione Ninja: silenziosa, precisa, e ti fa venir voglia di fare meglio: sembra una
+    cosa da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul
+    serio.'
+  damage: 50
 resistanceTypeId: 5
-resistanceModifier: plus
-resistanceAmount: 19
-weaknessTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 3
 weaknessModifier: times
-weaknessAmount: 14
+weaknessAmount: 2

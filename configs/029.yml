@@ -1,31 +1,31 @@
 id: 29
 cardNumber: 29
-dexStats: NO. 0029
-name: SuperSamuele
-hitpoints: 30
-typeId: 4
-typeImageId: 4
-subtypeId: 1
+dexStats: "NO. 0029"
+name: 'Super Samu'
+hitpoints: 150
+typeId: 5
+typeImageId: 5
+subtypeId: 3
 ability:
-  name: Intercessione Express
-  description: 'Una preghiera breve e concreta: non fa rumore, ma fa effetto. Aumenta la tua resilienza.'
+  name: 'Zero Ansia, Solo Grazia'
+  description: 'Attiva questa abilità e succede il bello: ascolta davvero, senza fretta: sembra poco, ma è
+    un superpotere rarissimo. Effetto collaterale: clima di famiglia garantito.'
   energycost:
     a:
-      typeId: 2
+      typeId: 9
     b:
-      typeId: 7
+      typeId: 1
     c:
       typeId: 6
     d:
-      typeId: 8
+      typeId: 10
 attack:
-  name: Sermone Taglia-Tempo
-  description: 'Dice tutto quello che serve e poi chiude: nessuno si perde. Danno alle distrazioni,
-    critico ai perditempo.'
-  damage: 22
+  name: 'Scambio di Pace a Catena'
+  description: 'Quando parte un ''Alleluia'' a volume 11: non è rumore, è gioia che trabocca, non c''''è difesa:
+    ti ritrovi benedetto e con la faccia che ride.'
+  damage: 50
 resistanceTypeId: 3
-resistanceModifier: plus
-resistanceAmount: 7
-weaknessTypeId: 9
-weaknessModifier: plus
-weaknessAmount: 12
+resistanceAmount: 30
+weaknessTypeId: 7
+weaknessModifier: times
+weaknessAmount: 2

@@ -1,32 +1,31 @@
 id: 25
 cardNumber: 25
-dexStats: NO. 0025
-name: Samucharizard
-hitpoints: 30
-typeId: 10
-typeImageId: 10
-subtypeId: 1
+dexStats: "NO. 0025"
+name: 'Mega Samuele'
+hitpoints: 170
+typeId: 7
+typeImageId: 7
+subtypeId: 3
 ability:
-  name: Dialogo da Sagrato
-  description: Due minuti fuori dalla chiesa e ti senti già ascoltato. Ti permette di “recuperare”
-    una carta scartata (simbolicamente).
+  name: 'Gioco di Sguardi'
+  description: 'don Samuele ha il talento raro di accende la festa senza perdere il tono giusto, anche se
+    spunta un prosecco. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 5
+      typeId: 7
     b:
       typeId: 2
     c:
-      typeId: 4
+      typeId: 10
     d:
-      typeId: 8
+      typeId: 9
 attack:
-  name: Piviale Parkour
-  description: 'Con il piviale addosso evita ostacoli come un freerunner: eleganza assurda. Danno
-    stiloso.'
-  damage: 18
-resistanceTypeId: 2
-resistanceModifier: times
-resistanceAmount: 38
-weaknessTypeId: 5
+  name: 'Canto del Derby'
+  description: 'Quando parte le Campane in Dubstep: vibrazione pura, nessuno resta fermo, non c''''è difesa:
+    ti ritrovi benedetto e con la faccia che ride.'
+  damage: 10
+resistanceTypeId: 4
+resistanceAmount: 30
+weaknessTypeId: 8
 weaknessModifier: plus
-weaknessAmount: 38
+weaknessAmount: 30

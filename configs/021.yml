@@ -1,32 +1,31 @@
 id: 21
 cardNumber: 21
-dexStats: NO. 0021
-name: SuperSamu
+dexStats: "NO. 0021"
+name: 'Mega Samu'
 hitpoints: 30
-typeId: 4
-typeImageId: 4
+typeId: 5
+typeImageId: 5
 subtypeId: 1
 ability:
-  name: Catechismo Pop
-  description: 'Spiega cose profonde con esempi da vita vera: meme, calcio, famiglia e un po’
-    di sana ironia. Chi ascolta capisce e sorride.'
+  name: 'Messaggio Vocale Celeste'
+  description: 'È la sua mossa segreta: serve caffè in sacrestia come se fosse un rito: e funziona davvero.
+    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 6
+      typeId: 4
     b:
-      typeId: 3
-    c:
       typeId: 1
+    c:
+      typeId: 9
     d:
-      typeId: 5
+      typeId: 6
 attack:
-  name: Aperitivo d’Incenso
-  description: 'Sembra impossibile: incenso e festa insieme. L’avversario è confuso e tu guadagni
-    carisma.'
-  damage: 44
-resistanceTypeId: 5
-resistanceModifier: minus
-resistanceAmount: 13
-weaknessTypeId: 8
-weaknessModifier: minus
-weaknessAmount: 10
+  name: 'Parrocchia Shuffle'
+  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
+    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  damage: 50
+resistanceTypeId: 7
+resistanceAmount: 30
+weaknessTypeId: 3
+weaknessModifier: plus
+weaknessAmount: 20

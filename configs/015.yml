@@ -1,32 +1,31 @@
 id: 15
 cardNumber: 15
-dexStats: NO. 0015
-name: Samuele
+dexStats: "NO. 0015"
+name: 'Mega Samuele'
 hitpoints: 60
-typeId: 8
-typeImageId: 8
-subtypeId: 2
+typeId: 3
+typeImageId: 3
+subtypeId: 1
 ability:
-  name: Camminata con Rosario (e Sneakers)
-  description: 'Unisce rosario e passo svelto: spiritualità e cardio insieme. Quando attivi l’abilità,
-    nessuno riesce a starti dietro… ma tutti vogliono provarci.'
+  name: 'Kyrie Karaoke'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: usa l''''ironia con delicatezza: fa
+    ridere senza ferire, mai E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
-      typeId: 10
+      typeId: 8
     b:
-      typeId: 6
+      typeId: 3
     c:
-      typeId: 7
-    d:
       typeId: 9
+    d:
+      typeId: 5
 attack:
-  name: Acqua Benedetta Splash
-  description: Una goccia sembra niente… finché non arriva la cascata. L’avversario prende danno
-    e perde ogni voglia di fare il duro.
-  damage: 43
-resistanceTypeId: 9
-resistanceModifier: minus
-resistanceAmount: 34
-weaknessTypeId: 1
-weaknessModifier: minus
-weaknessAmount: 13
+  name: 'Vangelo a Effetto'
+  description: 'Quando parte un ''Alleluia'' a volume 11: non è rumore, è gioia che trabocca, non c''''è difesa:
+    ti ritrovi benedetto e con la faccia che ride.'
+  damage: 10
+resistanceTypeId: 1
+resistanceAmount: 30
+weaknessTypeId: 4
+weaknessModifier: times
+weaknessAmount: 2

@@ -1,32 +1,31 @@
 id: 16
 cardNumber: 16
-dexStats: NO. 0016
-name: Samuele
+dexStats: "NO. 0016"
+name: 'Super Samuele'
 hitpoints: 50
-typeId: 7
-typeImageId: 7
-subtypeId: 2
+typeId: 1
+typeImageId: 1
+subtypeId: 1
 ability:
-  name: Dono della Sedia in Più
-  description: 'Arriva sempre con una soluzione pratica: «Tranquilli, ci sta anche uno in più».
-    Eviti lo scontro e salvi la convivialità.'
+  name: 'Credo a Memoria (ma col groove)'
+  description: 'È la sua mossa segreta: porta pace in due battute, come se avesse il tasto ''reset'' per le
+    tensioni. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
   energycost:
     a:
-      typeId: 10
+      typeId: 8
     b:
       typeId: 7
     c:
-      typeId: 1
-    d:
       typeId: 4
+    d:
+      typeId: 1
 attack:
-  name: Sagrato Showdown
-  description: Fuori dalla chiesa si discute? Lui mette pace con un colpo di ironia. Danno al
-    litigio, KO al muso lungo.
-  damage: 39
-resistanceTypeId: 10
-resistanceModifier: minus
-resistanceAmount: 25
-weaknessTypeId: 4
+  name: 'Predica Beat'
+  description: 'Con un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate, don Samuele
+    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  damage: 30
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 7
 weaknessModifier: times
-weaknessAmount: 39
+weaknessAmount: 2

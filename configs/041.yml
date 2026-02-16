@@ -1,31 +1,31 @@
 id: 41
 cardNumber: 41
-dexStats: NO. 0041
-name: Samu
-hitpoints: 20
-typeId: 5
-typeImageId: 5
-subtypeId: 1
+dexStats: "NO. 0041"
+name: 'Super Samu'
+hitpoints: 120
+typeId: 3
+typeImageId: 3
+subtypeId: 3
 ability:
-  name: La “S” di Samu sulla Stola
-  description: 'Non si vede, ma si sente: quando indossa la stola, diventa super. Aumenti la tua
-    protezione per un turno.'
+  name: 'Fede Wi‑Fi'
+  description: 'don Samuele ha il talento raro di tiene il gruppo unito: nessuno resta indietro, nessuno
+    resta solo. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
   energycost:
     a:
-      typeId: 1
-    b:
       typeId: 3
+    b:
+      typeId: 7
     c:
-      typeId: 8
+      typeId: 9
     d:
-      typeId: 5
+      typeId: 2
 attack:
-  name: Inchino da Cerimoniale
-  description: 'Un inchino fatto bene è già metà della vittoria: eleganza letale. Danno tecnico.'
-  damage: 34
-resistanceTypeId: 3
-resistanceModifier: times
-resistanceAmount: 38
-weaknessTypeId: 7
+  name: 'Coro Stadio (ma santo)'
+  description: 'Quando parte la Genuflessione Ninja: silenziosa, precisa, e ti fa venir voglia di fare
+    meglio, non c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  damage: 20
+resistanceTypeId: 9
+resistanceAmount: 10
+weaknessTypeId: 8
 weaknessModifier: times
-weaknessAmount: 5
+weaknessAmount: 2

@@ -1,31 +1,31 @@
 id: 43
 cardNumber: 43
-dexStats: NO. 0043
-name: Samu
-hitpoints: 20
-typeId: 4
-typeImageId: 4
-subtypeId: 1
+dexStats: "NO. 0043"
+name: 'Super Samu'
+hitpoints: 70
+typeId: 9
+typeImageId: 9
+subtypeId: 2
 ability:
-  name: 'Seminario: Esame Superato (quasi)'
-  description: Anche quando è andata così-così, lui la racconta ridendo e imparando. Recuperi
-    risorse dopo un errore.
+  name: 'Pace Distribuita'
+  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: fa omelie brevi ma memorabili: una
+    frase, un sorriso, e ti resta addosso per ore E sì, il sorriso diventa obbligatorio.'
   energycost:
     a:
       typeId: 7
     b:
-      typeId: 3
+      typeId: 8
     c:
-      typeId: 6
+      typeId: 9
     d:
-      typeId: 10
+      typeId: 4
 attack:
-  name: Diacono “Gira la Pagina”
-  description: 'Ti aiuta a voltare pagina davvero: letteralmente e dentro. Colpo che spinge avanti.'
-  damage: 23
-resistanceTypeId: 6
-resistanceModifier: times
-resistanceAmount: 19
-weaknessTypeId: 6
-weaknessModifier: times
-weaknessAmount: 38
+  name: 'Altare Drift'
+  description: 'don Samuele esegue un Amen Mic Drop: chiusura netta, applauso interiore assicurato: colpo
+    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  damage: 20
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 3
+weaknessModifier: plus
+weaknessAmount: 10

@@ -12,7 +12,7 @@ Attacchi
 - Benedizione a sopresa: quando meno te lo aspetti, don Samuele ti sorprende con un gesto preciso che non lascia scampo! Amen! 
 
 Da questi esempi, ricava lo stile da utilizzare, sii creativo, non essere banale, usa giochi di parole e contrasti semantici tra il mondo della liturgia, dei preti, del seminario, della chiesa e il mondo dei giovani, delle feste, della gioia, della risata. 
-Chi li legge deve sorridere e deve avere chiaro in mente di quale abilità stiamo parlando.
+Chi li legge deve sorridere e deve avere chiaro in mente di quale abilità stiamo parlando. Non utilizzare il sostantivo Seminarista o Diacono, ormai Samuele è un Sacerdote.
 
 Genera 52 file .yml di configurazione, rispettando le seguenti regole:  
 - ci deve essere un filo logico coerente nel mazzo, non devono esserci ripetizioni
@@ -20,36 +20,33 @@ Genera 52 file .yml di configurazione, rispettando le seguenti regole:
 - il campo name deve essere riferito a Samuele e può contenere i seguenti valori: 
   - Samuele
   - Samu
-  - SuperSamuele
-  - SuperSamu
-  - Samuchù
-  - Samucharizard
+  - Super Samu
+  - Super Samuele
+  - Mega Samuele
+  - Mega Samu
 - nel campo ability.name metti il nome di un'abilità di don Samuele
-- nel campo ability.description metti la descrizione dell'abilità
+- nel campo ability.description metti la descrizione dell'abilità, includi il testo tra apici e applica il corretto escape, stai producendo un file yaml (es: description: 'Sempre pronto a festeggiare con amici e parenti: Samu accende l''allegria senza mai perdere
+    il tono giusto')
 - nel campo ability.energycost.a.typeId, ability.energycost.b.typeId, ability.energycost.c.typeId, ability.energycost.d.typeId inserisci 4 numeri diversi tra di loro compresi tra 1 e 10
 - nel campo attack.name metti il nome di un attacco inventato
-- nel campo attack.description metti la descrizione dell'attacco
-- nel campo attack.damage metti un numero che rappresenta i punti attacco, compreso tra 5 e 45, coerente con il "peso" dell'attacco
+- nel campo attack.description metti la descrizione dell'attacco, includi il testo tra apici e applica il corretto escape, stai producendo un file yaml (es: description: 'Sempre pronto a festeggiare con amici e parenti: Samu accende l''allegria senza mai perdere
+    il tono giusto')
+- nel campo attack.damage metti un numero che rappresenta i punti attacco, compreso tra 10 e 50, coerente con il "peso" dell'attacco, usa solo multipli di 10
 - nel campo typeId metti un numero da 1 a 10, lo stesso numero lo devi mettere nel campo typeImageId
 - nel campo subtypeId metti uno dei seguenti numeri: 1, 2, 3 ma bilancia nel numero in questo modo: 
   - il 60% del totale delle carte deve essere di subtypeId 1
   - il 25% del totale delle carte deve essere di subtypeId 2
   - il 15% del totale delle carte deve essere di subtypeId 3
-- nel campo resistanceTypeId inserisci un numero da 1 a 10
-- nel campo resistanceModifier inserisci un valore tra i seguenti: 
-  - minus
-  - plus
-  - times
-- nel campo resistanceAmount inserisci un valore tra 1 e 40
-- nel campo weaknessTypeId inserisci un numero da 1 a 10
+- nel campo resistanceTypeId inserisci un numero da 1 a 10, deve essere differente da weaknessTypeId
+- nel campo resistanceAmount inserisci un valore tra 10 e 30, usa solo multipli di 10
+- nel campo weaknessTypeId inserisci un numero da 1 a 10, deve essere differente da resistanceTypeId
 - nel campo weaknessModifier inserisci un valore tra i seguenti: 
-  - minus
   - plus
   - times
-- nel campo weaknessAmount inserisci un valore tra 1 e 40
+- nel campo weaknessAmount, se weaknessModifier è plus, inserisci un valore tra 10 e 30, usa solo multipli di 10, se weaknessModifier è times, inserisci 2
 - nel campo hitpoints inserisci un valore multiplo di 10 in un intervallo che dipende dal valore subtypeId:
-  - se subtypeId è 1 => hitponts è compreso tra 15 e 30
-  - se subtypeId è 2 => hitponts è compreso tra 30 e 60
-  - se subtypeId è 3 => hitponts è compreso tra 60 e 120
+  - se subtypeId è 1 => hitponts è compreso tra 20 e 60
+  - se subtypeId è 2 => hitponts è compreso tra 60 e 120
+  - se subtypeId è 3 => hitponts è compreso tra 120 e 180
 - nel campo dexStats metti la stringa "NO. 0001" se id = 1, "NO. 0002" se id = 2, e cosi via
 - genera un file zip pronto per il download
