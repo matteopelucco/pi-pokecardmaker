@@ -7,9 +7,8 @@ typeId: 8
 typeImageId: 8
 subtypeId: 1
 ability:
-  name: 'Stile da Festa Patronale'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: accende la festa senza perdere il
-    tono giusto, anche se spunta un prosecco E sì, il sorriso diventa obbligatorio.'
+  name: 'Incenso & Incanto'
+  description: 'Sa rendere solenne ogni momento, ma con leggerezza. L''incenso sale e l''umore pure.'
   energycost:
     a:
       typeId: 2
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Proclama & Boom'
-  description: 'un Amen Mic Drop: chiusura netta, applauso interiore assicurato: sembra una cosa da manuale,
-    ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Turibolo Coreografico'
+  description: 'Oscillazione perfetta, ritmo impeccabile. L''atmosfera si riempie di profumo e meraviglia.'
   damage: 30
 resistanceTypeId: 10
 resistanceAmount: 20

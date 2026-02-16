@@ -7,9 +7,8 @@ typeId: 7
 typeImageId: 7
 subtypeId: 1
 ability:
-  name: 'Niente Panico, è Provvidenza'
-  description: 'Attiva questa abilità e succede il bello: ha lo ''stola style'': elegante, semplice, sempre a
-    suo agio. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Memoria dei Volti'
+  description: 'Ricorda nomi, storie, dettagli. Ti sorprende con un “come stai?” che dimostra attenzione vera.'
   energycost:
     a:
       typeId: 2
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'Oratorio Power-Up'
-  description: 'don Samuele esegue il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque:
-    colpo preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  name: 'Salmo Coinvolgente'
+  description: 'Intona il salmo con ritmo naturale e trascina tutti dentro. Anche i più timidi finiscono per rispondere.'
   damage: 30
 resistanceTypeId: 7
 resistanceAmount: 20

@@ -1,0 +1,29 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'Turibolo Master 3000'
+  description: 'Non oscilla: danza. Non incensa: coreografa. Ogni movimento è così armonico che per un attimo ti chiedi se abbia fatto un corso segreto di “Swing Liturgico Avanzato”.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+  name: 'Omelia che Ti Becca Proprio Lì'
+  description: 'Inizia con un sorriso, racconta un aneddoto leggero… e poi zac! Ti centra esattamente nel punto in cui avevi bisogno. Non fa nomi, ma sai benissimo che sta parlando di te.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

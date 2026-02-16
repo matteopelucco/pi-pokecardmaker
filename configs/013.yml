@@ -7,9 +7,8 @@ typeId: 1
 typeImageId: 1
 subtypeId: 1
 ability:
-  name: 'Chitarra Liturgica'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: firma con sorriso ogni incontro: la
-    gente se ne va più leggera E sì, il sorriso diventa obbligatorio.'
+  name: 'Ascolto Attivo'
+  description: 'Quando qualcuno parla, lui ascolta davvero. Non interrompe, non giudica: crea spazio e fiducia.'
   energycost:
     a:
       typeId: 8
@@ -20,10 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'OmèlIa Drop'
-  description: 'la Genuflessione Ninja: silenziosa, precisa, e ti fa venir voglia di fare meglio: sembra una
-    cosa da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul
-    serio.'
+  name: 'Silenzio Potente'
+  description: 'Un momento di silenzio guidato da lui vale più di mille parole. L''avversario perde il rumore interiore.'
   damage: 50
 resistanceTypeId: 5
 resistanceAmount: 30

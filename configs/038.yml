@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 1
 ability:
-  name: 'Caffè in Sacrestia'
-  description: 'don Samuele ha il talento raro di accende la festa senza perdere il tono giusto, anche se
-    spunta un prosecco. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Cuore in Offertorio'
+  description: 'Non offre solo pane e vino: mette dentro ogni celebrazione un pezzo di sé. E questo si sente.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 7
 attack:
-  name: 'Ordinazione Flashback'
-  description: 'un ''Alleluia'' a volume 11: non è rumore, è gioia che trabocca: sembra una cosa da manuale,
-    ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Prefazio da Brividi'
+  description: 'Intona con voce sicura e l''attenzione si fa totale. Anche chi era distratto si riallinea.'
   damage: 40
 resistanceTypeId: 9
 resistanceAmount: 20

@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 3
 ability:
-  name: 'Amicizia Benedetta'
-  description: 'Attiva questa abilità e succede il bello: si muove tra altare e vita quotidiana con
-    naturalezza da fuoriclasse. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Fede Nerazzurra Incrollabile'
+  description: 'La sua fede è solida. In chiesa è teologale, allo stadio è nerazzurra. Soffre, spera, esulta… ma sempre con compostezza (quasi sempre).'
   energycost:
     a:
       typeId: 5
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 3
 attack:
-  name: 'Baciamano… Scherzone'
-  description: 'Con un Amen Mic Drop: chiusura netta, applauso interiore assicurato, don Samuele spiazza
-    tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Derby Benedetto'
+  description: 'Quando gioca l’Inter, l’intensità sale. Se segna, il suo “Amen” ha un tono leggermente più trionfale. Coincidenze? Forse.'
   damage: 40
 resistanceTypeId: 6
 resistanceAmount: 30

@@ -7,9 +7,8 @@ typeId: 1
 typeImageId: 1
 subtypeId: 1
 ability:
-  name: 'Parabola da Bar'
-  description: 'È la sua mossa segreta: fa ''calma olimpica'': anche se succede di tutto, lui resta centrato.
-    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Stile Liturgico Naturale'
+  description: 'Ogni gesto è curato ma mai rigido. La solennità diventa accessibile e la formalità si trasforma in eleganza.'
   energycost:
     a:
       typeId: 6
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'Campanello Triplo'
-  description: 'Quando parte la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'', non
-    c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Segno della Croce Preciso'
+  description: 'Traccia il segno con calma e convinzione. Semplice, ma talmente centrato che lascia il segno.'
   damage: 10
 resistanceTypeId: 6
 resistanceAmount: 30

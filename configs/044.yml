@@ -7,9 +7,8 @@ typeId: 10
 typeImageId: 10
 subtypeId: 1
 ability:
-  name: 'Sguardo che Rassicura'
-  description: 'È la sua mossa segreta: usa l''''ironia con delicatezza: fa ridere senza ferire, mai. Chi lo
-    incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Esci dalla Tua Terra (ma Torna per la Cena)'
+  description: 'Sprona a mettersi in cammino, a osare, a fidarsi. Però ricorda sempre che la comunità ti aspetta a tavola.'
   energycost:
     a:
       typeId: 10
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 8
 attack:
-  name: 'Pace, Bro!'
-  description: 'le Campane in Dubstep: vibrazione pura, nessuno resta fermo: sembra una cosa da manuale, ma
-    don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Camminerò con Te'
+  description: 'Non corre avanti, non trascina: cammina accanto. Colpo lento ma efficace contro la solitudine.'
   damage: 40
 resistanceTypeId: 3
 resistanceAmount: 30

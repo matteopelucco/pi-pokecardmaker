@@ -7,9 +7,8 @@ typeId: 7
 typeImageId: 7
 subtypeId: 3
 ability:
-  name: 'Gioco di Sguardi'
-  description: 'don Samuele ha il talento raro di accende la festa senza perdere il tono giusto, anche se
-    spunta un prosecco. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Energia Silenziosa'
+  description: 'Non è rumoroso, ma la sua presenza si sente. Trasmette forza tranquilla che sostiene senza invadere.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 9
 attack:
-  name: 'Canto del Derby'
-  description: 'Quando parte le Campane in Dubstep: vibrazione pura, nessuno resta fermo, non c''''è difesa:
-    ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Gesto Solenne'
+  description: 'Un movimento lento, controllato, carico di significato. L''impatto emotivo supera qualsiasi effetto speciale.'
   damage: 10
 resistanceTypeId: 4
 resistanceAmount: 30

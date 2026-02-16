@@ -7,9 +7,8 @@ typeId: 2
 typeImageId: 2
 subtypeId: 2
 ability:
-  name: 'Sermone in 60 secondi'
-  description: 'don Samuele ha il talento raro di firma con sorriso ogni incontro: la gente se ne va più
-    leggera. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Complicità Generazionale'
+  description: 'Sa parlare ai giovani senza imitare, agli adulti senza distanziare. Ponte naturale tra mondi diversi.'
   energycost:
     a:
       typeId: 2
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Grazia che Spiazza'
-  description: 'un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate: sembra una cosa
-    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Canto Guidato'
+  description: 'Inizia lui, segue l''assemblea. L''intonazione è sicura e l''energia cresce battuta dopo battuta.'
   damage: 40
 resistanceTypeId: 5
 resistanceAmount: 10

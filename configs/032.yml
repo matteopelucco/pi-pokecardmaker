@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 2
 ability:
-  name: 'Puntualità Miracolosa'
-  description: 'don Samuele ha il talento raro di fa il rosario remix: ritmo semplice, intenzioni vere,
-    niente pesantezza. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Moltiplicazione dei Sorrisi'
+  description: 'Come pani e pesci, parte da uno e finisce per contagiare tutti. Più ne dona, più sembrano aumentare.'
   energycost:
     a:
       typeId: 9
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 3
 attack:
-  name: 'Benedizione ''No Look'''
-  description: 'il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque: sembra una cosa da
-    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Parabola Illuminante'
+  description: 'Racconta una storia semplice e all''improvviso tutto si chiarisce. Effetto: comprensione immediata e cenni di approvazione diffusi.'
   damage: 50
 resistanceTypeId: 10
 resistanceAmount: 30

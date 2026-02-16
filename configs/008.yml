@@ -7,10 +7,8 @@ typeId: 7
 typeImageId: 7
 subtypeId: 2
 ability:
-  name: 'Pace & Love (e Amen)'
-  description: 'don Samuele ha il talento raro di canta litanie e inni come un tenore… soprattutto quando
-    parte quello dell''''Inter. Risultato: anche la sacrestia sembra una pista da ballo (con
-    rispetto).'
+  name: 'Presenza Costante'
+  description: 'Quando qualcuno ha bisogno, lui c''è. Senza effetti speciali, ma con una fedeltà che rassicura.'
   energycost:
     a:
       typeId: 8
@@ -21,9 +19,8 @@ ability:
     d:
       typeId: 7
 attack:
-  name: 'Coro a Squarciagola'
-  description: 'le Campane in Dubstep: vibrazione pura, nessuno resta fermo: sembra una cosa da manuale, ma
-    don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Alleluia Energizzante'
+  description: 'Parte l''Alleluia e l''atmosfera cambia: non è rumore, è entusiasmo. Anche chi era distratto torna presente.'
   damage: 20
 resistanceTypeId: 5
 resistanceAmount: 20

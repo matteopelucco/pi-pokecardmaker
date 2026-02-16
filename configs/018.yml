@@ -7,9 +7,8 @@ typeId: 8
 typeImageId: 8
 subtypeId: 3
 ability:
-  name: 'Acqua Santa Splash'
-  description: 'È la sua mossa segreta: serve caffè in sacrestia come se fosse un rito: e funziona davvero.
-    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Fede con Sorriso'
+  description: 'Riesce a parlare di cose profonde senza perdere leggerezza. Serio nei contenuti, luminoso nel tono.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 6
 attack:
-  name: 'Sguardo Pastorale Critico'
-  description: 'Quando parte la Stretta di Mano Apostolica: ti tira su senza fare rumore, non c''''è difesa:
-    ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Alleluia Crescendo'
+  description: 'Parte piano e cresce con entusiasmo. L''assemblea si alza insieme, come guidata da un''onda positiva.'
   damage: 40
 resistanceTypeId: 5
 resistanceAmount: 20

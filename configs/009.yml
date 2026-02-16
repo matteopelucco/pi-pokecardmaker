@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 1
 ability:
-  name: 'Stola Style'
-  description: 'Attiva questa abilità e succede il bello: ascolta davvero, senza fretta: sembra poco, ma è
-    un superpotere rarissimo. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Umiltà Disarmante'
+  description: 'Anche quando è al centro dell''attenzione, resta semplice. L''ego non sale mai sull''altare.'
   energycost:
     a:
       typeId: 3
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'Processione geometrica!'
-  description: 'don Samuele esegue la Processione Parkour: ordinata ma energica, come una sfilata di gioia:
-    colpo preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  name: 'Vangelo Uppercut'
+  description: 'Legge poche righe e colpisce dritto al cuore. Non fa male: fa bene. Ma l''impatto si sente.'
   damage: 10
 resistanceTypeId: 9
 resistanceAmount: 30

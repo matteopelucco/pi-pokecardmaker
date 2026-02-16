@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 1
 ability:
-  name: 'Samu Social (con misura)'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: ha lo ''stola style'': elegante,
-    semplice, sempre a suo agio E sì, il sorriso diventa obbligatorio.'
+  name: 'Equilibrio Pastorale'
+  description: 'Sa quando essere solenne e quando essere leggero. Alterna profondità e semplicità con naturalezza sorprendente.'
   energycost:
     a:
       typeId: 6
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 7
 attack:
-  name: 'Ritmo di Processione'
-  description: 'don Samuele esegue un Amen Mic Drop: chiusura netta, applauso interiore assicurato: colpo
-    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  name: 'Parola Calibrata'
+  description: 'Sceglie i termini con cura e colpisce esattamente dove serve. Nessun eccesso, solo precisione.'
   damage: 20
 resistanceTypeId: 5
 resistanceAmount: 30

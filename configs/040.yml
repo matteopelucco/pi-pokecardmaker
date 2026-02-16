@@ -7,9 +7,8 @@ typeId: 3
 typeImageId: 3
 subtypeId: 2
 ability:
-  name: 'Calma Olimpica'
-  description: 'don Samuele ha il talento raro di fa catechesi pop: esempi quotidiani, cuore grande e zero
-    predicozzi. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Gioia da Risurrezione'
+  description: 'Anche nei momenti seri, trova sempre una luce. Non banalizza, ma ricorda che la speranza è l''ultima parola.'
   energycost:
     a:
       typeId: 6
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 2
 attack:
-  name: 'Rosario a Tempo'
-  description: 'un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate: sembra una cosa
-    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Uscita in Gloria'
+  description: 'Conclude, saluta, benedice. E mentre esce, lascia dietro di sé una scia di serenità che vale più di mille effetti speciali.'  
   damage: 10
 resistanceTypeId: 4
 resistanceAmount: 20

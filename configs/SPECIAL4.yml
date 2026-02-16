@@ -1,0 +1,28 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'Gaudete Infinito'
+  description: 'La gioia non è un dettaglio, è il suo sistema operativo. Anche nelle giornate storte riesce a ricordarti che c’è sempre una luce accesa. E non è solo quella del presbiterio.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+   name: 'Alleluia Finale con Brivido'
+  description: 'Quando intona l’Alleluia dell’ordinazione, la pelle d’oca è automatica. Sorriso largo, voce piena, cuore aperto. Colpisce diretto al petto. Critico su chi non si commuove.'  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

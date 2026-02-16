@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 1
 ability:
-  name: 'Bontà a Doppio Turno'
-  description: 'È la sua mossa segreta: tira fuori la chitarra liturgica e mette tutti in modalità Alleluia.
-    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Ironia Consacrata'
+  description: 'Sa scherzare senza mai oltrepassare il limite. La battuta arriva, fa sorridere, e lascia intatta la dignità del momento.'
   energycost:
     a:
       typeId: 6
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 3
 attack:
-  name: 'Miracolo del ''Tutto a Posto'''
-  description: 'il Campanello Triplo che sveglia anche i distratti (con dolcezza): sembra una cosa da
-    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Sorriso Disarmante'
+  description: 'Un sorriso autentico che scioglie tensioni e mette tutti a proprio agio. Difese abbassate, clima ristabilito.'
   damage: 10
 resistanceTypeId: 5
 resistanceAmount: 20

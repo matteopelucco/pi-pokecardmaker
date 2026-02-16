@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 2
 ability:
-  name: 'Pace Distribuita'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: fa omelie brevi ma memorabili: una
-    frase, un sorriso, e ti resta addosso per ore E sì, il sorriso diventa obbligatorio.'
+  name: 'Come Fuoco Vivo'
+  description: 'Non urla, non impone: scalda. E quando parte il ritornello, il suo entusiasmo sembra un falò ben controllato.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 4
 attack:
-  name: 'Altare Drift'
-  description: 'don Samuele esegue un Amen Mic Drop: chiusura netta, applauso interiore assicurato: colpo
-    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  name: 'Alza le Braccia (Consapevolmente)'
+  description: 'Invita tutti ad alzare le mani… ma con dignità liturgica. Effetto: partecipazione massima e sorrisi sincronizzati.'
   damage: 20
 resistanceTypeId: 5
 resistanceAmount: 30

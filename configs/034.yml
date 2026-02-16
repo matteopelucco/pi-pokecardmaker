@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 1
 ability:
-  name: 'Risata Contagiosa'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: rassicura con uno sguardo:
-    ''tranquillo, ci pensiamo insieme'' E sì, il sorriso diventa obbligatorio.'
+  name: 'Luce sul Candelabro'
+  description: 'Non cerca i riflettori, ma quando parla illumina. E la luce, si sa, non si mette sotto il moggio.'
   energycost:
     a:
       typeId: 2
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Pater Noster Turbo'
-  description: 'don Samuele esegue il Silenzio Sacro… poi risata: tensione giù, fraternità su: colpo
-    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  name: 'Alleluia Ascendente'
+  description: 'Parte piano e sale come un salmo responsoriale ben riuscito. L''assemblea viene trascinata verso l''alto, quasi senza accorgersene.'
   damage: 20
 resistanceTypeId: 9
 resistanceAmount: 30

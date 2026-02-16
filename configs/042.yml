@@ -7,9 +7,8 @@ typeId: 10
 typeImageId: 10
 subtypeId: 1
 ability:
-  name: 'Catechesi Pop'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: tiene il gruppo unito: nessuno resta
-    indietro, nessuno resta solo E sì, il sorriso diventa obbligatorio.'
+  name: 'Servo per Amore (ma con stile)'
+  description: '“Una notte di sudore…” lui la conosce bene, ma riesce a servirti con eleganza e una battuta pronta. Umiltà sì, ma con personalità.'
   energycost:
     a:
       typeId: 9
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 2
 attack:
-  name: 'Incenso a Spray'
-  description: 'Quando parte una Predica Beat: due concetti chiari e un ritmo che resta in testa, non c''''è
-    difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Grido del Popolo in Festa'
+  description: 'Quando l''assemblea si scalda, lui guida il coro con entusiasmo contagioso. Nessuno resta seduto, nemmeno il più timido.'
   damage: 30
 resistanceTypeId: 5
 resistanceAmount: 20

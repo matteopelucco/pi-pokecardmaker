@@ -7,9 +7,8 @@ typeId: 3
 typeImageId: 3
 subtypeId: 1
 ability:
-  name: 'Kyrie Karaoke'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: usa l''''ironia con delicatezza: fa
-    ridere senza ferire, mai E sì, il sorriso diventa obbligatorio.'
+  name: 'Empatia Immediata'
+  description: 'In pochi secondi capisce chi ha davanti. Adatta tono, parole e sorriso senza perdere autenticità.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'Vangelo a Effetto'
-  description: 'Quando parte un ''Alleluia'' a volume 11: non è rumore, è gioia che trabocca, non c''''è difesa:
-    ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Parola Che Raggiunge'
+  description: 'Una frase ben costruita, detta con convinzione. Non alza la voce, ma arriva lontano.'
   damage: 10
 resistanceTypeId: 1
 resistanceAmount: 30

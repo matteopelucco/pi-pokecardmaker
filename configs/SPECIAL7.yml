@@ -1,0 +1,29 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'Confessione Premium Edition'
+  description: 'Ti ascolta senza interrompere. Ti guarda senza giudicare. Ti assolve con quella calma che ti fa uscire pensando: “Ok, ora posso respirare di nuovo”. Upgrade interiore completato.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+  name: 'Benedizione in 8K'
+  description: 'Segno della croce ampio, preciso, cinematografico. Non è solo un gesto: è una scena madre. Effetto collaterale: sensazione improvvisa di pace… e voglia di abbracciare qualcuno.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

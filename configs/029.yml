@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 3
 ability:
-  name: 'Zero Ansia, Solo Grazia'
-  description: 'Attiva questa abilità e succede il bello: ascolta davvero, senza fretta: sembra poco, ma è
-    un superpotere rarissimo. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Serietà con Luce'
+  description: 'Sa affrontare temi profondi senza appesantire. Il tono è serio, ma lo sguardo resta luminoso.'
   energycost:
     a:
       typeId: 9
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Scambio di Pace a Catena'
-  description: 'Quando parte un ''Alleluia'' a volume 11: non è rumore, è gioia che trabocca, non c''''è difesa:
-    ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Prefazio in Crescendo'
+  description: 'Inizia misurato e cresce con ritmo solenne. L''attenzione si concentra e il silenzio diventa pieno.'
   damage: 50
 resistanceTypeId: 3
 resistanceAmount: 30

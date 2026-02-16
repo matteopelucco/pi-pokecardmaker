@@ -7,9 +7,8 @@ typeId: 1
 typeImageId: 1
 subtypeId: 1
 ability:
-  name: 'Credo a Memoria (ma col groove)'
-  description: 'È la sua mossa segreta: porta pace in due battute, come se avesse il tasto ''reset'' per le
-    tensioni. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Serenità Incrollabile'
+  description: 'Anche quando qualcosa va storto, resta saldo. La calma è contagiosa e il caos perde forza.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 1
 attack:
-  name: 'Predica Beat'
-  description: 'Con un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate, don Samuele
-    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Ritmo della Celebrazione'
+  description: 'Guida la celebrazione con tempi perfetti. Nessuna fretta, nessuna lentezza: equilibrio che spiazza ogni distrazione.'
   damage: 30
 resistanceTypeId: 5
 resistanceAmount: 30

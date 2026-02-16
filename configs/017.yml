@@ -7,9 +7,8 @@ typeId: 3
 typeImageId: 3
 subtypeId: 1
 ability:
-  name: 'Miracolo del Parcheggio'
-  description: 'È la sua mossa segreta: si muove tra altare e vita quotidiana con naturalezza da
-    fuoriclasse. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Accoglienza Autentica'
+  description: 'Ti saluta guardandoti negli occhi. Non è formalità: è presenza vera che fa sentire riconosciuti.'
   energycost:
     a:
       typeId: 9
@@ -20,10 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Chiusura ''Andate in Pace'''
-  description: 'la Genuflessione Ninja: silenziosa, precisa, e ti fa venir voglia di fare meglio: sembra una
-    cosa da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul
-    serio.'
+  name: 'Pace Mirata'
+  description: 'Una stretta di mano ben data e il clima cambia. L''ostilità si scioglie senza nemmeno accorgersene.'
   damage: 20
 resistanceTypeId: 6
 resistanceAmount: 10

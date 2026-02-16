@@ -7,9 +7,8 @@ typeId: 7
 typeImageId: 7
 subtypeId: 1
 ability:
-  name: 'Regola del ''Mai Solo'''
-  description: 'È la sua mossa segreta: distribuisce ''pace'' a catena: in tre minuti si sciolgono anche i
-    musi lunghi. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Modalità Oratorio ON'
+  description: 'Appena sente la parola ORATORIO, si attiva automaticamente: sorriso largo, cappellino in testa e megafono pronto. L’energia non finisce mai (quasi).'
   energycost:
     a:
       typeId: 4
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 8
 attack:
-  name: 'Omnia Vincit Sorriso'
-  description: 'Con la Grazia che Spiazza: ti sorprende proprio quando pensavi di non farcela, don Samuele
-    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Gavettone Benedetto'
+  description: 'Quando parte la battaglia d’acqua, non si tira indietro. Colpisce con precisione pastorale e rinfresca anche le anime più accaldate.'
   damage: 10
 resistanceTypeId: 3
 resistanceAmount: 20

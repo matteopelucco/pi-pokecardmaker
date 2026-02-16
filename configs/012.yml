@@ -7,9 +7,8 @@ typeId: 4
 typeImageId: 4
 subtypeId: 3
 ability:
-  name: 'Bolle di Gioia'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: accende l''''allegria anche con una
-    benedizione in tasca, pronta all''''uso E sì, il sorriso diventa obbligatorio.'
+  name: 'Battuta Pastorale'
+  description: 'Sa inserire la frase giusta al momento giusto: alleggerisce senza banalizzare e fa sorridere senza sminuire.'
   energycost:
     a:
       typeId: 10
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 9
 attack:
-  name: 'Segno della Croce Perfetto'
-  description: 'Quando parte il Rosario a Tempo: un passo, un''Ave, e via con il cuore leggero, non c''''è
-    difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Orazione Lampo'
+  description: 'Preghiera breve, mirata, precisa. Colpisce il cuore e lascia un effetto che dura ben oltre l''Amen.'
   damage: 50
 resistanceTypeId: 5
 resistanceAmount: 30

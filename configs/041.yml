@@ -7,9 +7,8 @@ typeId: 3
 typeImageId: 3
 subtypeId: 3
 ability:
-  name: 'Fede Wi‑Fi'
-  description: 'don Samuele ha il talento raro di tiene il gruppo unito: nessuno resta indietro, nessuno
-    resta solo. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Resta Qui con Noi Mode'
+  description: 'Quando intona “Resta qui con noi”, non è solo il ritornello: è un invito vero. E alla fine restano tutti, anche quelli che avevano già preso le chiavi.'
   energycost:
     a:
       typeId: 3
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 2
 attack:
-  name: 'Coro Stadio (ma santo)'
-  description: 'Quando parte la Genuflessione Ninja: silenziosa, precisa, e ti fa venir voglia di fare
-    meglio, non c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Luce che Non Tramonta'
+  description: 'Parte piano, quasi sottovoce, poi cresce come il canto finale di un campo estivo. Risultato: atmosfera accesa e cuori leggermente sciolti.'
   damage: 20
 resistanceTypeId: 9
 resistanceAmount: 10

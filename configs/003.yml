@@ -7,9 +7,8 @@ typeId: 1
 typeImageId: 1
 subtypeId: 1
 ability:
-  name: 'Sorriso da Sacrestia'
-  description: 'Quando don Samuele entra in scena, l''atmosfera cambia: firma con sorriso ogni incontro: la
-    gente se ne va più leggera e sì, il sorriso diventa obbligatorio.'
+  name: 'Sguardo Pastorale'
+  description: 'Ti guarda, ti ascolta, capisce. Senza troppe parole rimette ordine nei pensieri e riporta la pace dove serve.'
   energycost:
     a:
       typeId: 1
@@ -20,8 +19,8 @@ ability:
     d:
       typeId: 4
 attack:
-  name: 'Incenso a Nebbia'
-  description: 'Disperde i nemici nei pensieri del loro cuore con una nebbia che neanche in Val Padana. Fumogeno, spostati!'
+  name: 'Omelia Mic Drop'
+  description: 'Due minuti, una frase perfetta, silenzio totale. Parla, chiude, centro. L''effetto dura più di un ritornello estivo.'
   damage: 20
 resistanceTypeId: 10
 resistanceAmount: 10

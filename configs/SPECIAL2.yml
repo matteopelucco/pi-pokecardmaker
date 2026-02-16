@@ -1,0 +1,29 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'Miracolo della Moltiplicazione delle Sedie'
+  description: 'In sacrestia sembrano finite, ma alla sua prima Messa spuntano posti ovunque. Don Samuele non moltiplica pani e pesci… ma parenti sì.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+  name: 'Omelia Livello Epico'
+  description: 'Parte piano, con un sorriso. Poi affonda il colpo con una frase che resta in testa per settimane. Effetto wow garantito, applauso trattenuto per rispetto liturgico.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

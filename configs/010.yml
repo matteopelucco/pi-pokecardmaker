@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 2
 ability:
-  name: 'Altare On Fire'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: fa il rosario remix: ritmo semplice,
-    intenzioni vere, niente pesantezza E sì, il sorriso diventa obbligatorio.'
+  name: 'Gioia Contagiosa'
+  description: 'Il suo sorriso è una firma: rende leggera la solennità e profonda la festa. Con lui la fede non perde mai il buonumore.'
   energycost:
     a:
       typeId: 8
@@ -21,8 +20,8 @@ ability:
       typeId: 1
 attack:
   name: 'Alleluia a Volume 3x'
-  description: 'Con il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, don Samuele
-    spiazza tutti. L''effetto è immediato: risate, pace e un leggero profumo d''incenso.'
+  name: 'Uscita Solenne con High-Five'
+  description: 'Saluta tutti all''uscita, uno per uno. Benedice, scherza e lascia una scia di nostalgia felice.'
   damage: 40
 resistanceTypeId: 4
 resistanceAmount: 30

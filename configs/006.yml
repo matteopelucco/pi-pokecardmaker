@@ -7,9 +7,8 @@ typeId: 10
 typeImageId: 10
 subtypeId: 3
 ability:
-  name: 'Confessionale Express'
-  description: 'Attiva questa abilità e succede il bello: fa ''calma olimpica'': anche se succede di tutto,
-    lui resta centrato. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Organizzazione Pastorale'
+  description: 'Se qualcosa è fuori posto, Samu lo sistema con calma e precisione. Ordine esterno, serenità interna.'
   energycost:
     a:
       typeId: 10
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 7
 attack:
-  name: 'Stola Frustata (soft)'
-  description: 'una Predica Beat: due concetti chiari e un ritmo che resta in testa: sembra una cosa da
-    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Gloria a Volume Liturgico'
+  description: 'Intona il Gloria con entusiasmo controllato: non è un concerto, ma quasi. L''assemblea si alza di un tono e di umore.'
   damage: 20
 resistanceTypeId: 5
 resistanceAmount: 30

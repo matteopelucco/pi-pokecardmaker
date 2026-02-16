@@ -7,9 +7,8 @@ typeId: 3
 typeImageId: 3
 subtypeId: 1
 ability:
-  name: 'Prosecco Benedetto'
-  description: 'Attiva questa abilità e succede il bello: tira fuori la chitarra liturgica e mette tutti in
-    modalità Alleluia. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Zero Imbarazzo'
+  description: 'Con una battuta elegante e un sorriso sincero, fa sentire tutti a casa: dal primo banco all''ultimo tavolo.'
   energycost:
     a:
       typeId: 5
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 6
 attack:
-  name: 'Amen a Colpo Secco'
-  description: 'Quando parte il Campanello Triplo che sveglia anche i distratti (con dolcezza), non c''''è
-    difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Pace a Catena'
+  description: 'Parte da una stretta di mano e in pochi secondi tutta la chiesa sorride. L''energia positiva si propaga più veloce di un coro allo stadio.'
   damage: 30
 resistanceTypeId: 4
 resistanceAmount: 30

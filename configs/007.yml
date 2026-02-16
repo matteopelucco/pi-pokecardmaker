@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 1
 ability:
-  name: 'Rosario Remix'
-  description: 'Attiva questa abilità e succede il bello: tiene il gruppo unito: nessuno resta indietro,
-    nessuno resta solo. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Pazienza Infinita'
+  description: 'Anche davanti a domande ripetute o situazioni complicate, mantiene calma e gentilezza. Nessuno si sente fuori posto.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 1
 attack:
-  name: 'Pace Scambiata Rapida'
-  description: 'Quando parte il Campanello Triplo che sveglia anche i distratti (con dolcezza), non c''''è
-    difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Confessionale Reset'
+  description: 'Ascolta con equilibrio e risponde con misura. Quando esci, sembra che qualcuno abbia aggiornato il sistema operativo dell''anima.'
   damage: 10
 resistanceTypeId: 2
 resistanceAmount: 10

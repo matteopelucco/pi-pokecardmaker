@@ -1,0 +1,29 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'Ex Cathedra (ma con sorriso)'
+  description: 'Quando don Samuele parla, tutti ascoltano. Non perché alzi la voce, ma perché alza il senso delle cose. Anche il cugino distratto posa il telefono. Evento raro, quasi miracoloso.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+  name: 'Omnia Vincit Caritas'
+  description: 'Pronuncia due parole in latino, guarda dritto negli occhi e scioglie ogni tensione. Nessuna polemica resiste. Persino il gruppo WhatsApp di famiglia tace. Amen definitivo.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

@@ -7,9 +7,8 @@ typeId: 8
 typeImageId: 8
 subtypeId: 2
 ability:
-  name: 'Voce da tenore (shhh)'
-  description: 'Quando don Samuele entra in scena, l''atmosfera cambia: tira fuori la chitarra liturgica, 
-    mette tutti in modalità Alleluia e sì, il sorriso diventa obbligatorio.'
+  name: 'Voce da Tenore (ma non diciamoglielo)'
+  description: 'Non perde occasione di cantare litanie, salmi e inni con entusiasmo travolgente. Se parte quello dell''Inter, l''intensità raddoppia.'
   energycost:
     a:
       typeId: 2
@@ -21,8 +20,7 @@ ability:
       typeId: 9
 attack:
   name: 'Benedizione a Sorpresa'
-  description: 'Con il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, don Samuele
-    spiazza tutti. L''effetto è immediato: risate, pace e un leggero profumo d''incenso.'
+  description: 'Quando meno te l''aspetti, arriva la benedizione: rapida, chiara, definitiva. Non sai bene come, ma ti senti già meglio. Amen.'
   damage: 40
 resistanceTypeId: 4
 resistanceAmount: 10

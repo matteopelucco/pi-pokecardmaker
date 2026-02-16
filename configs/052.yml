@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 1
 ability:
-  name: 'Firma con Sorriso'
-  description: 'don Samuele ha il talento raro di ha sempre un fazzoletto e una battuta pronta: consolazione
-    + sorriso combo. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Complicità da Cortile'
+  description: 'Non è solo guida: è compagno di squadra. Sa quando ridere, quando ascoltare e quando lasciare che siano i ragazzi a brillare.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Eucarestia Power'
-  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
-    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Finale con Ballo di Gruppo'
+  description: 'L’ultimo giorno parte la musica, e lui è in prima fila. Coordina passi improbabili con entusiasmo contagioso. Standing ovation garantita.'  
   damage: 40
 resistanceTypeId: 5
 resistanceAmount: 30

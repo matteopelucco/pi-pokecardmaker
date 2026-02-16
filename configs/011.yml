@@ -7,9 +7,8 @@ typeId: 1
 typeImageId: 1
 subtypeId: 1
 ability:
-  name: 'Coro da Curva'
-  description: 'Attiva questa abilità e succede il bello: canta litanie e inni come un tenore… soprattutto
-    quando parte quello dell''''Inter. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Carisma da Altare'
+  description: 'Quando sale all''altare, cambia l''aria. Non per teatralità, ma per presenza: ti accorgi che sta succedendo qualcosa di importante.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 7
 attack:
-  name: 'Genuflessione Ninja'
-  description: 'Quando parte le Campane in Dubstep: vibrazione pura, nessuno resta fermo, non c''''è difesa:
-    ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Incenso Strategico'
+  description: 'Una rotazione perfetta del turibolo e l''atmosfera si trasforma. Solennità in aumento, distrazioni in fuga.'
   damage: 20
 resistanceTypeId: 2
 resistanceAmount: 30

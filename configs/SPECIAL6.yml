@@ -1,0 +1,29 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'Servo per Sempre (ma con stile)'
+  description: 'Non cerca il centro della scena: lo trasforma in servizio. È il potere più raro: guidare senza imporsi, farsi ascoltare senza alzare la voce. Autorità naturale, zero arroganza.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+  name: 'Lavanda dei Cuori'
+  description: 'Con una parola giusta al momento giusto, rimette ordine dentro. Scioglie orgogli, sistema silenzi, riaccende relazioni. Effetto collaterale: abbracci spontanei.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

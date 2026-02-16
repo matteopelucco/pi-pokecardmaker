@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 2
 ability:
-  name: 'Let’s go to a party!'
-  description: 'Don Samuele ha il talento raro di accendere l''allegria con una benedizione in tasca,
-    pronta all''uso. Risultato: anche la sacrestia ogni tanto sembra una pista da ballo.'
+  name: 'Let''s Go to a Party'
+  description: 'Sempre pronto a festeggiare con amici e parenti, Samu accende l''allegria senza mai perdere il tono giusto. Se compare il prosecco, il sorriso diventa contagioso.'
   energycost:
     a:
       typeId: 3
@@ -21,8 +20,7 @@ ability:
       typeId: 10
 attack:
   name: 'Turibolo Rotante'
-  description: 'Un Incenso a Nebbia: atmosfera mistica, ma con vibe da festa patronale: sembra una cosa da
-    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  description: 'Con gesto preciso e sorprendentemente coreografico, don Samuele fa oscillare il turibolo con tale sicurezza che l''incenso avvolge tutti. Atmosfera solenne e facce estasiate garantite.'
   damage: 10
 resistanceTypeId: 2
 resistanceAmount: 30

@@ -7,9 +7,8 @@ typeId: 7
 typeImageId: 7
 subtypeId: 1
 ability:
-  name: 'Fazzoletti Sempre Pronti'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: canta litanie e inni come un tenore…
-    soprattutto quando parte quello dell''''Inter E sì, il sorriso diventa obbligatorio.'
+  name: 'Andate per le Strade… e Fate Rumore'
+  description: 'Prende il mandato sul serio: invita a uscire, testimoniare e vivere con gioia. Con moderazione, ma senza silenzi imbarazzanti.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 4
 attack:
-  name: 'Liturgia Speedrun'
-  description: 'Quando parte il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, non
-    c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Alleluia in Loop'
+  description: 'Ripete il ritornello finché anche chi non canta si ritrova a canticchiare. Strategia semplice, risultato inevitabile.'  
   damage: 10
 resistanceTypeId: 7
 resistanceAmount: 20

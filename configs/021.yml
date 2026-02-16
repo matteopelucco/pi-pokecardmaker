@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 1
 ability:
-  name: 'Messaggio Vocale Celeste'
-  description: 'È la sua mossa segreta: serve caffè in sacrestia come se fosse un rito: e funziona davvero.
-    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Autorità Gentile'
+  description: 'Non alza la voce, non impone. Basta uno sguardo sereno e una parola ben scelta per ristabilire ordine e armonia.'
   energycost:
     a:
       typeId: 4
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 6
 attack:
-  name: 'Parrocchia Shuffle'
-  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
-    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Omelia a Fuoco Lento'
+  description: 'Parte tranquillo, costruisce con calma, e alla fine centra il punto con precisione chirurgica. Colpo profondo, senza rumore.'
   damage: 50
 resistanceTypeId: 7
 resistanceAmount: 30

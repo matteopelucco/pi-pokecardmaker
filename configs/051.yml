@@ -7,9 +7,8 @@ typeId: 2
 typeImageId: 2
 subtypeId: 2
 ability:
-  name: 'Samu in Modalità Festa'
-  description: 'È la sua mossa segreta: tiene il gruppo unito: nessuno resta indietro, nessuno resta solo.
-    Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Catechesi in Versione Power-Up'
+  description: 'Sa spiegare cose profondissime con esempi di palloni sgonfi, creme solari e partite infinite. Tutti capiscono. E qualcuno prende appunti.'
   energycost:
     a:
       typeId: 10
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 6
 attack:
-  name: 'Processione Parkour'
-  description: 'don Samuele esegue la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto
-    ''Amen!'': colpo preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  name: 'Serata Sotto le Stelle'
+  description: 'Quando cala il silenzio del campo estivo, tira fuori parole che scaldano più del falò. Effetto: occhi lucidi e cuori leggeri.'
   damage: 40
 resistanceTypeId: 3
 resistanceAmount: 30

@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 3
 ability:
-  name: 'Omèlia Sprint'
-  description: 'don Samuele ha il talento raro di serve caffè in sacrestia come se fosse un rito: e funziona
-    davvero. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Energia da Oratorio'
+  description: 'Tra celebrazione e festa, trova sempre la carica giusta. Sa essere solenne e subito dopo complice di una risata.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'Aspersione Splash'
-  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
-    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Processione con Passo Deciso'
+  description: 'Cammina solenne ma con leggerezza. Non corre, non rallenta: guida. E tutti lo seguono senza nemmeno accorgersene.'
   damage: 30
 resistanceTypeId: 5
 resistanceAmount: 20

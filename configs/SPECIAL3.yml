@@ -1,0 +1,29 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'Incenso 4D Surround'
+  description: 'Non si limita a turibolare: crea un’esperienza immersiva. Vista, olfatto e anima coinvolti. Se chiudi gli occhi, sembra di stare in una cattedrale medievale. Ma con 26 anni.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+  name: 'Benedizione a Raggio Universale'
+  description: 'Un gesto ampio, preciso, quasi coreografico. Parte dalla prima fila e arriva fino all’ultimo banco. Nessuno escluso. Nemmeno chi era entrato “solo per salutare”.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2

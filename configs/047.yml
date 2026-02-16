@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 2
 ability:
-  name: 'Ricarica Spirituale'
-  description: 'È la sua mossa segreta: accende la festa senza perdere il tono giusto, anche se spunta un
-    prosecco. Chi lo incontra capisce subito che la gioia può essere… liturgica.'
+  name: 'Coro da Curva (Versione Liturgica)'
+  description: 'Ha imparato che il ritmo è tutto: dal “Forza Inter” al salmo responsoriale il passo è breve. Guida il canto con la stessa convinzione.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 3
 attack:
-  name: 'Sacro & Spritz'
-  description: 'il Rosario a Tempo: un passo, un''Ave, e via con il cuore leggero: sembra una cosa da
-    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Triplice Fischio Finale'
+  description: 'Sa attendere con pazienza fino all’ultimo minuto. Poi, quando arriva il momento giusto, chiude la partita… o la celebrazione… con precisione impeccabile.'  
   damage: 30
 resistanceTypeId: 2
 resistanceAmount: 30

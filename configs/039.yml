@@ -7,9 +7,8 @@ typeId: 3
 typeImageId: 3
 subtypeId: 1
 ability:
-  name: 'Ascolto Attivo'
-  description: 'don Samuele ha il talento raro di accende l''''allegria anche con una benedizione in tasca,
-    pronta all''''uso. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Pace che Supera Ogni Difesa'
+  description: 'La sua pace non è formale: è concreta, calda, reale. Ti arriva addosso e ti disarma con eleganza.'
   energycost:
     a:
       typeId: 10
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'Festa Patronale Finale'
-  description: 'Con una Pace Scambiata Rapidissima: catena di sorrisi e mani, nessuno scappa, don Samuele
-    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Segno della Croce Definitivo'
+  description: 'Tracciato con calma e convinzione, sembra semplice. Ma lascia un impatto che dura ben oltre il gesto.'
   damage: 40
 resistanceTypeId: 3
 resistanceAmount: 30

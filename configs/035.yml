@@ -7,9 +7,8 @@ typeId: 5
 typeImageId: 5
 subtypeId: 2
 ability:
-  name: 'Cuore Grande (taglia XXL)'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: mescola Bibbia e playlist: la Parola
-    resta… e anche il ritornello E sì, il sorriso diventa obbligatorio.'
+  name: 'Beatitudine Operativa'
+  description: 'Beati quelli che hanno bisogno di incoraggiamento: lui arriva puntuale. Consolazione concreta, non teorica.'
   energycost:
     a:
       typeId: 6
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Cero Fiammeggiante'
-  description: 'Quando parte un''''aspersione Splash che ti rinfresca l''''anima come una doccia d''''estate, non
-    c''''è difesa: ti ritrovi benedetto e con la faccia che ride.'
+  name: 'Amen a Effetto Domino'
+  description: 'Pronuncia l''Amen con tale convinzione che rimbalza tra le navate. Fine della discussione, inizio della pace.'
   damage: 20
 resistanceTypeId: 4
 resistanceAmount: 20

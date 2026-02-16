@@ -7,9 +7,8 @@ typeId: 2
 typeImageId: 2
 subtypeId: 1
 ability:
-  name: 'Agenda da Prete Giovane'
-  description: 'Attiva questa abilità e succede il bello: accende l''''allegria anche con una benedizione in
-    tasca, pronta all''''uso. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Coerenza Silenziosa'
+  description: 'Non serve spiegare tutto: il modo in cui vive parla per lui. E questo vale più di qualsiasi discorso.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 9
 attack:
-  name: 'Acqua Santa Critical Hit'
-  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
-    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Amen Definitivo'
+  description: 'Pronuncia l''Amen con tale convinzione che chiude ogni dubbio. Fine del turno, inizio della pace.'  
   damage: 20
 resistanceTypeId: 2
 resistanceAmount: 20

@@ -7,9 +7,8 @@ typeId: 10
 typeImageId: 10
 subtypeId: 1
 ability:
-  name: 'Bibbia & Playlist'
-  description: 'Quando don Samuele entra in scena, l''''atmosfera cambia: porta una luce serena che fa
-    sembrare tutto più possibile E sì, il sorriso diventa obbligatorio.'
+  name: 'Carisma Apostolico'
+  description: 'Non cammina sulle acque, ma sulle relazioni sì. Sa costruire legami solidi senza fare miracoli scenografici.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 5
 attack:
-  name: 'Colletta Improvvisata'
-  description: 'Con la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'', don Samuele
-    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Rete Gettata al Momento Giusto'
+  description: 'Una parola ben scelta e raccoglie attenzione come pesci nella rete. Colpo evangelicamente efficace.'
   damage: 50
 resistanceTypeId: 7
 resistanceAmount: 20

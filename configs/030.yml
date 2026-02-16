@@ -7,9 +7,8 @@ typeId: 3
 typeImageId: 3
 subtypeId: 1
 ability:
-  name: 'Luce da Presbiterio'
-  description: 'don Samuele ha il talento raro di tira fuori la chitarra liturgica e mette tutti in modalità
-    Alleluia. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Presenza che Rassicura'
+  description: 'Basta averlo vicino per sentirsi più tranquilli. Non fa spettacolo, fa stabilità.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 9
 attack:
-  name: 'Sermone Laser'
-  description: 'Con il Sacro & Spritz: brindisi sobrio, sorriso pieno, gratitudine ovunque, don Samuele
-    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Amen Conclusivo'
+  description: 'Pronunciato con decisione e pace, chiude ogni celebrazione con senso di completezza. Turno finito, serenità attiva.'  
   damage: 30
 resistanceTypeId: 4
 resistanceAmount: 30

@@ -7,9 +7,8 @@ typeId: 8
 typeImageId: 8
 subtypeId: 2
 ability:
-  name: 'Spirito di Squadra'
-  description: 'don Samuele ha il talento raro di fa ''calma olimpica'': anche se succede di tutto, lui resta
-    centrato. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Resistenza da Campo Estivo'
+  description: 'Dorme poco, parla tanto, cammina ovunque e non perde il buonumore. La sera è stanco, ma il cuore è ancora in modalità “gioia piena”.'
   energycost:
     a:
       typeId: 5
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Alleluia Clap'
-  description: 'don Samuele esegue le Campane in Dubstep: vibrazione pura, nessuno resta fermo: colpo
-    preciso, zero cattiveria, solo una valanga di ''Amen!'' e buonumore.'
+  name: 'Animazione a Raffica'
+  description: 'Bans, urla di gioia e coreografie improvvisate: trascina tutti dentro il gioco. Anche chi aveva detto “io non partecipo”.'
   damage: 30
 resistanceTypeId: 7
 resistanceAmount: 10

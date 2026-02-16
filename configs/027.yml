@@ -7,9 +7,8 @@ typeId: 4
 typeImageId: 4
 subtypeId: 1
 ability:
-  name: 'Biscotto Oratoriano'
-  description: 'don Samuele ha il talento raro di mescola Bibbia e playlist: la Parola resta… e anche il
-    ritornello. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Calma Operativa'
+  description: 'Anche quando c''è imprevisto, non si scompone. Sistema tutto con lucidità e un mezzo sorriso.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 2
 attack:
-  name: 'Stretta di Mano Apostolica'
-  description: 'la Stretta di Mano Apostolica: ti tira su senza fare rumore: sembra una cosa da manuale, ma
-    don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Rito Impeccabile'
+  description: 'Sequenza perfetta di gesti e parole. Nessuna sbavatura, solo fluidità che lascia ammirati.'
   damage: 10
 resistanceTypeId: 10
 resistanceAmount: 10

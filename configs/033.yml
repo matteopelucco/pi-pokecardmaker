@@ -7,9 +7,8 @@ typeId: 8
 typeImageId: 8
 subtypeId: 1
 ability:
-  name: 'Accoglienza a 360°'
-  description: 'Attiva questa abilità e succede il bello: trova parcheggio anche nelle feste patronali: è
-    quasi un segno dei tempi. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Pastore con Sneakers'
+  description: 'Guida con stile giovane ma cuore antico. Un piede sull''altare, l''altro nella vita vera.'
   energycost:
     a:
       typeId: 5
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 1
 attack:
-  name: 'Turibolo a 360°'
-  description: 'l''''Oratorio Power‑Up: ti rimette in gioco anche se eri in panchina: sembra una cosa da
-    manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Verbo Incarnato'
+  description: 'Non solo parole: ciò che dice lo vive. Colpo silenzioso ma potentissimo contro l''incoerenza.'
   damage: 40
 resistanceTypeId: 9
 resistanceAmount: 10

@@ -7,9 +7,8 @@ typeId: 8
 typeImageId: 8
 subtypeId: 1
 ability:
-  name: 'Abbraccio Pastorale'
-  description: 'don Samuele ha il talento raro di mescola Bibbia e playlist: la Parola resta… e anche il
-    ritornello. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Presenza Instancabile'
+  description: 'Dopo la Messa è ancora lì: saluta, ascolta, scherza. L''energia sembra non finire mai.'
   energycost:
     a:
       typeId: 7
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 10
 attack:
-  name: 'Confessionale KO (di tenerezza)'
-  description: 'Con la Stretta di Mano Apostolica: ti tira su senza fare rumore, don Samuele spiazza tutti.
-    L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Saluto Finale Devastante'
+  description: 'All''uscita distribuisce sorrisi e parole buone. L''avversario viene colpito da nostalgia felice.'
   damage: 40
 resistanceTypeId: 6
 resistanceAmount: 30

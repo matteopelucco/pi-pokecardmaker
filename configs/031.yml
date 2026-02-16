@@ -7,9 +7,8 @@ typeId: 10
 typeImageId: 10
 subtypeId: 1
 ability:
-  name: 'Accento da Lombardia'
-  description: 'don Samuele ha il talento raro di fa ''calma olimpica'': anche se succede di tutto, lui resta
-    centrato. Risultato: anche la sacrestia sembra una pista da ballo (con rispetto).'
+  name: 'Eccomi Mode Attivata'
+  description: 'Quando qualcuno chiama, lui risponde come Samuele nella Scrittura: “Eccomi”. Solo che lo dice con un sorriso e magari con il telefono già in mano.'
   energycost:
     a:
       typeId: 9
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 2
 attack:
-  name: 'Campane in Dubstep'
-  description: 'la Benedizione a Sorpresa: gesto fulmineo, cuore gigante, effetto ''Amen!'': sembra una cosa
-    da manuale, ma don Samuele la fa con stile. Critico su chi prende la vita troppo sul serio.'
+  name: 'Chiamata Vocazionale Diretta'
+  description: 'Uno sguardo, una frase, e ti senti coinvolto. Non obbliga nessuno, ma improvvisamente ti viene voglia di fare qualcosa di buono.'
   damage: 50
 resistanceTypeId: 9
 resistanceAmount: 20

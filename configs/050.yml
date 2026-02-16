@@ -7,9 +7,8 @@ typeId: 9
 typeImageId: 9
 subtypeId: 1
 ability:
-  name: 'Tono Giusto'
-  description: 'Attiva questa abilità e succede il bello: firma con sorriso ogni incontro: la gente se ne va
-    più leggera. Effetto collaterale: clima di famiglia garantito.'
+  name: 'Fischietto dell’Autorità Dolce'
+  description: 'Un solo fischio e cento ragazzi si voltano. Non per paura, ma perché sanno che sta per iniziare qualcosa di bello.'
   energycost:
     a:
       typeId: 8
@@ -20,9 +19,8 @@ ability:
     d:
       typeId: 7
 attack:
-  name: 'Amen Mic Drop'
-  description: 'Con la Processione Parkour: ordinata ma energica, come una sfilata di gioia, don Samuele
-    spiazza tutti. L''''effetto è immediato: risate, pace e un leggero profumo d''''incenso.'
+  name: 'Caccia al Tesoro Spirituale'
+  description: 'Organizza prove impossibili che finiscono sempre con una scoperta semplice: il vero premio è stare insieme. Ma il gelato aiuta.'
   damage: 50
 resistanceTypeId: 7
 resistanceAmount: 10

@@ -1,0 +1,29 @@
+id: 52
+cardNumber: 52
+dexStats: "NO. 0052"
+name: 'Mega Samu'
+hitpoints: 20
+typeId: 9
+typeImageId: 9
+subtypeId: 1
+ability:
+  name: 'In Persona Christi (ma con sneakers)'
+  description: 'Celebra con la solennità di una cattedrale e l’energia di un ragazzo dell’oratorio. Tradizione millenaria… passo leggero. Mistero grande, sorriso ancora più grande.'
+  energycost:
+    a:
+      typeId: 7
+    b:
+      typeId: 3
+    c:
+      typeId: 1
+    d:
+      typeId: 10
+attack:
+  name: 'Consacrazione Livello Infinito'
+  description: 'Silenzio totale. Sguardo raccolto. Due parole che cambiano tutto. Anche il cugino scettico trattiene il fiato. Colpo diretto all’anima. Non esiste difesa.'
+  damage: 40
+resistanceTypeId: 5
+resistanceAmount: 30
+weaknessTypeId: 1
+weaknessModifier: times
+weaknessAmount: 2
