@@ -19,8 +19,9 @@ ability:
     d:
       typeId: 10
 attack:
-   name: 'Alleluia Finale con Brivido'
-  description: 'Quando intona l’Alleluia dell’ordinazione, la pelle d’oca è automatica. Sorriso largo, voce piena, cuore aperto. Colpisce diretto al petto. Critico su chi non si commuove.'  damage: 40
+  name: 'Alleluia Finale con Brivido'
+  description: 'Quando intona l’Alleluia dell’ordinazione, la pelle d’oca è automatica. Sorriso largo, voce piena, cuore aperto. Colpisce diretto al petto. Critico su chi non si commuove.'  
+  damage: 40
 resistanceTypeId: 5
 resistanceAmount: 30
 weaknessTypeId: 1

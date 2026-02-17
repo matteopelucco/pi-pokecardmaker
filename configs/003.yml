@@ -20,7 +20,7 @@ ability:
       typeId: 4
 attack:
   name: 'Omelia Mic Drop'
-  description: 'Due minuti, una frase perfetta, silenzio totale. Parla, chiude, centro. L''effetto dura più di un ritornello estivo.'
+  description: 'Due minuti, una frase perfetta, silenzio totale. Parla, chiude, centro. L''effetto dura più di un tormentone estivo.'
   damage: 20
 resistanceTypeId: 10
 resistanceAmount: 10
