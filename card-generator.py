@@ -1,245 +1,305 @@
 #!/usr/bin/env python3
 """
-neutral_json_generator.py (versione con output basato su 'id')
+card-generator.py
 
-Cambi principali:
-- slug/filename derivati da id (univoco), NON da name
-- validazione: ogni config deve avere id
-- validazione: id non duplicati tra configs
+Genera file JSON a partire da template + config YAML.
+
+NOVITÀ:
+- Per ogni config (es: configs/001.yml) cerca un'immagine con lo stesso nome in pictures/ (es: pictures/001.jpg).
+- Se non trovata, usa defaults.jpg (o altra estensione supportata) affiancata a defaults.yml.
+- In output valorizza il campo "src" delle immagini con una data-URI base64, es:
+  src: "data:image/jpeg;base64,/9j/4AAQSkZJ......"
+
+Requisiti:
+  pip install pyyaml
 """
 
-from __future__ import annotations
-
 import argparse
+import base64
 import json
+import mimetypes
 import re
 import sys
-from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Union
 
-try:
-    import yaml  # type: ignore
-except Exception:
-    yaml = None
-
-JsonObj = Union[Dict[str, Any], List[Any], str, int, float, bool, None]
-PLACEHOLDER_RE = re.compile(r"\{\{\s*([a-zA-Z0-9_.-]+)\s*\}\}")
+import yaml
 
 
-def read_text(path: Path) -> str:
+def read_file(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-def load_data(path: Path) -> Any:
-    ext = path.suffix.lower()
-    if ext == ".json":
-        return json.loads(read_text(path))
-    if ext in (".yml", ".yaml"):
-        if yaml is None:
-            raise RuntimeError(
-                "Supporto YAML non disponibile. Installa con: pip install pyyaml\n"
-                "Oppure usa file .json."
-            )
-        return yaml.safe_load(read_text(path))
-    raise ValueError(f"Formato non supportato: {path.name} (usa .json, .yml, .yaml)")
-
-
-def dump_json(obj: Any, path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
-
-
-def deep_merge(base: Any, override: Any) -> Any:
-    if isinstance(base, dict) and isinstance(override, dict):
-        out = dict(base)
-        for k, v in override.items():
-            out[k] = deep_merge(out.get(k), v)
-        return out
-    if override is None:
-        return base
-    return override
-
-
-def get_dotted(data: Dict[str, Any], key: str) -> Any:
-    cur: Any = data
-    for part in key.split("."):
-        if not isinstance(cur, dict) or part not in cur:
-            raise KeyError(key)
-        cur = cur[part]
-    return cur
-
-
-def has_dotted(data: Dict[str, Any], key: str) -> bool:
-    try:
-        _ = get_dotted(data, key)
-        return True
-    except Exception:
-        return False
-
-
-def find_placeholders(obj: JsonObj) -> List[str]:
-    found: List[str] = []
-    if isinstance(obj, str):
-        found.extend([m.group(1) for m in PLACEHOLDER_RE.finditer(obj)])
-    elif isinstance(obj, list):
-        for v in obj:
-            found.extend(find_placeholders(v))
-    elif isinstance(obj, dict):
-        for v in obj.values():
-            found.extend(find_placeholders(v))
-    return found
-
-
-def render_placeholders(obj: JsonObj, variables: Dict[str, Any], *, strict: bool) -> JsonObj:
-    if isinstance(obj, str):
-        def repl(m: re.Match) -> str:
-            k = m.group(1)
-            try:
-                v = get_dotted(variables, k) if "." in k else variables[k]
-            except Exception:
-                if strict:
-                    raise KeyError(f"Placeholder mancante: {k}")
-                return m.group(0)
-            return "" if v is None else str(v)
-
-        return PLACEHOLDER_RE.sub(repl, obj)
-
-    if isinstance(obj, list):
-        return [render_placeholders(v, variables, strict=strict) for v in obj]
-
-    if isinstance(obj, dict):
-        return {k: render_placeholders(v, variables, strict=strict) for k, v in obj.items()}
-
-    return obj
-
-
-def list_config_files(configs_dir: Path) -> List[Path]:
-    if not configs_dir.exists() or not configs_dir.is_dir():
-        raise FileNotFoundError(f"Cartella configs non trovata: {configs_dir}")
-    allowed = {".json", ".yml", ".yaml"}
-    files = [p for p in configs_dir.iterdir() if p.is_file() and p.suffix.lower() in allowed]
-    return sorted(files, key=lambda p: p.name)
-
-
-@dataclass
-class RecordResult:
-    source_file: str
-    record_id: str
-    rendered: Dict[str, Any]
-
-
-def require_keys(variables: Dict[str, Any], keys: List[str]) -> None:
-    missing = [k for k in keys if not has_dotted(variables, k)]
-    if missing:
-        raise KeyError(f"Chiavi richieste mancanti in variables: {', '.join(missing)}")
-
-
-def normalize_id(value: Any) -> str:
+def deep_merge(base: dict, override: dict) -> dict:
     """
-    Converte l'id in stringa sicura per filename.
-    Supporta id numerici o stringhe tipo 'ABC-123'.
+    Merge ricorsivo: override vince su base.
     """
-    if value is None:
-        raise KeyError("id mancante")
-    s = str(value).strip()
-    if not s:
-        raise ValueError("id vuoto")
-    # Sostituisce caratteri non sicuri per filename
-    s = re.sub(r"[^a-zA-Z0-9._-]+", "-", s)
-    return s
-
-
-def main(argv: Optional[List[str]] = None) -> int:
-    ap = argparse.ArgumentParser(description="Generatore batch JSON neutro (template + configs).")
-    ap.add_argument("--template", required=True, help="Template JSON con placeholder {{var}}")
-    ap.add_argument("--defaults", required=False, help="Defaults globali (.json/.yml) opzionale")
-    ap.add_argument("--configs-dir", required=True, help="Cartella configs/*.json|yml|yaml")
-    ap.add_argument("--out", required=True, help="Output file JSON (lista di record)")
-    ap.add_argument("--split", action="store_true", help="Crea anche out_dir/<id>.json per record")
-    ap.add_argument("--out-dir", default=None, help="Cartella output per --split (default: cartella di --out)")
-    ap.add_argument("--strict", action="store_true", help="Errore se placeholder mancanti")
-    ap.add_argument("--id-key", default="id", help="Chiave variabili per id univoco (default: id)")
-    ap.add_argument("--require-keys", nargs="*", default=[], help="Lista chiavi obbligatorie (supporta dotted keys)")
-    args = ap.parse_args(argv)
-
-    template_path = Path(args.template)
-    defaults_path = Path(args.defaults) if args.defaults else None
-    configs_dir = Path(args.configs_dir)
-    out_path = Path(args.out)
-
-    template = load_data(template_path)
-    if not isinstance(template, dict):
-        raise ValueError("Il template deve essere un oggetto JSON (dict) alla radice.")
-
-    defaults: Dict[str, Any] = {}
-    if defaults_path:
-        d = load_data(defaults_path)
-        if d is None:
-            defaults = {}
-        elif not isinstance(d, dict):
-            raise ValueError("defaults deve essere un oggetto (dict).")
+    result = dict(base) if isinstance(base, dict) else {}
+    for k, v in (override or {}).items():
+        if k in result and isinstance(result[k], dict) and isinstance(v, dict):
+            result[k] = deep_merge(result[k], v)
         else:
-            defaults = d
+            result[k] = v
+    return result
 
-    config_files = list_config_files(configs_dir)
-    if not config_files:
-        raise RuntimeError(f"Nessuna config trovata in {configs_dir}.")
 
-    ph = sorted(set(find_placeholders(template)))
-    if ph:
-        print(f"[i] Placeholder nel template ({len(ph)}): {', '.join(ph)}")
+def render_template(template_str: str, values: dict) -> str:
+    """
+    Sostituisce {{ key }} con values[key].
+    Supporta anche path con dot notation: {{ a.b.c }}
+    """
 
-    # Per garantire unicità id
-    seen_ids: set[str] = set()
+    def lookup(path: str, ctx: dict):
+        cur = ctx
+        for part in path.split("."):
+            if isinstance(cur, dict) and part in cur:
+                cur = cur[part]
+            else:
+                return None
+        return cur
 
-    results: List[RecordResult] = []
-    for cfg_path in config_files:
-        cfg = load_data(cfg_path)
-        if not isinstance(cfg, dict):
-            raise ValueError(f"Config {cfg_path.name} deve essere un oggetto (dict).")
+    pattern = re.compile(r"{{\s*([a-zA-Z0-9_.-]+)\s*}}")
 
-        variables = deep_merge(defaults, cfg)
-        if not isinstance(variables, dict):
-            raise ValueError(f"Merge non produce dict per {cfg_path.name}.")
+    def replacer(match):
+        key = match.group(1)
+        val = lookup(key, values)
+        if val is None:
+            # Mantieni il placeholder se non c'è valore (utile per debug)
+            return match.group(0)
+        # Se è dict/list, serializza in JSON "inline" (template JSON)
+        if isinstance(val, (dict, list)):
+            return json.dumps(val, ensure_ascii=False)
+        return str(val)
 
-        if args.require_keys:
-            require_keys(variables, args.require_keys)
+    return pattern.sub(replacer, template_str)
 
-        # ID obbligatorio e univoco
-        raw_id = variables.get(args.id_key)
-        record_id = normalize_id(raw_id)
-        if record_id in seen_ids:
-            raise ValueError(f"ID duplicato '{record_id}' trovato in {cfg_path.name}")
-        seen_ids.add(record_id)
 
-        rendered = render_placeholders(template, variables, strict=args.strict)
-        if not isinstance(rendered, dict):
-            raise ValueError("Render deve produrre un dict alla radice.")
+def _find_image_for_stem(pictures_dir: Path, stem: str) -> Path | None:
+    """
+    Cerca un'immagine con nome = stem in pictures_dir, provando estensioni comuni.
+    """
+    exts = [".jpg", ".jpeg", ".png", ".webp"]
+    for ext in exts:
+        p = pictures_dir / f"{stem}{ext}"
+        if p.exists() and p.is_file():
+            return p
+    # fallback: prova qualunque file con quel nome (case-insensitive per estensione)
+    for p in pictures_dir.glob(f"{stem}.*"):
+        if p.is_file() and p.suffix.lower() in exts:
+            return p
+    return None
 
-        results.append(RecordResult(
-            source_file=cfg_path.name,
-            record_id=record_id,
-            rendered=rendered
-        ))
 
-    all_rendered = [r.rendered for r in results]
-    dump_json(all_rendered, out_path)
-    print(f"[ok] Creato: {out_path}  (records: {len(results)})")
+def _data_uri_from_image(img_path: Path) -> str:
+    mime, _ = mimetypes.guess_type(str(img_path))
+    if not mime:
+        # default ragionevole
+        mime = "image/jpeg"
+    raw = img_path.read_bytes()
+    b64 = base64.b64encode(raw).decode("ascii")
+    return f"data:{mime};base64,{b64}"
 
-    if args.split:
-        out_dir = Path(args.out_dir) if args.out_dir else out_path.parent
-        out_dir.mkdir(parents=True, exist_ok=True)
-        for r in results:
-            dump_json(r.rendered, out_dir / f"{r.record_id}.json")
-        print(f"[ok] Split: creati {len(results)} file in {out_dir} (filename = id.json)")
 
-    return 0
+def _inject_src_into_images(rendered: dict, data_uri: str) -> None:
+    """
+    Aggiorna rendered["images"][*]["src"] se presente.
+    Non tocca altri campi "src" fuori da "images" per ridurre rischi di side effects.
+    """
+    images = rendered.get("images")
+    if isinstance(images, list):
+        for item in images:
+            if isinstance(item, dict) and "src" in item:
+                item["src"] = data_uri
+
+
+
+
+# ----------------------------
+# Crop metadata sidecar support
+# ----------------------------
+
+_CROP_KEYS = [
+    "croppedArea",          # e.g. {"x":..., "y":..., "width":..., "height":...}
+    "croppedAreaPixels",    # optional, depending on your renderer/editor
+    "crop",
+    "zoom",
+    "rotation",
+    "aspect",
+]
+
+def _iter_image_dicts(obj):
+    """Yield dict items that look like image objects inside any 'images' list."""
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k == "images" and isinstance(v, list):
+                for item in v:
+                    if isinstance(item, dict):
+                        yield item
+            else:
+                yield from _iter_image_dicts(v)
+    elif isinstance(obj, list):
+        for item in obj:
+            yield from _iter_image_dicts(item)
+
+def _extract_crop_params_from_image(img_dict):
+    params = {}
+    for k in _CROP_KEYS:
+        if k in img_dict:
+            params[k] = img_dict[k]
+    return params
+
+def _apply_crop_params_to_image(img_dict, params):
+    for k, v in params.items():
+        img_dict[k] = v
+
+
+
+def _apply_crop_params_to_images(rendered_json: dict, crop_params: dict) -> None:
+    """Apply crop-related params to every image dict inside rendered_json."""
+    for img_dict in _iter_image_dicts(rendered_json):
+        _apply_crop_params_to_image(img_dict, crop_params)
+def _sync_crop_sidecar(rendered_json: dict, sidecar_path: Path) -> None:
+    """
+    Keep image crop parameters + dexStats stable across generations.
+
+    - If sidecar exists: use it as the source of truth and apply to rendered_json.
+    - If sidecar does NOT exist: extract crop params from rendered_json (template-derived),
+      store them + dexStats into sidecar.
+    """
+    imgs = list(_iter_image_dicts(rendered_json))
+    if not imgs:
+        return
+
+    if sidecar_path.exists():
+        try:
+            existing = json.loads(sidecar_path.read_text(encoding="utf-8"))
+        except Exception:
+            return
+
+        # Apply stored crop params (if any)
+        _apply_crop_params_to_images(rendered_json, existing)
+
+        # Apply stored dexStats (if any)
+        if isinstance(existing, dict) and existing.get("dexStats") is not None:
+            rendered_json["dexStats"] = existing["dexStats"]
+        else:
+            # Persist dexStats once if missing in sidecar
+            if rendered_json.get("dexStats") is not None:
+                if not isinstance(existing, dict):
+                    existing = {}
+                existing["dexStats"] = rendered_json["dexStats"]
+                try:
+                    sidecar_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
+                except Exception:
+                    pass
+        return
+
+    # Sidecar missing: create it from template-derived values in rendered_json
+    crop_params = _extract_crop_params_from_image(imgs[0])
+
+    sidecar = {}
+    if crop_params:
+        sidecar.update(crop_params)
+
+    if rendered_json.get("dexStats") is not None:
+        sidecar["dexStats"] = rendered_json["dexStats"]
+
+    sidecar_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        sidecar_path.write_text(json.dumps(sidecar, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+def load_yaml(path: Path) -> dict:
+    with path.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    return data or {}
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate cards from template and YAML configs.")
+    parser.add_argument("--template", required=True, help="Path to JSON template file (with {{placeholders}}).")
+    parser.add_argument("--defaults", required=True, help="Path to defaults.yml (base config).")
+    parser.add_argument("--configs-dir", required=True, help="Directory containing *.yml configs.")
+    parser.add_argument("--out-dir", required=True, help="Output directory for generated JSON files.")
+    parser.add_argument(
+        "--pictures-dir",
+        default=None,
+        help=(
+            "Directory containing pictures named like the configs (e.g. 001.jpg). "
+            "Default: sibling 'pictures' next to configs-dir."
+        ),
+    )
+
+    args = parser.parse_args()
+
+    template_path = Path(args.template).resolve()
+    defaults_path = Path(args.defaults).resolve()
+    configs_dir = Path(args.configs_dir).resolve()
+    out_dir = Path(args.out_dir).resolve()
+
+    if args.pictures_dir:
+        pictures_dir = Path(args.pictures_dir).resolve()
+    else:
+        # Convention: configs/ and pictures/ are siblings
+        pictures_dir = (configs_dir.parent / "pictures").resolve()
+
+    if not template_path.exists():
+        print(f"Template not found: {template_path}", file=sys.stderr)
+        sys.exit(1)
+    if not defaults_path.exists():
+        print(f"Defaults not found: {defaults_path}", file=sys.stderr)
+        sys.exit(1)
+    if not configs_dir.exists():
+        print(f"Configs dir not found: {configs_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    template_str = read_file(template_path)
+    defaults = load_yaml(defaults_path)
+
+    # Defaults image: cerca defaults.{jpg|jpeg|png|webp} affiancata a defaults.yml
+    defaults_img = _find_image_for_stem(defaults_path.parent, defaults_path.stem)
+
+    # itera sui config yaml
+    for config_path in sorted(configs_dir.glob("*.yml")):
+        cfg = load_yaml(config_path)
+        merged = deep_merge(defaults, cfg)
+
+        rendered_str = render_template(template_str, merged)
+
+        # parse JSON
+        try:
+            rendered = json.loads(rendered_str)
+        except json.JSONDecodeError as e:
+            print(f"[ERROR] JSON parse failed for {config_path.name}: {e}", file=sys.stderr)
+            print("Rendered content (first 500 chars):", file=sys.stderr)
+            print(rendered_str[:500], file=sys.stderr)
+            sys.exit(2)
+
+        # risolvi immagine per questa config
+        img = _find_image_for_stem(pictures_dir, config_path.stem)
+        if img is None:
+            img = defaults_img
+
+        if img is None:
+            print(
+                f"[ERROR] No picture found for '{config_path.stem}' in {pictures_dir} "
+                f"and no defaults image next to {defaults_path.name}.",
+                file=sys.stderr,
+            )
+            sys.exit(3)
+
+        data_uri = _data_uri_from_image(img)
+        _inject_src_into_images(rendered, data_uri)
+
+        # Keep crop params stable via sidecar file (editable once, reused forever)
+        sidecar = img.parent / f"{img.name}.crop.json"
+        _sync_crop_sidecar(rendered, sidecar)
+
+        out_path = out_dir / f"{config_path.stem}.json"
+        out_path.write_text(json.dumps(rendered, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Generated: {out_path} (image: {img.name})")
 
 
 if __name__ == "__main__":
-    try:
-        raise SystemExit(main())
-    except Exception as e:
-        print(f"[errore] {e}", file=sys.stderr)
-        raise
+    main()

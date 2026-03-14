@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ## 6. Avvio 
 Esegui il seguente comando: 
 ```bash
-python card-generator.cropmeta.dexstats.fixed3.py --template template.json --defaults defaults.yml --configs-dir configs --out-dir out 
+python card-generator.py --template template.json --defaults defaults.yml --configs-dir configs --out-dir out 
 ```
 
 ## 7. Struttura del Progetto
