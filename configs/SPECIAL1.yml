@@ -11,13 +11,7 @@ ability:
   description: 'Quando don Samuele parla, tutti ascoltano. Non perché alzi la voce, ma perché alza il senso delle cose. Anche il cugino distratto posa il telefono. Evento raro, quasi miracoloso.'
   energycost:
     a:
-      typeId: 7
-    b:
-      typeId: 3
-    c:
-      typeId: 1
-    d:
-      typeId: 10
+      typeId: 9
 attack:
   name: 'Omnia Vincit Caritas'
   description: 'Pronuncia due parole in latino, guarda dritto negli occhi e scioglie ogni tensione. Nessuna polemica resiste. Persino il gruppo WhatsApp di famiglia tace. Amen definitivo.'

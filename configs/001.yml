@@ -11,13 +11,11 @@ ability:
   description: 'Sempre pronto a festeggiare con amici e parenti, Samu accende l''allegria senza mai perdere il tono giusto. Se compare il prosecco, il sorriso diventa contagioso.'
   energycost:
     a:
-      typeId: 3
+      typeId: 9
     b:
-      typeId: 7
+      typeId: 9
     c:
-      typeId: 4
-    d:
-      typeId: 10
+      typeId: 9
 attack:
   name: 'Turibolo Rotante'
   description: 'Con gesto preciso e sorprendentemente coreografico, don Samuele fa oscillare il turibolo con tale sicurezza che l''incenso avvolge tutti. Atmosfera solenne e facce estasiate garantite.'

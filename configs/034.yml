@@ -11,13 +11,7 @@ ability:
   description: 'Non cerca i riflettori, ma quando parla illumina. E la luce, si sa, non si mette sotto il moggio.'
   energycost:
     a:
-      typeId: 2
-    b:
-      typeId: 8
-    c:
-      typeId: 5
-    d:
-      typeId: 10
+      typeId: 9
 attack:
   name: 'Alleluia Ascendente'
   description: 'Parte piano e sale come un salmo responsoriale ben riuscito. L''assemblea viene trascinata verso l''alto, quasi senza accorgersene.'

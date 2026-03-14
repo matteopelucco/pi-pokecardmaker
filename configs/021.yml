@@ -11,13 +11,7 @@ ability:
   description: 'Non alza la voce, non impone. Basta uno sguardo sereno e una parola ben scelta per ristabilire ordine e armonia.'
   energycost:
     a:
-      typeId: 4
-    b:
-      typeId: 1
-    c:
-      typeId: 9
-    d:
-      typeId: 6
+      typeId: 5
 attack:
   name: 'Omelia a Fuoco Lento'
   description: 'Parte tranquillo, costruisce con calma, e alla fine centra il punto con precisione chirurgica. Colpo profondo, senza rumore.'

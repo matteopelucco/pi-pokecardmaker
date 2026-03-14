@@ -11,13 +11,11 @@ ability:
   description: 'Non urla, non impone: scalda. E quando parte il ritornello, il suo entusiasmo sembra un falò ben controllato.'
   energycost:
     a:
-      typeId: 7
+      typeId: 9
     b:
-      typeId: 8
+      typeId: 9
     c:
       typeId: 9
-    d:
-      typeId: 4
 attack:
   name: 'Alza le Braccia (Consapevolmente)'
   description: 'Invita tutti ad alzare le mani… ma con dignità liturgica. Effetto: partecipazione massima e sorrisi sincronizzati.'

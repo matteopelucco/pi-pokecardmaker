@@ -11,12 +11,8 @@ ability:
   description: 'Anche quando è al centro dell''attenzione, resta semplice. L''ego non sale mai sull''altare.'
   energycost:
     a:
-      typeId: 3
+      typeId: 5
     b:
-      typeId: 8
-    c:
-      typeId: 1
-    d:
       typeId: 5
 attack:
   name: 'Vangelo Uppercut'

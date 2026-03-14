@@ -11,13 +11,9 @@ ability:
   description: 'Non offre solo pane e vino: mette dentro ogni celebrazione un pezzo di sé. E questo si sente.'
   energycost:
     a:
-      typeId: 8
+      typeId: 9
     b:
       typeId: 9
-    c:
-      typeId: 6
-    d:
-      typeId: 7
 attack:
   name: 'Prefazio da Brividi'
   description: 'Intona con voce sicura e l''attenzione si fa totale. Anche chi era distratto si riallinea.'

@@ -11,13 +11,9 @@ ability:
   description: 'Il suo sorriso è una firma: rende leggera la solennità e profonda la festa. Con lui la fede non perde mai il buonumore.'
   energycost:
     a:
-      typeId: 8
+      typeId: 5
     b:
-      typeId: 4
-    c:
-      typeId: 3
-    d:
-      typeId: 1
+      typeId: 5
 attack:
   name: 'Alleluia a Volume 3x'
   name: 'Uscita Solenne con High-Five'

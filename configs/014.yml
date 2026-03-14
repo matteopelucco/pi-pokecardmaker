@@ -11,13 +11,11 @@ ability:
   description: 'Ogni gesto è curato ma mai rigido. La solennità diventa accessibile e la formalità si trasforma in eleganza.'
   energycost:
     a:
-      typeId: 6
+      typeId: 1
     b:
-      typeId: 4
+      typeId: 1
     c:
-      typeId: 3
-    d:
-      typeId: 5
+      typeId: 1
 attack:
   name: 'Segno della Croce Preciso'
   description: 'Traccia il segno con calma e convinzione. Semplice, ma talmente centrato che lascia il segno.'

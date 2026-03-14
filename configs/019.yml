@@ -11,13 +11,9 @@ ability:
   description: 'Dopo la Messa è ancora lì: saluta, ascolta, scherza. L''energia sembra non finire mai.'
   energycost:
     a:
-      typeId: 7
+      typeId: 8
     b:
-      typeId: 5
-    c:
-      typeId: 3
-    d:
-      typeId: 10
+      typeId: 8
 attack:
   name: 'Saluto Finale Devastante'
   description: 'All''uscita distribuisce sorrisi e parole buone. L''avversario viene colpito da nostalgia felice.'

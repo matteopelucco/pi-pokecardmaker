@@ -11,13 +11,9 @@ ability:
   description: 'Quando qualcuno parla, lui ascolta davvero. Non interrompe, non giudica: crea spazio e fiducia.'
   energycost:
     a:
-      typeId: 8
+      typeId: 1
     b:
-      typeId: 9
-    c:
-      typeId: 6
-    d:
-      typeId: 5
+      typeId: 1
 attack:
   name: 'Silenzio Potente'
   description: 'Un momento di silenzio guidato da lui vale più di mille parole. L''avversario perde il rumore interiore.'

@@ -11,13 +11,7 @@ ability:
   description: 'Anche nei momenti seri, trova sempre una luce. Non banalizza, ma ricorda che la speranza è l''ultima parola.'
   energycost:
     a:
-      typeId: 6
-    b:
-      typeId: 9
-    c:
-      typeId: 7
-    d:
-      typeId: 2
+      typeId: 4
 attack:
   name: 'Uscita in Gloria'
   description: 'Conclude, saluta, benedice. E mentre esce, lascia dietro di sé una scia di serenità che vale più di mille effetti speciali.'  

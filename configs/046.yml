@@ -11,13 +11,11 @@ ability:
   description: 'La sua fede è solida. In chiesa è teologale, allo stadio è nerazzurra. Soffre, spera, esulta… ma sempre con compostezza (quasi sempre).'
   energycost:
     a:
-      typeId: 5
+      typeId: 9
     b:
-      typeId: 8
+      typeId: 9
     c:
-      typeId: 6
-    d:
-      typeId: 3
+      typeId: 9
 attack:
   name: 'Derby Benedetto'
   description: 'Quando gioca l’Inter, l’intensità sale. Se segna, il suo “Amen” ha un tono leggermente più trionfale. Coincidenze? Forse.'

@@ -11,13 +11,7 @@ ability:
   description: 'Anche quando c''è imprevisto, non si scompone. Sistema tutto con lucidità e un mezzo sorriso.'
   energycost:
     a:
-      typeId: 8
-    b:
-      typeId: 9
-    c:
       typeId: 4
-    d:
-      typeId: 2
 attack:
   name: 'Rito Impeccabile'
   description: 'Sequenza perfetta di gesti e parole. Nessuna sbavatura, solo fluidità che lascia ammirati.'

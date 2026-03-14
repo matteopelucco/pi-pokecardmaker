@@ -11,13 +11,11 @@ ability:
   description: 'Non è solo guida: è compagno di squadra. Sa quando ridere, quando ascoltare e quando lasciare che siano i ragazzi a brillare.'
   energycost:
     a:
-      typeId: 7
+      typeId: 9
     b:
-      typeId: 3
+      typeId: 9
     c:
-      typeId: 1
-    d:
-      typeId: 10
+      typeId: 9
 attack:
   name: 'Finale con Ballo di Gruppo'
   description: 'L’ultimo giorno parte la musica, e lui è in prima fila. Coordina passi improbabili con entusiasmo contagioso. Standing ovation garantita.'  

@@ -11,13 +11,7 @@ ability:
   description: 'Ti saluta guardandoti negli occhi. Non è formalità: è presenza vera che fa sentire riconosciuti.'
   energycost:
     a:
-      typeId: 9
-    b:
-      typeId: 8
-    c:
-      typeId: 2
-    d:
-      typeId: 10
+      typeId: 3
 attack:
   name: 'Pace Mirata'
   description: 'Una stretta di mano ben data e il clima cambia. L''ostilità si scioglie senza nemmeno accorgersene.'

@@ -11,13 +11,13 @@ ability:
   description: 'Sa scherzare senza mai oltrepassare il limite. La battuta arriva, fa sorridere, e lascia intatta la dignità del momento.'
   energycost:
     a:
-      typeId: 6
+      typeId: 9
     b:
-      typeId: 5
+      typeId: 9
     c:
-      typeId: 8
+      typeId: 9
     d:
-      typeId: 3
+      typeId: 9
 attack:
   name: 'Sorriso Disarmante'
   description: 'Un sorriso autentico che scioglie tensioni e mette tutti a proprio agio. Difese abbassate, clima ristabilito.'

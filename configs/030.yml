@@ -11,13 +11,13 @@ ability:
   description: 'Basta averlo vicino per sentirsi più tranquilli. Non fa spettacolo, fa stabilità.'
   energycost:
     a:
-      typeId: 8
+      typeId: 3
     b:
-      typeId: 6
+      typeId: 3
     c:
-      typeId: 4
+      typeId: 3
     d:
-      typeId: 9
+      typeId: 3
 attack:
   name: 'Amen Conclusivo'
   description: 'Pronunciato con decisione e pace, chiude ogni celebrazione con senso di completezza. Turno finito, serenità attiva.'  

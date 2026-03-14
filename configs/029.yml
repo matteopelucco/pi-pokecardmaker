@@ -11,13 +11,9 @@ ability:
   description: 'Sa affrontare temi profondi senza appesantire. Il tono è serio, ma lo sguardo resta luminoso.'
   energycost:
     a:
-      typeId: 9
+      typeId: 5
     b:
-      typeId: 1
-    c:
-      typeId: 6
-    d:
-      typeId: 10
+      typeId: 5
 attack:
   name: 'Prefazio in Crescendo'
   description: 'Inizia misurato e cresce con ritmo solenne. L''attenzione si concentra e il silenzio diventa pieno.'

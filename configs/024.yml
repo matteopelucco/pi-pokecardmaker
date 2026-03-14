@@ -11,13 +11,9 @@ ability:
   description: 'Sa quando essere solenne e quando essere leggero. Alterna profondità e semplicità con naturalezza sorprendente.'
   energycost:
     a:
-      typeId: 6
+      typeId: 5
     b:
-      typeId: 2
-    c:
-      typeId: 9
-    d:
-      typeId: 7
+      typeId: 5
 attack:
   name: 'Parola Calibrata'
   description: 'Sceglie i termini con cura e colpisce esattamente dove serve. Nessun eccesso, solo precisione.'

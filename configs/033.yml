@@ -11,13 +11,7 @@ ability:
   description: 'Guida con stile giovane ma cuore antico. Un piede sull''altare, l''altro nella vita vera.'
   energycost:
     a:
-      typeId: 5
-    b:
-      typeId: 9
-    c:
-      typeId: 2
-    d:
-      typeId: 1
+      typeId: 8
 attack:
   name: 'Verbo Incarnato'
   description: 'Non solo parole: ciò che dice lo vive. Colpo silenzioso ma potentissimo contro l''incoerenza.'

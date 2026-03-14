@@ -11,13 +11,11 @@ ability:
   description: 'La sua pace non è formale: è concreta, calda, reale. Ti arriva addosso e ti disarma con eleganza.'
   energycost:
     a:
-      typeId: 10
+      typeId: 3
     b:
       typeId: 3
     c:
-      typeId: 8
-    d:
-      typeId: 5
+      typeId: 3
 attack:
   name: 'Segno della Croce Definitivo'
   description: 'Tracciato con calma e convinzione, sembra semplice. Ma lascia un impatto che dura ben oltre il gesto.'

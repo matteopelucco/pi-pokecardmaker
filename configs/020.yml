@@ -11,13 +11,11 @@ ability:
   description: 'Non serve spiegare tutto: il modo in cui vive parla per lui. E questo vale più di qualsiasi discorso.'
   energycost:
     a:
-      typeId: 8
+      typeId: 2
     b:
-      typeId: 6
+      typeId: 2
     c:
-      typeId: 1
-    d:
-      typeId: 9
+      typeId: 2
 attack:
   name: 'Amen Definitivo'
   description: 'Pronuncia l''Amen con tale convinzione che chiude ogni dubbio. Fine del turno, inizio della pace.'  

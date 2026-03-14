@@ -12,12 +12,6 @@ ability:
   energycost:
     a:
       typeId: 10
-    b:
-      typeId: 1
-    c:
-      typeId: 6
-    d:
-      typeId: 7
 attack:
   name: 'Gloria a Volume Liturgico'
   description: 'Intona il Gloria con entusiasmo controllato: non è un concerto, ma quasi. L''assemblea si alza di un tono e di umore.'

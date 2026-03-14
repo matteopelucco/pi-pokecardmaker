@@ -11,13 +11,7 @@ ability:
   description: 'Sa inserire la frase giusta al momento giusto: alleggerisce senza banalizzare e fa sorridere senza sminuire.'
   energycost:
     a:
-      typeId: 10
-    b:
-      typeId: 3
-    c:
-      typeId: 7
-    d:
-      typeId: 9
+      typeId: 4
 attack:
   name: 'Orazione Lampo'
   description: 'Preghiera breve, mirata, precisa. Colpisce il cuore e lascia un effetto che dura ben oltre l''Amen.'

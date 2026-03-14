@@ -11,13 +11,9 @@ ability:
   description: 'Non perde occasione di cantare litanie, salmi e inni con entusiasmo travolgente. Se parte quello dell''Inter, l''intensità raddoppia.'
   energycost:
     a:
-      typeId: 2
+      typeId: 8
     b:
-      typeId: 10
-    c:
-      typeId: 1
-    d:
-      typeId: 9
+      typeId: 8
 attack:
   name: 'Benedizione a Sorpresa'
   description: 'Quando meno te l''aspetti, arriva la benedizione: rapida, chiara, definitiva. Non sai bene come, ma ti senti già meglio. Amen.'

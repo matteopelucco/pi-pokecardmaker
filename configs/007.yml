@@ -11,13 +11,9 @@ ability:
   description: 'Anche davanti a domande ripetute o situazioni complicate, mantiene calma e gentilezza. Nessuno si sente fuori posto.'
   energycost:
     a:
-      typeId: 7
+      typeId: 9
     b:
-      typeId: 2
-    c:
-      typeId: 6
-    d:
-      typeId: 1
+      typeId: 9
 attack:
   name: 'Confessionale Reset'
   description: 'Ascolta con equilibrio e risponde con misura. Quando esci, sembra che qualcuno abbia aggiornato il sistema operativo dell''anima.'

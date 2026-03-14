@@ -11,13 +11,11 @@ ability:
   description: 'Appena sente la parola ORATORIO, si attiva automaticamente: sorriso largo, cappellino in testa e megafono pronto. L’energia non finisce mai (quasi).'
   energycost:
     a:
-      typeId: 4
+      typeId: 7
     b:
-      typeId: 5
+      typeId: 7
     c:
-      typeId: 10
-    d:
-      typeId: 8
+      typeId: 7
 attack:
   name: 'Gavettone Benedetto'
   description: 'Quando parte la battaglia d’acqua, non si tira indietro. Colpisce con precisione pastorale e rinfresca anche le anime più accaldate.'

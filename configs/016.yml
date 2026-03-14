@@ -11,12 +11,8 @@ ability:
   description: 'Anche quando qualcosa va storto, resta saldo. La calma è contagiosa e il caos perde forza.'
   energycost:
     a:
-      typeId: 8
+      typeId: 1
     b:
-      typeId: 7
-    c:
-      typeId: 4
-    d:
       typeId: 1
 attack:
   name: 'Ritmo della Celebrazione'

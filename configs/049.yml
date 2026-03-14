@@ -11,13 +11,9 @@ ability:
   description: 'Dorme poco, parla tanto, cammina ovunque e non perde il buonumore. La sera è stanco, ma il cuore è ancora in modalità “gioia piena”.'
   energycost:
     a:
-      typeId: 5
+      typeId: 8
     b:
-      typeId: 6
-    c:
-      typeId: 1
-    d:
-      typeId: 10
+      typeId: 8
 attack:
   name: 'Animazione a Raffica'
   description: 'Bans, urla di gioia e coreografie improvvisate: trascina tutti dentro il gioco. Anche chi aveva detto “io non partecipo”.'

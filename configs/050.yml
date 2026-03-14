@@ -11,13 +11,11 @@ ability:
   description: 'Un solo fischio e cento ragazzi si voltano. Non per paura, ma perché sanno che sta per iniziare qualcosa di bello.'
   energycost:
     a:
-      typeId: 8
+      typeId: 9
     b:
-      typeId: 2
+      typeId: 9
     c:
       typeId: 9
-    d:
-      typeId: 7
 attack:
   name: 'Caccia al Tesoro Spirituale'
   description: 'Organizza prove impossibili che finiscono sempre con una scoperta semplice: il vero premio è stare insieme. Ma il gelato aiuta.'

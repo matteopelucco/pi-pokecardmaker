@@ -11,13 +11,9 @@ ability:
   description: 'Quando qualcuno chiama, lui risponde come Samuele nella Scrittura: “Eccomi”. Solo che lo dice con un sorriso e magari con il telefono già in mano.'
   energycost:
     a:
-      typeId: 9
+      typeId: 10
     b:
       typeId: 10
-    c:
-      typeId: 3
-    d:
-      typeId: 2
 attack:
   name: 'Chiamata Vocazionale Diretta'
   description: 'Uno sguardo, una frase, e ti senti coinvolto. Non obbliga nessuno, ma improvvisamente ti viene voglia di fare qualcosa di buono.'

@@ -13,11 +13,9 @@ ability:
     a:
       typeId: 8
     b:
-      typeId: 5
+      typeId: 8
     c:
-      typeId: 9
-    d:
-      typeId: 6
+      typeId: 8
 attack:
   name: 'Alleluia Crescendo'
   description: 'Parte piano e cresce con entusiasmo. L''assemblea si alza insieme, come guidata da un''onda positiva.'

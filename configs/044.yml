@@ -13,11 +13,7 @@ ability:
     a:
       typeId: 10
     b:
-      typeId: 7
-    c:
-      typeId: 3
-    d:
-      typeId: 8
+      typeId: 10
 attack:
   name: 'Camminerò con Te'
   description: 'Non corre avanti, non trascina: cammina accanto. Colpo lento ma efficace contro la solitudine.'

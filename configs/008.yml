@@ -11,12 +11,10 @@ ability:
   description: 'Quando qualcuno ha bisogno, lui c''è. Senza effetti speciali, ma con una fedeltà che rassicura.'
   energycost:
     a:
-      typeId: 8
+      typeId: 7
     b:
-      typeId: 2
+      typeId: 7
     c:
-      typeId: 6
-    d:
       typeId: 7
 attack:
   name: 'Alleluia Energizzante'

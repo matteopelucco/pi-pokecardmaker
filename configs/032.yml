@@ -11,13 +11,11 @@ ability:
   description: 'Come pani e pesci, parte da uno e finisce per contagiare tutti. Più ne dona, più sembrano aumentare.'
   energycost:
     a:
-      typeId: 9
+      typeId: 5
     b:
-      typeId: 7
+      typeId: 5
     c:
-      typeId: 4
-    d:
-      typeId: 3
+      typeId: 5
 attack:
   name: 'Parabola Illuminante'
   description: 'Racconta una storia semplice e all''improvviso tutto si chiarisce. Effetto: comprensione immediata e cenni di approvazione diffusi.'

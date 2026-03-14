@@ -11,13 +11,11 @@ ability:
   description: 'Se qualcuno chiede, lui c''è. Non per obbligo, ma per convinzione sincera.'
   energycost:
     a:
-      typeId: 7
+      typeId: 9
     b:
-      typeId: 6
+      typeId: 9
     c:
-      typeId: 3
-    d:
-      typeId: 8
+      typeId: 9
 attack:
   name: 'Benedizione Mirata'
   description: 'Pronuncia poche parole, ma con intensità tale da lasciare un effetto immediato e duraturo.'

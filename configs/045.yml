@@ -11,13 +11,11 @@ ability:
   description: 'Prende il mandato sul serio: invita a uscire, testimoniare e vivere con gioia. Con moderazione, ma senza silenzi imbarazzanti.'
   energycost:
     a:
-      typeId: 8
+      typeId: 7
     b:
-      typeId: 6
+      typeId: 7
     c:
-      typeId: 10
-    d:
-      typeId: 4
+      typeId: 7
 attack:
   name: 'Alleluia in Loop'
   description: 'Ripete il ritornello finché anche chi non canta si ritrova a canticchiare. Strategia semplice, risultato inevitabile.'  

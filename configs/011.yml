@@ -11,13 +11,11 @@ ability:
   description: 'Quando sale all''altare, cambia l''aria. Non per teatralità, ma per presenza: ti accorgi che sta succedendo qualcosa di importante.'
   energycost:
     a:
-      typeId: 8
+      typeId: 1
     b:
-      typeId: 2
+      typeId: 1
     c:
-      typeId: 3
-    d:
-      typeId: 7
+      typeId: 1
 attack:
   name: 'Incenso Strategico'
   description: 'Una rotazione perfetta del turibolo e l''atmosfera si trasforma. Solennità in aumento, distrazioni in fuga.'

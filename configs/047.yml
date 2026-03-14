@@ -11,13 +11,9 @@ ability:
   description: 'Ha imparato che il ritmo è tutto: dal “Forza Inter” al salmo responsoriale il passo è breve. Guida il canto con la stessa convinzione.'
   energycost:
     a:
-      typeId: 7
+      typeId: 9
     b:
-      typeId: 10
-    c:
-      typeId: 8
-    d:
-      typeId: 3
+      typeId: 9
 attack:
   name: 'Triplice Fischio Finale'
   description: 'Sa attendere con pazienza fino all’ultimo minuto. Poi, quando arriva il momento giusto, chiude la partita… o la celebrazione… con precisione impeccabile.'  

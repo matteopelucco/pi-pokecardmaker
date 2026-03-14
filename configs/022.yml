@@ -11,13 +11,11 @@ ability:
   description: 'Ricorda nomi, storie, dettagli. Ti sorprende con un “come stai?” che dimostra attenzione vera.'
   energycost:
     a:
-      typeId: 2
+      typeId: 7
     b:
-      typeId: 6
+      typeId: 7
     c:
-      typeId: 9
-    d:
-      typeId: 5
+      typeId: 7
 attack:
   name: 'Salmo Coinvolgente'
   description: 'Intona il salmo con ritmo naturale e trascina tutti dentro. Anche i più timidi finiscono per rispondere.'

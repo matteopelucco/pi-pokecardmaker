@@ -11,13 +11,9 @@ ability:
   description: 'In pochi secondi capisce chi ha davanti. Adatta tono, parole e sorriso senza perdere autenticità.'
   energycost:
     a:
-      typeId: 8
+      typeId: 3
     b:
       typeId: 3
-    c:
-      typeId: 9
-    d:
-      typeId: 5
 attack:
   name: 'Parola Che Raggiunge'
   description: 'Una frase ben costruita, detta con convinzione. Non alza la voce, ma arriva lontano.'

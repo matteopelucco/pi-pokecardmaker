@@ -13,11 +13,9 @@ ability:
     a:
       typeId: 7
     b:
-      typeId: 2
+      typeId: 7
     c:
-      typeId: 10
-    d:
-      typeId: 9
+      typeId: 7
 attack:
   name: 'Gesto Solenne'
   description: 'Un movimento lento, controllato, carico di significato. L''impatto emotivo supera qualsiasi effetto speciale.'

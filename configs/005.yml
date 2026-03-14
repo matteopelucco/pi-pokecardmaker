@@ -11,12 +11,8 @@ ability:
   description: 'Tra celebrazione e festa, trova sempre la carica giusta. Sa essere solenne e subito dopo complice di una risata.'
   energycost:
     a:
-      typeId: 7
+      typeId: 5
     b:
-      typeId: 1
-    c:
-      typeId: 9
-    d:
       typeId: 5
 attack:
   name: 'Processione con Passo Deciso'

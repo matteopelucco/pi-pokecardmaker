@@ -11,13 +11,7 @@ ability:
   description: 'Sa rendere solenne ogni momento, ma con leggerezza. L''incenso sale e l''umore pure.'
   energycost:
     a:
-      typeId: 2
-    b:
-      typeId: 4
-    c:
-      typeId: 1
-    d:
-      typeId: 10
+      typeId: 8
 attack:
   name: 'Turibolo Coreografico'
   description: 'Oscillazione perfetta, ritmo impeccabile. L''atmosfera si riempie di profumo e meraviglia.'

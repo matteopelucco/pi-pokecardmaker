@@ -11,13 +11,9 @@ ability:
   description: '“Una notte di sudore…” lui la conosce bene, ma riesce a servirti con eleganza e una battuta pronta. Umiltà sì, ma con personalità.'
   energycost:
     a:
-      typeId: 9
+      typeId: 10
     b:
-      typeId: 8
-    c:
-      typeId: 4
-    d:
-      typeId: 2
+      typeId: 10
 attack:
   name: 'Grido del Popolo in Festa'
   description: 'Quando l''assemblea si scalda, lui guida il coro con entusiasmo contagioso. Nessuno resta seduto, nemmeno il più timido.'

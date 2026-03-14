@@ -11,13 +11,11 @@ ability:
   description: 'Beati quelli che hanno bisogno di incoraggiamento: lui arriva puntuale. Consolazione concreta, non teorica.'
   energycost:
     a:
-      typeId: 6
+      typeId: 5
     b:
-      typeId: 7
+      typeId: 5
     c:
       typeId: 5
-    d:
-      typeId: 10
 attack:
   name: 'Amen a Effetto Domino'
   description: 'Pronuncia l''Amen con tale convinzione che rimbalza tra le navate. Fine della discussione, inizio della pace.'

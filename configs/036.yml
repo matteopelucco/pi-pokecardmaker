@@ -11,13 +11,11 @@ ability:
   description: 'Non cammina sulle acque, ma sulle relazioni sì. Sa costruire legami solidi senza fare miracoli scenografici.'
   energycost:
     a:
-      typeId: 7
+      typeId: 10
     b:
-      typeId: 4
+      typeId: 10
     c:
-      typeId: 2
-    d:
-      typeId: 5
+      typeId: 10
 attack:
   name: 'Rete Gettata al Momento Giusto'
   description: 'Una parola ben scelta e raccoglie attenzione come pesci nella rete. Colpo evangelicamente efficace.'

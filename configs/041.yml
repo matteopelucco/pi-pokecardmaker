@@ -13,11 +13,7 @@ ability:
     a:
       typeId: 3
     b:
-      typeId: 7
-    c:
-      typeId: 9
-    d:
-      typeId: 2
+      typeId: 3
 attack:
   name: 'Luce che Non Tramonta'
   description: 'Parte piano, quasi sottovoce, poi cresce come il canto finale di un campo estivo. Risultato: atmosfera accesa e cuori leggermente sciolti.'
